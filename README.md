@@ -26,7 +26,7 @@ add the path to the project.
 
 ### CREDITS ###
 
-[Virtual Deobfuscator] (https://github.com/jnraber/VirtualDeobfuscator)
-[Optimice] (https://code.google.com/p/optimice/)
-Dathway(OreanUnvirtualize plugIns)
-All Member Tut4You Forum(especially LCF-AT ) (https://forum.tuts4you.com/)
+* [Virtual Deobfuscator](https://github.com/jnraber/VirtualDeobfuscator)
+* [Optimice](https://code.google.com/p/optimice/)
+* Dathway(OreanUnvirtualize plugIns)
+* All Member [Tut4You Forum,especially LCF-AT](https://forum.tuts4you.com/)
