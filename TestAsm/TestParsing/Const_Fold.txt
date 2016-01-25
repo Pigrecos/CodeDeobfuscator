@@ -1,0 +1,129 @@
+Bits 32
+80000000:  push 0x539
+
+80000005:  mov dword ds:[esp],edi
+
+80000008:  push esp
+
+80000009:  pop edi
+
+8000000A:  push edx
+
+8000000B:  mov edx,esp
+
+8000000D:  add edx,4
+
+80000013:  sub edx,4
+
+80000019:  xchg dword ds:[esp],edx
+
+8000001C:  mov esp,dword ds:[esp]
+
+8000001F:  mov dword ds:[esp],ebx
+
+80000022:  sub esp,4
+
+80000025:  mov dword ds:[esp],esi
+
+80000028:  push 4
+
+8000002D:  mov esi,dword ds:[esp]
+
+80000030:  add esp,4
+
+80000033:  push ebx
+
+80000034:  mov dword ds:[esp],ebp
+
+80000037:  push esi
+
+80000038:  sub dword ds:[esp],0x3164486e
+
+8000003F:  pop ebp
+
+80000040:  add ebp,0x3164486e
+
+80000046:  mov ebx,ebp
+
+80000048:  mov ebp,dword ds:[esp]
+
+8000004B:  push esi
+
+8000004C:  mov esi,esp
+
+8000004E:  add esi,4
+
+80000054:  add esi,4
+
+80000057:  push esi
+
+80000058:  push dword ds:[esp+0x4]
+
+8000005C:  pop esi
+
+8000005D:  pop dword ds:[esp]
+
+80000060:  mov esp,dword ds:[esp]
+
+80000063:  pop esi
+
+80000064:  add edi,0x1ae8559f
+
+8000006A:  add edi,0x62c8641c
+
+80000070:  add edi,0x74fb516b
+
+80000076:  add edi,ebx
+
+80000078:  sub edi,0x74fb516b
+
+8000007E:  sub edi,0x62c8641c
+
+80000084:  sub edi,0x1ae8559f
+
+8000008A:  mov ebx,dword ds:[esp]
+
+8000008D:  push ebx
+
+8000008E:  mov dword ds:[esp],edx
+
+80000091:  mov edx,esp
+
+80000093:  push ebp
+
+80000094:  mov ebp,0x22645664
+
+80000099:  or ebp,0x4f6531d1
+
+8000009F:  neg ebp
+
+800000A1:  and ebp,0x760a753f
+
+800000A7:  xor ebp,0x74244ef6
+
+800000AD:  add ebp,1
+
+800000B3:  xor ebp,0x642e4efa
+
+800000B9:  add edx,ebp
+
+800000BB:  mov ebp,dword ds:[esp]
+
+800000BE:  add esp,4
+
+800000C4:  add edx,4
+
+800000C7:  xchg dword ds:[esp],edx
+
+800000CA:  mov esp,dword ds:[esp]
+
+800000CD:  add edi,4
+
+800000D0:  xor edi,dword ds:[esp]
+
+800000D3:  xor dword ds:[esp],edi
+
+800000D6:  xor edi,dword ds:[esp]
+
+800000D9:  mov esp,dword ds:[esp]
+

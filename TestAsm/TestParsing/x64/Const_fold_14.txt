@@ -1,0 +1,22 @@
+; mov rbp, 14c72b85
+Bits 64
+
+
+00400019:  push rsi
+0040001A:  mov rsi,0x6711ca68
+00400024:  push rdx
+00400025:  mov rdx,0x7adfacc7
+0040002F:  shr rdx,5
+00400033:  push r15
+00400035:  mov r15,0x7bf71ec7
+0040003F:  neg r15
+00400051:  shl r15,1
+00400054:  not r15
+00400057:  shr r15,5
+0040005B:  xor r15,0x10aea70f
+00400062:  xor rdx,r15
+00400065:  pop r15
+00400080:  mov rbp,rdx
+00400083:  pop rdx
+0040008E:  add rbp,rsi
+0040009F:  pop rsi

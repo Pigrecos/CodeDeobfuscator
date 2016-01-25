@@ -1,0 +1,104 @@
+; D:\Delphi Projects\Deobfuscator\TestExe\Test_ver 2.3.7\Test_64_Tiger.exe
+
+;<006993D1>
+
+Bits 64
+
+00AC17CB: sub rsp,8
+00AC17CF: mov qword [rsp],r8
+00AC17D3: sub rsp,8
+00AC17D7: mov qword [rsp],r11
+00AC17DB: push r8
+00AC17DD: mov r8,0x2edee7af
+00AC17E7: shr r8,2
+00AC17EB: shr r8,6
+00AC17EF: neg r8
+00AC17F2: push rsi
+00AC17F3: mov rsi,0xc3d9dd58
+00AC17FA: sub r8,rsi
+00AC17FD: pop rsi
+00AC17FE: dec r8
+00AC1801: sub r8,0x79ff1adb
+00AC1808: not r8
+00AC180B: shl r8,1
+00AC180F: xor r8,0xf4ee13
+00AC1816: mov r11,r8
+00AC1819: pop r8
+00AC181B: mov r8,r11
+00AC181E: pop r11
+00AC1820: shr r8,7
+00AC1824: push r10
+00AC1826: mov r10,0x3eef9f1c
+00AC1830: and r10,0x57caa369
+00AC1837: dec r10
+00AC183A: push r11
+00AC183C: mov r11,0x45febe3c
+00AC1846: sub r11,0x5ff95a27
+00AC184D: xor r11,0x7ffa7d93
+00AC1854: inc r11
+00AC1857: push rbp
+00AC1858: mov rbp,0x83cba3f8
+00AC185F: sub r11,rbp
+00AC1862: pop rbp
+00AC1863: xor r10,r11
+00AC1866: pop r11
+00AC1868: xor r8,r10
+00AC186B: pop r10
+00AC186D: sub rax,0x52e3c42e
+00AC1873: add rax,0x7e73542d
+00AC1879: add rax,0x2fff5637
+00AC187F: add rax,r8
+00AC1882: sub rax,0x2fff5637
+00AC1888: sub rax,0x7e73542d
+00AC188E: add rax,0x52e3c42e
+00AC1894: push qword [rsp]
+00AC1897: pop r8
+00AC1899: push rdi
+00AC189A: sub rsp,8
+00AC189E: mov qword [rsp],rsp
+00AC18A2: add qword [rsp],8
+00AC18A7: pop rdi
+00AC18A8: add rdi,8
+00AC18AC: push rcx
+00AC18AD: mov rcx,8
+00AC18B7: add rdi,rcx
+00AC18BA: pop rcx
+00AC18BB: push rdi
+00AC18BC: push qword [rsp+0x8]
+00AC18C0: pop rdi
+00AC18C1: pop qword [rsp]
+00AC18C4: mov rsp,qword [rsp]
+00AC18C8: push 0x4757f64
+00AC18CD: push rdi
+00AC18CE: pop qword [rsp]
+00AC18D1: mov rdi,rsp
+00AC18D4: add rdi,8
+00AC18D8: sub rdi,8
+00AC18DF: push rdi
+00AC18E0: push qword [rsp+0x8]
+00AC18E4: push qword [rsp]
+00AC18E7: mov rdi,qword [rsp]
+00AC18EB: add rsp,8
+00AC18F2: push rax
+00AC18F3: push rsp
+00AC18F4: pop rax
+00AC18F5: add rax,8
+00AC18F9: add rax,8
+00AC18FF: xor rax,qword [rsp]
+00AC1903: xor qword [rsp],rax
+00AC1907: xor rax,qword [rsp]
+00AC190B: pop rsp
+00AC190C: pop qword [rsp]
+00AC190F: mov rsp,qword [rsp]
+00AC1913: push 0xaa2f4c2
+00AC1918: mov qword [rsp],r13
+00AC191C: pop qword [rsp]
+00AC191F: mov r13d,1
+00AC1925: add ebx,0xde36e4a
+00AC192B: add ebx,0xffc72f7
+00AC1931: sub ebx,r13d
+00AC1934: sub ebx,0xffc72f7
+00AC193A: sub ebx,0xde36e4a
+00AC1940: push qword [rsp]
+00AC1943: pop r13
+00AC1945: add rsp,8

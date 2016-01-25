@@ -1,0 +1,14 @@
+Bits 32
+
+00400000:  push 0
+00400005:  push eax
+0040000F:  mov ah,0xb0
+00400011:  inc byte ds:[esp+0x4]
+00400017:  sub byte ds:[esp+0x4],ah
+0040001C:  dec byte ds:[esp+0x4]
+0040004F:  pop eax
+0040005A:  sub byte ds:[esp],al
+0040005E:  add byte ds:[esp],0xb0
+00400063:  mov al,byte ds:[esp]
+00400067:  add esp,2
+

@@ -1,0 +1,87 @@
+Bits 64
+80000000:  push r9
+
+80000002:  mov r9,rsp
+
+80000005:  add r9,8
+
+80000009:  push r10
+
+8000000B:  mov r10,8
+
+80000012:  sub r9,r10
+
+80000015:  pop r10
+
+80000017:  xchg qword [rsp],r9
+
+8000001B:  pop rsp
+
+8000001C:  push r10
+
+8000001E:  pop qword [rsp]
+
+80000021:  sub rsp,8
+
+80000025:  sub rsp,8
+
+80000029:  push r10
+
+8000002B:  pop qword [rsp]
+
+8000002E:  pop qword [rsp]
+
+80000031:  xor qword [rsp],0x1cc6beb7
+
+80000039:  pop r10
+
+8000003B:  push 0x46488263
+
+80000040:  push rdi
+
+80000041:  pop qword [rsp]
+
+80000044:  push rbp
+
+80000045:  mov rbp,0x71b530f0
+
+8000004C:  add rbp,0xffffffff
+
+80000053:  xor rbp,0x7f957a00
+
+8000005A:  or rbp,0x6deb26ca
+
+80000061:  push r11
+
+80000063:  mov r11,0x732dd058
+
+8000006A:  xor rbp,r11
+
+8000006D:  pop r11
+
+8000006F:  push r14
+
+80000071:  mov r14,rbp
+
+80000074:  mov rdi,r14
+
+80000077:  pop r14
+
+80000079:  pop rbp
+
+8000007A:  xor r10,rdi
+
+8000007D:  pop rdi
+
+8000007E:  push rax
+
+8000007F:  mov rax,0x15aac03a
+
+80000086:  push rax
+
+80000087:  pop qword [rsp+0x8]
+
+8000008B:  mov rax,qword [rsp]
+
+8000008F:  add rsp,8
+

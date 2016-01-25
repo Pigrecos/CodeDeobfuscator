@@ -1,0 +1,19 @@
+Bits 32
+
+00400000:  mov ax,word ds:[esp]
+00400005:  push edi
+0040000E:  push esp
+0040000F:  mov edi,dword ds:[esp]
+0040002B:  add esp,4
+00400044:  push esi
+00400045:  mov esi,0x6fe4275
+0040004A:  and esi,0x3a075244
+00400050:  add esi,0x2118633a
+00400056:  xor esi,0x34e713cd
+00400085:  xor esi,0x17f9b9b7
+004000AE:  add edi,esi
+004000C8:  pop esi
+004000C9:  add edi,2
+004000D6:  xchg edi,dword ds:[esp]
+004000E9:  pop esp
+

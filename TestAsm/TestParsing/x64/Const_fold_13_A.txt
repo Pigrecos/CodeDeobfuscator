@@ -1,0 +1,12 @@
+Bits 64
+004000CF:  push r12
+004000DA:  mov r12,0x3e7f9ec1
+004000E4:  shl r12,4
+004000E8:  or r12,0x3e5d75a3
+004000EF:  shl r12,8
+004000F3:  shr r12,1
+004000F6:  sub r12,0x6cb718e6
+004000FD:  push r9
+004000FF:  mov r9,0xfffffe00756fc2d0
+00400109:  add r12,r9
+0040010C:  pop r9

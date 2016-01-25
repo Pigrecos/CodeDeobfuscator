@@ -1,0 +1,147 @@
+Bits 32
+
+8185E6: push eax
+8185E7: mov dword ds:[esp],esi
+8185EA: mov dword ds:[esp],edi
+8185ED: push esp
+8185EE: pop edi
+8185EF: sub esp,4
+8185F5: mov dword ds:[esp],esi
+8185F8: mov dword ds:[esp],ebp
+8185FB: sub esp,4
+818601: mov dword ds:[esp],ebx
+818604: push 0x3fc1b586
+818609: pop ebx
+81860A: mov ebp,0x3fc1b58a
+81860F: sub ebp,ebx
+818611: pop ebx
+818612: add edi,0x7fa91d25
+818618: add edi,ebp
+81861A: push 0x37ee0000
+81861F: mov dword ds:[esp],ebp
+818622: mov ebp,0x7fa91d25
+818627: sub edi,ebp
+818629: pop ebp
+81862A: pop ebp
+81862B: push ecx
+81862C: mov ecx,4
+818631: add edi,0x73fe4884
+818637: sub edi,ecx
+818639: push ecx
+81863A: mov ecx,0x67fc39c9
+81863F: not ecx
+818641: and ecx,0x693f9778
+818647: xor ecx,0x7bfdceb4
+81864D: sub edi,ecx
+81864F: pop ecx
+818650: pop ecx
+818651: xor edi,dword ds:[esp]
+818654: xor dword ds:[esp],edi
+818657: xor edi,dword ds:[esp]
+81865A: mov esp,dword ds:[esp]
+81865D: mov dword ds:[esp],eax
+818660: mov dword ds:[esp],ebx
+818663: push eax
+818664: mov dword ds:[esp],edx
+818667: push ecx
+818668: mov dword ds:[esp],esi
+81866B: mov esi,esp
+81866D: add esi,4
+818673: push eax
+818674: mov eax,4
+818679: sub esi,eax
+81867B: pop eax
+81867C: xchg dword ds:[esp],esi
+81867F: pop esp
+818680: mov dword ds:[esp],ecx
+818683: mov dword ds:[esp],0x46ff329e
+81868A: pop edx
+81868B: neg edx
+81868D: add edx,0x46ff49ea
+818693: mov ebx,edx
+818695: mov edx,dword ds:[esp]
+818698: sub esp,4
+81869E: mov dword ds:[esp],edx
+8186A1: mov dword ds:[esp],edi
+8186A4: push edx
+8186A5: mov dword ds:[esp],esp
+8186A8: add dword ds:[esp],4
+8186AF: pop edi
+8186B0: add edi,4
+8186B6: push edi
+8186B7: mov dword ds:[esp],esi
+8186BA: mov esi,4
+8186BF: push edx
+8186C0: mov dword ds:[esp],ecx
+8186C3: push edi
+8186C4: mov dword ds:[esp],esi
+8186C7: push 0x7efb3124
+8186CC: pop esi
+8186CD: add esi,0x7f9f6667
+8186D3: sub esi,0x7edd4bdf
+8186D9: mov ecx,esi
+8186DB: pop esi
+8186DC: add edi,ecx
+8186DE: pop ecx
+8186DF: add edi,esi
+8186E1: sub edi,0x7fbd4bac
+8186E7: pop esi
+8186E8: xchg dword ds:[esp],edi
+8186EB: pop esp
+8186EC: shr ebx,2
+8186EF: sub esp,4
+8186F2: mov dword ds:[esp],ebx
+8186F5: mov dword ds:[esp],0x78765576
+8186FC: push 0x7e86acbe
+818701: mov dword ds:[esp],ecx
+818704: push ebx
+818705: mov ebx,0x7ff74500
+81870A: add ebx,0xfed7b400
+818710: push edx
+818711: mov edx,ebx
+818713: mov ecx,edx
+818715: pop edx
+818716: pop ebx
+818717: add dword ds:[esp+0x4],ecx
+81871B: pop ecx
+81871C: xor dword ds:[esp],0x7cabf3d5
+818723: push ebp
+818724: mov dword ds:[esp],0x6b0099c5
+81872B: mov dword ds:[esp],ebp
+81872E: push ecx
+81872F: mov ecx,1
+818734: mov ebp,ecx
+818736: pop ecx
+818737: sub dword ds:[esp+0x4],0x7df952d7
+81873F: add dword ds:[esp+0x4],ebp
+818743: add dword ds:[esp+0x4],0x7df952d7
+81874B: pop ebp
+81874C: not dword ds:[esp]
+81874F: push ebx
+818750: mov dword ds:[esp],eax
+818753: push 0x4c9c3900
+818758: mov dword ds:[esp],ebx
+81875B: mov ebx,0x57f35c81
+818760: add ebx,0x7b8d5d3a
+818766: inc ebx
+818767: dec ebx
+818768: sub ebx,0x4ebbe588
+81876E: push edx
+81876F: mov edx,0x7bfdb365
+818774: xor edx,0x47f84c7f
+81877A: dec edx
+81877B: sub edx,0x77f5efd0
+818781: add edx,0x3df13a01
+818787: xor edx,0xff5aea47
+81878D: xor ebx,edx
+81878F: pop edx
+818790: mov eax,ebx
+818792: pop ebx
+818793: and dword ds:[esp+0x4],eax
+818797: pop eax
+818798: push ecx
+818799: mov ecx,0xfa47c25f
+81879E: sub dword ds:[esp+0x4],ecx
+8187A2: pop ecx
+8187A3: mov dword ds:[esp],eax
+8187A6: test ebx,ebx

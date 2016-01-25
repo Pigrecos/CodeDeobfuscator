@@ -1,0 +1,11 @@
+; mov rbp, 14c72b85
+Bits 64
+
+
+0069A93A:  push r8
+0069A945:  mov r8,0xffffffff0aef57a2
+0069A9C9:  neg r8
+0069A9CC:  or r8,0x3beda3f0
+0069A9F9:  sub r8,0xfffdabf6
+0069AA18:  add rcx,r8
+0069AA1B:  pop r8

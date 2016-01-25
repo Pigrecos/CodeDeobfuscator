@@ -1,0 +1,13 @@
+; add ah,34
+
+Bits 32
+
+00400000:  push   ECX
+00400009:  mov    CH,0x0FA
+00400013:  and    CH,0x0F5
+00400033:  add    CH,0x0C9
+0040005B:  not    CH
+00400066:  neg    CH
+0040007A:  add    CH,0x7D
+0040007D:  add    AH,CH
+00400085:  pop    ECX

@@ -1,0 +1,38 @@
+; D:\Delphi Projects\Deobfuscator\TestExe\Test_ver 2.3.7\Test_64_Tiger.exe
+
+;<006993D1>
+
+Bits 64
+
+006993D1: push 0x5c846f91
+008FC09A: push 0x468915e1
+008FC09F: mov qword [rsp],r15
+008FC0A3: pop qword [rsp]
+008FC0A6: push rsp
+008FC0A7: pop r15
+008FC0A9: add r15,8
+008FC0AD: push r14
+008FC0AF: push 0x402554f6
+008FC0B4: mov qword [rsp],rsi
+008FC0B8: push rbp
+008FC0B9: mov rbp,0x6dfbacbd
+008FC0C3: mov rsi,0x22011697
+008FC0CD: xor rsi,rbp
+008FC0D0: pop rbp
+008FC0D1: mov r14,0x7efd335b
+008FC0DB: or r14,0x7ccaba92
+008FC0E2: push rbx
+008FC0E3: mov rbx,0xc57a07d8
+008FC0ED: xor r14,rbx
+008FC0F0: pop rbx
+008FC0F1: sub r14,rsi
+008FC0F4: mov rsi,qword [rsp]
+008FC0F8: add rsp,8
+008FC0FF: inc r14
+008FC102: xor r14,0x6b8b01d2
+008FC109: add r15,r14
+008FC10C: push qword [rsp]
+008FC10F: pop r14
+008FC111: add rsp,8
+008FC118: xchg qword [rsp],r15
+008FC11C: pop rsp

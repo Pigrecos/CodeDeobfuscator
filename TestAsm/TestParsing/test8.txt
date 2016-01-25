@@ -1,0 +1,37 @@
+; neg ecx
+Bits 32
+
+00400000:  push 0
+00400005:  push ebp
+0040000E:  mov ebp,0x1dee46bc
+00400013:  add dword ds:[esp+0x4],ebp
+0040002A:  pop ebp
+0040002B:  sub dword ds:[esp+0x0],0x607e1511
+0040003F:  push eax
+00400048:  mov eax,0xd0c3c3c
+00400051:  sub dword ds:[esp+0x4],eax
+00400056:  pop eax
+00400060:  sub dword ds:[esp],ecx
+00400064:  push edi
+00400065:  push ebp
+0040006E:  mov ebp,0x220d0995
+00400074:  sub ebp,0xff
+0040007A:  inc ebp
+0040007B:  dec ebp
+0040007C:  xor ebp,0x2f0135aa
+00400082:  mov edi,ebp
+00400092:  pop ebp
+00400093:  sub dword ds:[esp+0x4],0x379406d1
+0040009C:  add dword ds:[esp+0x4],edi
+004000B3:  add dword ds:[esp+0x4],0x379406d1
+004000BC:  mov edi,dword ds:[esp]
+004000C1:  add esp,4
+004000D8:  push ecx
+004000E1:  mov dword ds:[esp],ebp
+004000E5:  mov ebp,0x607e1511
+004000EA:  add dword ds:[esp+0x4],ebp
+004000EF:  mov ebp,dword ds:[esp]
+004000F4:  add esp,4
+004000FA:  sub dword ds:[esp+0x0],0x1dee46bc
+0040010A:  pop ecx
+

@@ -1,0 +1,127 @@
+Bits 32
+80000000:  push 0x4944
+
+80000005:  mov dword ds:[esp],ecx
+
+80000008:  push eax
+
+80000009:  mov ah,0xc3
+
+8000000B:  add ah,0xce
+
+8000000E:  or ah,0x41
+
+80000011:  sub esp,4
+
+80000017:  mov dword ds:[esp],ebx
+
+8000001A:  mov bh,0x80
+
+8000001C:  shl bh,4
+
+8000001F:  shl bh,3
+
+80000022:  push ecx
+
+80000023:  mov cl,0x67
+
+80000025:  add cl,0x68
+
+80000028:  and cl,0xea
+
+8000002B:  xor cl,0x91
+
+8000002E:  or bh,cl
+
+80000030:  pop ecx
+
+80000031:  neg bh
+
+80000033:  not bh
+
+80000035:  push eax
+
+80000036:  mov al,0x2b
+
+80000038:  xor al,0xc0
+
+8000003A:  add bh,0xdd
+
+8000003D:  sub bh,al
+
+8000003F:  sub bh,0xdd
+
+80000042:  pop eax
+
+80000043:  xor ah,bh
+
+80000045:  pop ebx
+
+80000046:  push ebx
+
+80000047:  mov bl,0x9b
+
+80000049:  sub bl,0x4f
+
+8000004C:  dec bl
+
+8000004E:  sub bl,0xe4
+
+80000051:  push eax
+
+80000052:  mov ah,0xa3
+
+80000054:  xor bl,ah
+
+80000056:  pop eax
+
+80000057:  sub ah,0x35
+
+8000005A:  sub ah,bl
+
+8000005C:  add ah,0x35
+
+8000005F:  pop ebx
+
+80000060:  add ah,0xfc
+
+80000063:  push dx
+
+80000065:  mov dl,0x2d
+
+80000067:  xor ah,dl
+
+80000069:  pop dx
+
+8000006B:  xor ah,0xec
+
+8000006E:  push esi
+
+8000006F:  mov dword ds:[esp],edx
+
+80000072:  mov dh,ah
+
+80000074:  mov ch,dh
+
+80000076:  pop edx
+
+80000077:  pop eax
+
+80000078:  sub ah,0x67
+
+8000007B:  add ah,ch
+
+8000007D:  push ebx
+
+8000007E:  mov bh,0xf0
+
+80000080:  add bh,0x77
+
+80000083:  add ah,bh
+
+80000085:  pop ebx
+
+80000086:  mov ecx,dword ds:[esp]
+
+80000089:  add esp,4
+

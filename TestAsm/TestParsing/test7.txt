@@ -1,0 +1,7 @@
+Bits 32
+
+0040008F:  push cx
+00400091:  mov cl,ah
+00400097:  mov ah,byte ds:[esp+0x2]
+0040009C:  mov byte ds:[esp+0x2],cl
+004000A1:  pop cx

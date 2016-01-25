@@ -1,0 +1,7 @@
+Bits 64
+
+00400000:  push qword [rdi+rcx*4]
+00400003:  xor qword [rsp],0x3bee3bcf
+0040000B:  pop rdi
+00400016:  xor rdi,0x3bee3bcf
+

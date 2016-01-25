@@ -1,0 +1,29 @@
+; add r10,8
+Bits 64
+
+00400000:  push rdx
+0040000B:  mov rdx,0x1f6a01c0
+00400015:  push r9
+00400017:  mov r9,0x6fff23e7
+00400026:  shr r9,7
+0040002A:  dec r9
+0040002D:  add r9,0xffffffff
+00400034:  xor r9,0x7f20ca42
+00400043:  or rdx,r9
+00400046:  pop r9
+00400048:  shl rdx,7
+0040004C:  dec rdx
+0040004F:  push r14
+00400051:  mov r14,r14
+00400054:  mov qword [rsp],0x74b96347
+0040005C:  push 0x4ad6786
+00400061:  mov qword [rsp+0x0],r9
+0040006B:  pop qword [rsp]
+0040006E:  mov r9,0x3fff9ae377
+00400078:  sub rdx,r9
+00400089:  pop r9
+0040008B:  sub r10,0x7bed3cca
+00400092:  add r10,rdx
+004000AB:  add r10,0x7bed3cca
+004000B2:  pop rdx
+

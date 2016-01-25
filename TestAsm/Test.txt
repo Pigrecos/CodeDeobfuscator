@@ -1,0 +1,7 @@
+Bits 32
+80000000:  push 0x7120
+
+80000005:  mov dword ds:[esp],edi
+
+80000008:  mov dword ds:[esp],eax
+

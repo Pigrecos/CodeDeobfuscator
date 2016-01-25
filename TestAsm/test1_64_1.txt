@@ -1,0 +1,18 @@
+Bits 64
+
+push r15
+
+mov r15d,0x271f3760
+
+not r15d
+
+neg r15d
+
+shr r15d,04
+
+add r15d,0x7d477b94
+
+mov r11d,r15d
+
+pop r15
+

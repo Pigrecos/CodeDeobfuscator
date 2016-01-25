@@ -1,0 +1,23 @@
+; D:\Delphi Projects\Deobfuscator\TestExe\Test_ver 2.3.7\Test_64_Tiger.exe
+
+;<006993D1>
+
+Bits 64
+006993D1:  push r8
+006993DC:  push r11
+006993E7:  push r8
+006993E9:  mov r8,0x2edee7af
+006993F3:  shr r8,2
+006993F7:  shr r8,6
+006993FB:  neg r8
+006993FE:  push rsi
+006993FF:  mov rsi,0xc3d9dd58
+00699409:  sub r8,rsi
+0069940C:  pop rsi
+0069940D:  dec r8
+00699410:  sub r8,0x79ff1adb
+00699417:  not r8
+0069941A:  shl r8,1
+0069941D:  xor r8,0xf4ee13
+00699424:  mov r11,r8
+00699427:  pop r8

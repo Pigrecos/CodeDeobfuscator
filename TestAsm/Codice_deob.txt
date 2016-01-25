@@ -1,0 +1,6 @@
+Bits 64
+
+00400000: push qword [rax+rcx]
+00400003: add qword [rsp],0x7c5b8bbf
+0040000B: pop rcx
+0040000C: sub rcx,0x7c5b8bbf

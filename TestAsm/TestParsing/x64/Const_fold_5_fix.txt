@@ -1,0 +1,131 @@
+;inc dword[rcx+rax*4+8]
+
+Bits 64
+80000000:  sub rsp,8
+
+80000004:  push 0x6d5ffb74
+
+80000009:  mov qword [rsp],rcx
+
+8000000D:  push rcx
+
+8000000E:  add qword [rsp],0x69ffb680
+
+80000016:  pop rcx
+
+80000017:  sub rcx,0x69ffb680
+
+8000001E:  mov qword [rsp],0x44759181
+
+80000026:  push 0x3693a145
+
+8000002B:  mov qword [rsp],r13
+
+8000002F:  pop qword [rsp]
+
+80000032:  pop qword [rsp]
+
+80000035:  sub rsp,8
+
+80000039:  push r15
+
+8000003B:  pop qword [rsp]
+
+8000003E:  sub rsp,8
+
+80000042:  mov qword [rsp],rdi
+
+80000046:  sub rsp,8
+
+8000004A:  mov qword [rsp],rsi
+
+8000004E:  mov rsi,rsi
+
+80000051:  mov qword [rsp],0x111ac980
+
+80000059:  push 0x7c57bc45
+
+8000005E:  mov qword [rsp],rbp
+
+80000062:  mov rbp,r12
+
+80000065:  mov qword [rsp+0x8],rbp
+
+8000006A:  push qword [rsp]
+
+8000006D:  pop rbp
+
+8000006E:  add rsp,8
+
+80000072:  push 0x6e2c917c
+
+80000077:  mov qword [rsp],r12
+
+8000007B:  sub qword [rsp],0x7f7f0b35
+
+80000083:  mov r12,qword [rsp]
+
+80000087:  add rsp,8
+
+8000008B:  add r12,0x7f7f0b35
+
+80000092:  sub rsp,8
+
+80000096:  mov qword [rsp],rbp
+
+8000009A:  mov rbp,0x5bef21a8
+
+800000A1:  mov qword [rsp+0x8],rbp
+
+800000A6:  pop rbp
+
+800000A7:  mov rdi,qword [rsp]
+
+800000AB:  add rsp,8
+
+800000AF:  sub edi,0xfbef6291
+
+800000B5:  mov r15d,edi
+
+800000B8:  push qword [rsp]
+
+800000BB:  mov rdi,qword [rsp]
+
+800000BF:  add rsp,8
+
+800000C3:  add rsp,8
+
+800000C7:  mov r13d,0x5fffbf18
+
+800000CD:  sub r13d,r15d
+
+800000D0:  pop r15
+
+800000D2:  add dword [rcx+rax*4+0x8],r13d
+
+800000D7:  push qword [rsp]
+
+800000DA:  push qword [rsp]
+
+800000DD:  push qword [rsp]
+
+800000E0:  mov r13,qword [rsp]
+
+800000E4:  add rsp,8
+
+800000E8:  add rsp,8
+
+800000EC:  push rbx
+
+800000ED:  mov rbx,rsp
+
+800000F0:  add rbx,8
+
+800000F4:  add rbx,8
+
+800000F8:  xchg qword [rsp],rbx
+
+800000FC:  pop rsp
+
+800000FD:  add rsp,8
+

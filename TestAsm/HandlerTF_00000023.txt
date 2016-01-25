@@ -1,0 +1,1708 @@
+;Istruzione:  Load
+;Indirizzo PCode:00A479BB
+;======================================
+
+;Arg1.Tipo:     00000000
+;Arg1.OffTipo:  000000FF
+;Arg1.KeyArg:   00000000
+;Arg1.Argomento:F0000000
+;======================================
+;Arg2.Tipo:     00000000
+;Arg2.OffTipo:  000000FF
+;Arg2.KeyArg:   00000000
+;Arg2.Argomento:F0000000
+;======================================
+
+Bits 32
+
+008F3734 : push   0x4C42
+008F3739 : mov    dword ptr [ESP],EBX
+008F373C : mov    dword ptr [ESP],EDX
+008F373F : mov    EDX,EBP
+008F3741 : push   EDX
+008F3742 : push   dword ptr [ESP]
+008F3745 : push   dword ptr [ESP]
+008F3748 : pop    ESI
+008F3749 : add    ESP,0x4
+008F374F : push   EBX
+008F3750 : mov    EBX,ESP
+008F3752 : add    EBX,0x4
+008F3758 : add    EBX,0x4
+008F375B : xchg   dword ptr [ESP],EBX
+008F375E : pop    ESP
+008F375F : mov    EDX,dword ptr [ESP]
+008F3762 : push   EDI
+008F3763 : mov    EDI,ESP
+008F3765 : add    EDI,0x4
+008F376B : push   EDX
+0067CC2D : mov    EDX,0x34FC2AC9
+007B91BC : not    EDX
+007B91BE : shl    EDX,0x7
+007B91C1 : dec    EDX
+007B91C2 : shr    EDX,0x5
+00883354 : dec    EDX
+0061B6BB : sub    EDX,0x040F54D2
+0061B6C1 : sub    EDI,EDX
+0061B6C3 : pop    EDX
+006337B1 : xchg   dword ptr [ESP],EDI
+006337B4 : pop    ESP
+007B78EA : mov    dword ptr [ESP],EDI
+006806FB : push   ESP
+006C0A6D : pop    EDI
+006C0A6E : push   EDX
+006C0A6F : mov    EDX,0x22B00C24
+006C0A74 : sub    EDX,0x7632375E
+00620A49 : shr    EDX,0x6
+00620A4C : inc    EDX
+00620A4D : xor    EDX,0x21AB557C
+00620A53 : not    EDX
+00620A55 : add    EDX,0x231AA22D
+00620A5B : add    EDI,EDX
+00620A5D : pop    EDX
+00620A5E : push   EAX
+00620A5F : mov    EAX,0x31A764AE
+00620A64 : dec    EAX
+007737B3 : and    EAX,0x3B9002BB
+007737B8 : add    EAX,0x1
+007CE59D : sub    EAX,0x318000A6
+007CE5A2 : add    EDI,EAX
+007CE5A4 : mov    EAX,dword ptr [ESP]
+007CE5A7 : add    ESP,0x4
+007CE5AD : xchg   dword ptr [ESP],EDI
+007CE5B0 : mov    ESP,dword ptr [ESP]
+007CE5B3 : push   ECX
+007CE5B4 : push   ESP
+007CE5B5 : mov    ECX,dword ptr [ESP]
+007CE5B8 : add    ESP,0x4
+007CE5BB : push   ESI
+008682BD : push   EDX
+008682BE : mov    EDX,0x54837EB4
+008682C3 : mov    ESI,0x0BB99C366
+008682C8 : add    ESI,EDX
+008682CA : mov    EDX,dword ptr [ESP]
+008682CD : add    ESP,0x4
+006F105D : push   ESI
+006F105E : mov    dword ptr [ESP],EBP
+006F1061 : mov    EBP,0x101D4216
+006F1066 : sub    ESI,EBP
+006F1068 : pop    EBP
+006F1069 : sub    ECX,0x5A536CA0
+008CD957 : add    ECX,ESI
+008CD959 : add    ECX,0x5A536CA0
+008CD95F : mov    ESI,dword ptr [ESP]
+008CD962 : add    ESP,0x4
+008CD968 : push   ECX
+008CD969 : mov    dword ptr [ESP],EDX
+008CD96C : mov    EDX,0x4
+008CD971 : add    ECX,0x58F87EC4
+0065505E : sub    ECX,EDX
+00676A5E : push   EDI
+00676A5F : mov    EDI,0x58F87EC4
+006F752D : add    ECX,0x59D51302
+006F7533 : sub    ECX,EDI
+006F7535 : sub    ECX,0x59D51302
+006F753B : pop    EDI
+006F753C : pop    EDX
+008DAD58 : xchg   dword ptr [ESP],ECX
+008DAD5B : mov    ESP,dword ptr [ESP]
+008DAD5E : mov    dword ptr [ESP],EBP
+00756526 : mov    EDX,dword ptr [ESP]
+00756529 : push   ESI
+0075652A : mov    ESI,ESP
+006C0BD8 : add    ESI,0x4
+006C0BDE : add    ESI,0x4
+006C0BE1 : xchg   dword ptr [ESP],ESI
+008ED864 : pop    ESP
+006764FF : sub    ESP,0x4
+00676505 : mov    dword ptr [ESP],EBP
+00676508 : mov    dword ptr [ESP],EAX
+0067650B : sub    ESP,0x4
+0067650E : mov    dword ptr [ESP],EBX
+00676511 : push   ESI
+00676512 : push   0x701F2581
+006BE4B3 : pop    ESI
+007E58F0 : or     ESI,0x11246FCD
+008EF150 : shr    ESI,0x7
+00903DBD : add    ESI,0x6399E875
+00679FAA : mov    EBX,ESI
+006A49F6 : pop    ESI
+0068B203 : not    EBX
+0075FBC0 : shl    EBX,0x1
+00648159 : inc    EBX
+0064815A : dec    EBX
+00696834 : push   EBP
+00696835 : mov    EBP,0x2060485D
+0069683A : sub    EBP,0x264D0FCF
+00798A8C : dec    EBP
+00798A8D : add    EBP,0x0EE7100B9
+008BECCC : add    EBX,EBP
+008BECCE : pop    EBP
+008BECCF : sub    ESP,0x4
+008BECD2 : mov    dword ptr [ESP],EDI
+008BECD5 : mov    EDI,ESP
+008BECD7 : add    EDI,0x4
+008BECDD : sub    EDI,0x4
+008BECE3 : xchg   dword ptr [ESP],EDI
+008BECE6 : pop    ESP
+008BECE7 : mov    dword ptr [ESP],EDI
+008BECEA : mov    EDI,EBX
+008BECEC : mov    EAX,EDI
+007B2422 : pop    EDI
+007B2423 : pop    EBX
+007B2424 : and    EAX,0x7CAA7F57
+007B2429 : push   0x7098
+007B242E : mov    dword ptr [ESP],ECX
+007B2431 : mov    ECX,0x1FBC179D
+007B2436 : xor    ECX,0x03B1710F
+007B243C : shl    ECX,0x5
+007B243F : add    ECX,0x0FFFFFFFF
+007B2445 : dec    ECX
+007B2446 : add    ECX,0x196333D2
+007B244C : add    ECX,0x7947416D
+007B2452 : sub    EAX,ECX
+007B2454 : pop    ECX
+007B2455 : push   EDI
+007B2456 : mov    EDI,0x52260A9E
+006D4E2A : sub    EAX,EDI
+007FD6CD : pop    EDI
+007FD6CE : push   EDI
+007FD6CF : mov    EDI,0x49F2E870
+007FD6D4 : add    EAX,EDI
+007FD6D6 : pop    EDI
+007FD6D7 : add    ESI,0x3D7E3F6D
+007FD6DD : add    ESI,EAX
+007FD6DF : sub    ESI,0x3D7E3F6D
+007FD6E5 : mov    EAX,dword ptr [ESP]
+007FD6E8 : add    ESP,0x4
+0091707D : sub    ESP,0x4
+00917080 : mov    dword ptr [ESP],EBX
+00917083 : push   0x0CC4
+00917088 : mov    dword ptr [ESP],EAX
+0091708B : push   0x6AB91495
+0073A159 : mov    EAX,dword ptr [ESP]
+0073A15C : sub    ESP,0x4
+0084049D : mov    dword ptr [ESP],EDI
+008404A0 : mov    EDI,ESP
+008404A2 : add    EDI,0x4
+008404A8 : add    EDI,0x4
+008404AE : xchg   dword ptr [ESP],EDI
+008404B1 : pop    ESP
+008404B2 : xor    EAX,0x349009B2
+008404B7 : mov    EBX,EAX
+008404B9 : pop    EAX
+00647405 : sub    ESP,0x4
+0064740B : mov    dword ptr [ESP],EDX
+008D20CB : mov    EDX,0x641D1D12
+008D20D0 : sub    EDX,0x70A01ED4
+008D20D6 : or     EDX,0x5D876597
+008D20DC : shl    EDX,0x6
+008D20DF : shl    EDX,0x8
+0091BCB9 : sub    ESP,0x4
+0091BCBC : mov    dword ptr [ESP],ESI
+0091F2A9 : mov    ESI,0x549F1185
+0091F2AE : push   EDI
+0091F2AF : mov    EDI,0x77A53F79
+0091F2B4 : sub    ESI,EDI
+0091F2B6 : pop    EDI
+0091F2B7 : xor    EDX,ESI
+0091F2B9 : pop    ESI
+0091F2BA : or     EBX,EDX
+0091F2BC : mov    EDX,dword ptr [ESP]
+0091F2BF : add    ESP,0x4
+0091F2C5 : add    EBX,0x1
+006EB693 : push   EBP
+006EB694 : mov    EBP,0x74174F8C
+006EB699 : xor    EBX,EBP
+006EB69B : pop    EBP
+006EB69C : shr    EBX,0x7
+006EB69F : inc    EBX
+0091F7B4 : push   EDX
+0091F7B5 : mov    EDX,0x00164FFD
+0091F7BA : sub    EBX,EDX
+0091F7BC : pop    EDX
+006D2CB8 : push   EBP
+006D2CB9 : mov    EBP,0x1CE10595
+006D2CBE : sub    EDX,EBP
+006D2CC0 : pop    EBP
+006D2CC1 : sub    EDX,0x269A2424
+006D2CC7 : add    EDX,EBX
+00733F25 : add    EDX,0x269A2424
+00733F2B : push   ECX
+00733F2C : mov    ECX,0x1CE10595
+00733F31 : add    EDX,ECX
+00733F33 : pop    ECX
+00733F34 : pop    EBX
+00733F35 : push   dword ptr [ESI]
+00733F37 : sub    dword ptr [ESP],0x7BB0788D
+00733F3E : push   dword ptr [ESP]
+00733F41 : pop    ESI
+00733F42 : push   ESI
+0061CCE8 : mov    ESI,ESP
+00741C17 : add    ESI,0x4
+00741C1D : push   EDI
+00741C1E : mov    dword ptr [ESP],EBP
+00741C21 : mov    EBP,0x48913373
+00741C26 : add    EBP,0x4E9E6BE9
+0086896A : not    EBP
+0086896C : and    EBP,0x279E182E
+00868972 : add    EBP,0x0DF6FFFE2
+00868978 : sub    ESI,0x44B626D2
+0086897E : add    ESI,EBP
+00895280 : add    ESI,0x44B626D2
+00895286 : mov    EBP,dword ptr [ESP]
+00849C7F : add    ESP,0x4
+00849C82 : xchg   dword ptr [ESP],ESI
+00849C85 : pop    ESP
+0091FF14 : sub    ESP,0x4
+0091FF1A : mov    dword ptr [ESP],EBX
+0092DBD6 : push   0x7BB0788D
+0092DBDB : pop    EBX
+0092DBDC : sub    ESP,0x4
+009350B3 : mov    dword ptr [ESP],EBP
+009350B6 : mov    EBP,0x13B05D2E
+0093ED54 : add    EBP,0x1E781EFF
+009773CB : or     EBP,0x377F53F8
+009773D1 : push   ESI
+009773D2 : mov    ESI,0x26E50358
+009773D7 : add    ESI,0x224328D7
+007B4D75 : neg    ESI
+007B4D7D : and    ESI,0x629C4035
+0097E496 : add    ESI,0x786F3066
+0097E49C : xor    ESI,0x97265DF1
+0097E4A2 : neg    ESI
+0097E4A4 : sub    ESI,0x4B3064C9
+0097E4AA : dec    ESI
+0097E4AB : or     ESI,0x090233FD
+0097E4B1 : xor    ESI,0x73A90E76
+0097E4B7 : push   EDX
+00695977 : mov    EDX,0x0D8FC3ED6
+0074DF58 : sub    ESI,EDX
+0074DF5A : pop    EDX
+0074DF5B : add    EBP,ESI
+0076C81F : pop    ESI
+0076C820 : neg    EBP
+0080267D : or     EBP,0x14194A2E
+00802683 : push   EDI
+0089237B : mov    EDI,0x5125403A
+007FDC64 : add    EDI,0x4F80D167
+007FDC6A : sub    EBP,EDI
+007FDC6C : mov    EDI,dword ptr [ESP]
+007FDC6F : add    ESP,0x4
+008DF470 : sub    ESI,EBP
+008DF472 : pop    EBP
+008DF473 : add    ESI,EBX
+008DF475 : add    ESI,0x36D33DCD
+008DF47B : pop    EBX
+008DF47C : push   dword ptr [EDX]
+00662EC4 : push   dword ptr [ESP]
+00662EC7 : push   dword ptr [ESP]
+00680BE1 : pop    EDX
+00680BE2 : push   EDI
+00680BE3 : mov    EDI,ESP
+00680BE5 : push   EDX
+00680BE6 : push   EAX
+0075422E : mov    EAX,0x4
+00754233 : mov    EDX,EAX
+00849304 : pop    EAX
+00849305 : add    EDI,EDX
+00901F1D : pop    EDX
+00901F1E : add    EDI,0x4
+00901F24 : push   EDI
+00901F25 : push   dword ptr [ESP+0x4]
+00901F29 : push   dword ptr [ESP]
+00901F2C : pop    EDI
+00901F2D : add    ESP,0x4
+00754145 : pop    dword ptr [ESP]
+00754148 : pop    ESP
+00754149 : push   EBP
+0075414A : push   ECX
+0097E776 : push   ESP
+0097E777 : pop    ECX
+0097E778 : push   EBX
+0097E779 : mov    EBX,0x22EF0FB9
+0097E77E : push   EDX
+0097E77F : mov    EDX,0x16C477E2
+0097E784 : shl    EDX,0x3
+0097E787 : xor    EDX,0x5F196D20
+0097E78D : and    EDX,0x13741A71
+0097E793 : neg    EDX
+0097FE14 : sub    EDX,0x58A641F8
+0096BE21 : sub    EDX,0x38B06AD7
+0096BE27 : add    EBX,EDX
+0096BE29 : pop    EDX
+0096BE2A : or     EBX,0x21DC0185
+0096BE30 : sub    EBX,0x0B1FC51BB
+0096BE36 : add    ECX,EBX
+0096BE38 : pop    EBX
+0096BE39 : sub    ECX,0x4
+0096BE3C : xchg   dword ptr [ESP],ECX
+00675744 : pop    ESP
+006FA35F : push   ESP
+006FA360 : pop    dword ptr [ESP]
+006FA363 : add    dword ptr [ESP],0x4
+006FA36A : pop    EBP
+006FA36B : add    EBP,0x4
+006FA371 : add    EBP,0x4
+006FA377 : xchg   dword ptr [ESP],EBP
+006FA37A : mov    ESP,dword ptr [ESP]
+006FA37D : push   ECX
+006FA37E : push   EDI
+006FA37F : mov    dword ptr [ESP],EDX
+006FA382 : push   ESI
+00611F20 : mov    ESI,0x2CAE56A0
+00611F25 : shr    ESI,0x2
+0064E992 : push   EDI
+0064E993 : mov    EDI,0x735A7B55
+0064E998 : dec    EDI
+0064E999 : neg    EDI
+0064E99B : shl    EDI,0x1
+0064E99D : add    EDI,0x09835DC5
+0064E9A3 : add    EDI,0x0B96417B
+0064E9A9 : add    ESI,EDI
+0064E9AB : pop    EDI
+0087CCAD : mov    EDX,ESI
+0087CCAF : pop    ESI
+0087CCB0 : mov    ECX,EDX
+0087CCB2 : pop    EDX
+006506F9 : inc    ECX
+006D4728 : push   ESI
+006D4729 : mov    ESI,0x09970899
+006D472E : push   EDI
+006D472F : mov    EDI,0x3D7B4579
+006D4734 : add    ECX,EDI
+006D4736 : pop    EDI
+006D4737 : add    ECX,ESI
+006D4739 : sub    ECX,0x3D7B4579
+006D473F : mov    ESI,dword ptr [ESP]
+006D4742 : add    ESP,0x4
+006D4748 : push   EDX
+006D4749 : mov    EDX,0x1
+006D474E : sub    ECX,EDX
+006D4750 : pop    EDX
+008931D0 : push   ESI
+008931D1 : mov    ESI,0x432746D7
+008931D6 : sub    ECX,ESI
+0086016A : pop    ESI
+008B6280 : push   EDI
+008B6281 : mov    EDI,0x63552C5F
+008DC5CB : add    EDX,EDI
+008DC5CD : push   dword ptr [ESP]
+008DC5D0 : pop    EDI
+008DC5D1 : push   EAX
+008DC5D2 : mov    dword ptr [ESP],EDX
+0092B1FF : mov    EDX,ESP
+0092B201 : add    EDX,0x4
+0092B207 : add    EDX,0x4
+0092B20D : xchg   dword ptr [ESP],EDX
+00680E10 : pop    ESP
+00680E11 : add    EDX,0x547C0587
+00800AC4 : add    EDX,ECX
+00800AC6 : sub    EDX,0x547C0587
+00800ACC : sub    EDX,0x63552C5F
+00800AD2 : pop    ECX
+00800AD3 : movzx  EDX,word ptr [EDX]
+00800AD6 : push   EAX
+00800AD7 : sub    ESP,0x4
+00800ADA : mov    dword ptr [ESP],ECX
+00800ADD : push   ESI
+00800ADE : mov    ESI,0x05F80CA1
+00800AE3 : push   ESI
+008CD49F : pop    ECX
+008BB4E4 : push   dword ptr [ESP]
+0060B605 : pop    ESI
+0060B606 : push   EBX
+0060B607 : mov    EBX,ESP
+0060B609 : add    EBX,0x4
+0060B60F : push   ECX
+0060B610 : mov    ECX,0x4
+0060B615 : add    EBX,ECX
+00838777 : pop    ECX
+00838778 : xchg   dword ptr [ESP],EBX
+0083877B : pop    ESP
+0083877C : push   ECX
+0083877D : xchg   dword ptr [ESP],ECX
+00838780 : not    ECX
+00838782 : xchg   dword ptr [ESP],ECX
+00838785 : pop    ECX
+00838786 : neg    ECX
+006BC5C5 : shl    ECX,0x7
+00704DD7 : dec    ECX
+0092C69E : sub    ECX,0x93D62E29
+0092C6A4 : push   ECX
+0092C6A5 : pop    EAX
+0092C6A6 : pop    ECX
+0092C6A7 : sub    EAX,0x0F241DB4A
+0092C6AC : add    EDX,0x4F810F8A
+0092C6B2 : add    EDX,EAX
+0092C6B4 : sub    EDX,0x4F810F8A
+007F7E36 : pop    EAX
+007F7E37 : sub    EDX,0x35E5567D
+007F7E3D : add    EDX,EBP
+007F7E3F : add    EDX,0x35E5567D
+007F7E45 : push   EBP
+007F7E46 : mov    EBP,ESP
+0093699C : add    EBP,0x4
+007CD293 : sub    EBP,0x4
+007CD296 : xchg   dword ptr [ESP],EBP
+007CD299 : pop    ESP
+0066A717 : mov    dword ptr [ESP],EBP
+0066A71A : mov    EBP,0x75EE478C
+0093BA46 : sub    EDX,EBP
+0093BA48 : push   dword ptr [ESP]
+0093BA4B : pop    EBP
+0093BA4C : add    ESP,0x4
+0093BA52 : push   0x86C
+0093BA57 : mov    dword ptr [ESP],EBX
+0093BA5A : push   0x0C0B
+0093BA5F : mov    dword ptr [ESP],ECX
+00932693 : mov    ECX,ESP
+00932695 : push   EBP
+009845E8 : push   EDX
+009845E9 : mov    EDX,0x03044954
+009845EE : mov    EBP,EDX
+009845F0 : pop    EDX
+009845F1 : or     EBP,0x3F876278
+009845F7 : push   EDI
+009845F8 : mov    EDI,0x3F876B78
+009845FD : sub    EBP,EDI
+009845FF : pop    EDI
+00984600 : add    ECX,EBP
+00984602 : pop    EBP
+00984603 : sub    ECX,0x4
+00984609 : push   ECX
+0098460A : push   dword ptr [ESP+0x4]
+0098460E : pop    ECX
+0098460F : pop    dword ptr [ESP]
+00984612 : pop    ESP
+00984613 : mov    dword ptr [ESP],ESP
+00984616 : push   EBX
+00985E12 : mov    dword ptr [ESP],EDI
+00985E15 : mov    EDI,0x4
+00985E1A : add    dword ptr [ESP+0x4],EDI
+00985E1E : pop    EDI
+007DABE3 : mov    EBX,dword ptr [ESP]
+00987C1F : add    ESP,0x4
+007BF307 : add    EBX,0x4
+007BF30D : push   EDX
+0087F7E7 : mov    EDX,ESP
+0087F7E9 : add    EDX,0x4
+0087F7EF : sub    EDX,0x4
+0087F7F2 : xor    EDX,dword ptr [ESP]
+00988687 : xor    dword ptr [ESP],EDX
+0098868A : xor    EDX,dword ptr [ESP]
+009896A4 : pop    ESP
+009896A5 : mov    dword ptr [ESP],EDX
+0098B2D4 : mov    EDX,0x4
+0098B2D9 : sub    EBX,EDX
+0098B2DB : pop    EDX
+007E824F : push   EBX
+007E8250 : push   dword ptr [ESP+0x4]
+007E8254 : pop    EBX
+007E8255 : pop    dword ptr [ESP]
+007E8258 : pop    ESP
+007E8259 : mov    dword ptr [ESP],ESI
+007E825C : pop    dword ptr [EDX]
+00791FB7 : push   EDX
+006EBABD : mov    EDX,ESP
+006EBABF : add    EDX,0x4
+007922EB : push   EDI
+0088EB3F : mov    EDI,0x47EF7285
+0088EB44 : push   EAX
+0083DDB1 : mov    EAX,0x7079724A
+0083DDB6 : add    EAX,0x47CD7679
+0083DDBB : inc    EAX
+0083DDBC : inc    EAX
+0083DDBD : sub    EAX,0x100C71E4
+0070468C : xor    EAX,0x0CAEC7BD6
+00704691 : xor    EDI,EAX
+00704693 : pop    EAX
+00704694 : xor    EDI,0x25397FB6
+0070469A : sub    EDX,EDI
+0070469C : pop    EDI
+0070469D : xchg   dword ptr [ESP],EDX
+0077A899 : mov    ESP,dword ptr [ESP]
+0077A89C : mov    dword ptr [ESP],EBP
+0077A89F : push   dword ptr [ESP]
+007F31E1 : push   dword ptr [ESP]
+007F31E4 : pop    EDX
+007F31E5 : push   ECX
+007F31E6 : mov    ECX,ESP
+007F31E8 : add    ECX,0x4
+00863EE3 : push   EBP
+00863EE4 : push   EDX
+00863EE5 : mov    EDX,0x4
+0086E070 : mov    EBP,EDX
+0086E072 : pop    EDX
+0086E073 : add    ECX,EBP
+0089A9DC : pop    EBP
+0089A9DD : push   ECX
+0092BB5D : push   dword ptr [ESP+0x4]
+0092BB61 : pop    ECX
+0092BB62 : pop    dword ptr [ESP]
+0092BB65 : mov    ESP,dword ptr [ESP]
+0092BB68 : sub    ESP,0x4
+0092BB6E : mov    dword ptr [ESP],EDI
+0092BB71 : mov    EDI,ESP
+0075E215 : add    EDI,0x4
+0075E21B : push   EAX
+0075E21C : mov    EAX,0x3CC1691E
+0075E221 : add    EAX,0x0C33E96E6
+0075E226 : add    EDI,EAX
+0075E228 : pop    EAX
+0075E229 : push   EDI
+0075E22A : push   dword ptr [ESP+0x4]
+0075E22E : pop    EDI
+0075E22F : pop    dword ptr [ESP]
+0075E232 : mov    ESP,dword ptr [ESP]
+006343A6 : push   EBX
+006343A7 : push   EAX
+006343A8 : mov    EAX,ESP
+006343AA : add    EAX,0x4
+006343AF : sub    EAX,0x4
+006343B4 : xchg   dword ptr [ESP],EAX
+006343B7 : pop    ESP
+007C80CF : mov    dword ptr [ESP],ECX
+007C80D2 : push   0x74A6431B
+007C80D7 : pop    ECX
+007C80D8 : sub    ECX,0x20C4F7BA
+007C80DE : mov    EBX,ECX
+00743373 : mov    ECX,dword ptr [ESP]
+00743376 : push   EAX
+00743377 : mov    EAX,ESP
+0082607D : add    EAX,0x4
+00865023 : add    EAX,0x4
+00664769 : xchg   dword ptr [ESP],EAX
+0066476C : mov    ESP,dword ptr [ESP]
+0066476F : push   EAX
+00664770 : mov    EAX,0x0FFFFFFFF
+00664775 : add    EBX,EAX
+00664777 : pop    EAX
+00664778 : dec    EBX
+00664779 : add    EBX,0x3C877270
+0066477F : push   0x5C9D
+00664784 : mov    dword ptr [ESP],EDX
+00664787 : push   EBX
+00664788 : mov    dword ptr [ESP],EDI
+0066478B : mov    EDI,0x20C05BC4
+00664790 : push   EDI
+00664791 : xor    dword ptr [ESP],0x51760951
+00664798 : pop    EDX
+00664799 : xor    EDX,0x51760951
+0066479F : mov    EDI,dword ptr [ESP]
+006647A2 : add    ESP,0x4
+006647A5 : dec    EDX
+006647AC : neg    EDX
+006647AE : sub    EDX,0x01224674
+006647B4 : shl    EDX,0x8
+0062BF4B : inc    EDX
+0062BF4C : sub    EDX,0x0ADC686BC
+0081797B : add    EBX,0x722900D5
+00817981 : add    EBX,0x23015E1F
+00817987 : add    EBX,EDX
+00817989 : sub    EBX,0x23015E1F
+0081798F : sub    EBX,0x722900D5
+00817995 : mov    EDX,dword ptr [ESP]
+00817998 : add    ESP,0x4
+0081799E : add    EDX,0x370D38B8
+008179A4 : add    EDX,EBX
+008179A6 : sub    EDX,0x370D38B8
+008B2330 : pop    EBX
+008B2331 : push   dword ptr [EDX]
+008B2333 : push   dword ptr [ESP]
+008B2336 : mov    EDX,dword ptr [ESP]
+008B2339 : add    ESP,0x4
+008B233C : push   EBX
+008B233D : mov    EBX,ESP
+008B233F : add    EBX,0x4
+008C0F67 : push   EDX
+008C0F68 : mov    EDX,0x5C917F30
+008C0F6D : push   ESI
+008C0F6E : mov    ESI,0x382D7487
+008C0F73 : xor    ESI,0x1B182BC4
+008C0F79 : and    ESI,0x04D3243E
+008C0F7F : sub    ESI,0x45EE7BAE
+008C0F85 : not    ESI
+008C0F87 : xor    ESI,0x0DDB16C9
+00649BE7 : sub    EDX,ESI
+00649BE9 : pop    ESI
+00649BEA : inc    EDX
+00649BEB : sub    EDX,0x1
+00649BEE : push   EBX
+00649BEF : mov    EBX,0x5FE267D9
+00649BF4 : and    EDX,EBX
+008DAD1A : pop    EBX
+008DAD1B : and    EDX,0x4C616777
+008DAD21 : xor    EDX,0x04000544
+008DAD27 : sub    EBX,EDX
+008DAD29 : pop    EDX
+008DAD2A : xchg   dword ptr [ESP],EBX
+00908A40 : pop    ESP
+008AF1F8 : mov    dword ptr [ESP],EBX
+0076E5CC : push   ESP
+0076E5CD : mov    EBX,dword ptr [ESP]
+006A35A2 : add    ESP,0x4
+0072F070 : add    EBX,0x4
+0072F076 : push   EDX
+0072F077 : push   0x1A300FA4
+0072F07C : pop    EDX
+0072F07D : push   EDI
+0072F07E : push   EBP
+0072F07F : mov    EBP,0x0
+0072F084 : mov    EDI,EBP
+0072F086 : pop    EBP
+0090AF0A : sub    EDI,EDX
+0090AF0C : xchg   EDX,EDI
+0090AF0E : pop    EDI
+0090AF0F : xor    EDX,0x65E54CC4
+0090AF15 : and    EDX,0x54A76616
+0090AF1B : or     EDX,0x1E9E0D4E
+0090AF21 : not    EDX
+0090AF23 : sub    EDX,0x0E141D29D
+0090AF29 : push   EAX
+0090AF2A : mov    EAX,0x49FD6C41
+0090AF2F : not    EAX
+00688D45 : add    EAX,0x0B873C3B0
+008C8AF7 : sub    EBX,EAX
+008C8AF9 : pop    EAX
+008C8AFA : add    EBX,EDX
+008C8AFC : add    EBX,0x6E76576E
+008C8B02 : pop    EDX
+008C8B03 : xchg   dword ptr [ESP],EBX
+008C8B06 : mov    ESP,dword ptr [ESP]
+008C8B09 : push   EAX
+008C8B0A : mov    dword ptr [ESP],EBP
+006F3902 : push   dword ptr [ESP]
+006F3905 : push   dword ptr [ESP]
+006F3908 : mov    ECX,dword ptr [ESP]
+006F390B : add    ESP,0x4
+006F3911 : push   0x23D7
+006F3916 : mov    dword ptr [ESP],EAX
+007125BC : mov    EAX,ESP
+007125BE : push   EBP
+007125BF : mov    EBP,0x4
+007F6F15 : add    EAX,EBP
+007F6F17 : pop    EBP
+0070CF9D : push   EDI
+0070CF9E : mov    EDI,0x772923CD
+0070CFA3 : push   EBP
+0070CFA4 : mov    EBP,0x044E324E
+0070CFA9 : push   EAX
+0070CFAA : mov    EAX,0x28B94905
+008391B9 : add    EAX,0x31571509
+008C1054 : xchg   EAX,ECX
+008C1055 : not    ECX
+008C1057 : xchg   EAX,ECX
+00691F2F : add    EAX,0x2C6F1AC7
+00691F34 : dec    EAX
+00691F35 : xor    EAX,0x400095E6
+00691F3A : sub    EBP,EAX
+00691F3C : pop    EAX
+00691F3D : xor    EDI,EBP
+00691F3F : pop    EBP
+00691F40 : dec    EDI
+009066B9 : shr    EDI,0x5
+009066BC : xor    EDI,0x1DA12311
+009066C2 : not    EDI
+009066C4 : push   ECX
+009066C5 : mov    ECX,0x1D97EA4D
+009066CA : add    EDI,ECX
+0070F8BA : pop    ECX
+0070F8BB : add    EAX,0x5F3E487F
+0070F8C0 : add    EAX,EDI
+0070F8C2 : push   EBP
+0070F8C3 : mov    EBP,0x4AA66456
+0070F8C8 : neg    EBP
+0070F8CA : shl    EBP,0x5
+0070F8CD : shl    EBP,0x6
+0070F8D0 : dec    EBP
+0070F8D1 : sub    EBP,0x285A266D
+0070F8D7 : add    EBP,0x0BABB1EED
+008EFD76 : sub    EAX,EBP
+008EFD78 : pop    EBP
+008EFD79 : pop    EDI
+008EFD7A : push   EAX
+008EFD7B : push   dword ptr [ESP+0x4]
+008EFD7F : pop    EAX
+008EFD80 : pop    dword ptr [ESP]
+0083BC50 : mov    ESP,dword ptr [ESP]
+0083BC53 : add    ESP,0x4
+0083BC59 : push   0x994
+0083BC5E : mov    dword ptr [ESP],ESI
+0090C96E : push   EDX
+0090C96F : mov    EDX,0x75426A82
+0090C974 : not    EDX
+0090C976 : inc    EDX
+0090C977 : not    EDX
+0090C979 : push   EDI
+00675AE2 : push   0x55CB5807
+00675AE7 : pop    EDI
+00675AE8 : neg    EDI
+00675AEA : push   EDI
+00675AEB : push   ECX
+00675AEC : mov    EDI,dword ptr [ESP]
+00675AEF : add    ESP,0x4
+00675AF5 : pop    ECX
+006B4A84 : not    ECX
+006B4A86 : push   EDI
+006B4A87 : push   ECX
+006B4A88 : push   dword ptr [ESP]
+006B4A8B : pop    EDI
+006B4A8C : add    ESP,0x4
+0091F746 : pop    ECX
+0091F747 : shr    EDI,0x1
+0091F749 : push   EBX
+0091F74A : push   ECX
+0091F74B : mov    ECX,0x1D115563
+00634576 : not    ECX
+00650A6F : sub    ECX,0x7F664AE5
+008F1D0A : shl    ECX,0x5
+008F1D13 : dec    ECX
+006974AB : xor    ECX,0x24F4E0E0
+007A1437 : mov    EBX,ECX
+007A1439 : pop    ECX
+007A143A : shl    EBX,0x8
+007A23DA : shr    EBX,0x4
+007A23DD : add    EBX,0x9360BAFB
+007A23E3 : add    EDI,EBX
+007A23E5 : pop    EBX
+00685EB4 : add    EDX,EDI
+00685EB6 : pop    EDI
+00685EB7 : push   0x220B
+00685EBC : mov    dword ptr [ESP],EBP
+006C7799 : push   EAX
+007B9CF6 : mov    EAX,EDX
+007B9CF8 : push   EAX
+007B9CF9 : pop    EBP
+008240B6 : pop    EAX
+008240B7 : mov    ESI,EBP
+008240B9 : pop    EBP
+00830687 : pop    EDX
+00830688 : sub    ESI,0x69AF1823
+0083068E : shr    ESI,0x7
+00830691 : push   EDI
+00830692 : mov    EDI,0x01B39595
+00830697 : sub    ESI,EDI
+00830699 : pop    EDI
+0083069A : add    ECX,ESI
+0083069C : mov    ESI,dword ptr [ESP]
+0083069F : add    ESP,0x4
+008306A2 : push   EBX
+008306A3 : mov    dword ptr [ESP],EDX
+008306A6 : push   EBP
+008306A7 : mov    EBP,0x325F2F82
+0092E1B3 : shl    EBP,0x2
+0092E1B6 : sub    EBP,0x0C97CBE08
+0092E1BC : mov    EDX,EBP
+0092E1BE : mov    EBP,dword ptr [ESP]
+006F9E6B : push   EDX
+006F9E6C : mov    EDX,ESP
+0083F8B8 : add    EDX,0x4
+007D8AA2 : add    EDX,0x4
+007D8AA5 : xchg   dword ptr [ESP],EDX
+007D8AA8 : pop    ESP
+007D8AA9 : add    EDX,ECX
+007D8AAB : push   dword ptr [EDX]
+007D8AAD : mov    ECX,dword ptr [ESP]
+007D8AB0 : push   EDX
+007D8AB1 : mov    EDX,ESP
+007D8AB3 : add    EDX,0x4
+00935DA1 : push   EDI
+00935DA2 : push   EAX
+00935DA3 : mov    dword ptr [ESP],EBP
+008F0618 : push   0x32EC7009
+008F061D : pop    EBP
+008F061E : push   ECX
+008F061F : mov    ECX,0x32EC700D
+008F0624 : xor    EBP,ECX
+008F0626 : mov    ECX,dword ptr [ESP]
+008F0629 : add    ESP,0x4
+0071D5F0 : mov    EDI,EBP
+0071D5F2 : pop    EBP
+0071D5F3 : add    EDX,EDI
+0071D5F5 : mov    EDI,dword ptr [ESP]
+0071D5F8 : add    ESP,0x4
+0071D5FB : push   EDX
+0071D5FC : push   dword ptr [ESP+0x4]
+0071D600 : pop    EDX
+006D7E0C : pop    dword ptr [ESP]
+006D7E0F : pop    ESP
+006D7E10 : push   dword ptr [ESP]
+006D7E13 : pop    EDX
+006D7E14 : sub    ESP,0x4
+0072CABB : mov    dword ptr [ESP],EAX
+0072CABE : mov    EAX,ESP
+0072CAC0 : add    EAX,0x4
+00877B00 : add    EAX,0x4
+00877B05 : xchg   dword ptr [ESP],EAX
+00877B08 : mov    ESP,dword ptr [ESP]
+008C4D3A : push   0x215E
+008C4D3F : mov    dword ptr [ESP],EBX
+0079C99F : mov    dword ptr [ESP],EDI
+0079C9A2 : push   EDX
+0079C9A3 : mov    EDX,ESP
+0079C9A5 : add    EDX,0x4
+0079C9AB : sub    EDX,0x4
+0079C9B1 : xchg   dword ptr [ESP],EDX
+0079C9B4 : mov    ESP,dword ptr [ESP]
+0079C9B7 : mov    dword ptr [ESP],EAX
+00700D9D : push   0x585D5FBB
+00700DA2 : pop    EAX
+007AAABF : push   EBX
+007AAAC0 : mov    EBX,0x1
+007AAAC5 : sub    EAX,EBX
+007AAAC7 : pop    EBX
+007AAAC8 : push   ESI
+006CA897 : mov    dword ptr [ESP],ECX
+006CA89A : push   EDX
+006CA89B : mov    EDX,0x2B90418E
+006CA8A0 : shl    EDX,0x7
+006CA8A9 : add    EDX,0x20D6035A
+006CA8AF : not    EDX
+006CA8B1 : xor    EDX,0x00F61D42
+006CA8B7 : mov    ECX,EDX
+006CA8B9 : pop    EDX
+006CA8BA : sub    ECX,0x1
+006CA8BD : neg    ECX
+006CA8BF : shl    ECX,0x1
+006CA8C1 : inc    ECX
+006CA8C2 : sub    ECX,0x60E27ADA
+006CA8C8 : push   EBP
+006CA8C9 : mov    EBP,0x66C17BE2
+006CA8CE : and    EBP,0x08D16364
+006CA8D4 : shr    EBP,0x1
+006CA8D6 : neg    EBP
+006CA8D8 : add    EBP,0x37A31E91
+006CA8DE : xor    ECX,EBP
+006CA8E0 : mov    EBP,dword ptr [ESP]
+006CA8E3 : add    ESP,0x4
+006CA8E6 : xor    EAX,ECX
+007787B0 : pop    ECX
+007787B1 : push   EBX
+007787B2 : mov    EBX,EAX
+007787B4 : mov    EDI,EBX
+007787B6 : pop    EBX
+007787B7 : mov    EAX,dword ptr [ESP]
+007787BA : add    ESP,0x4
+0071F51E : add    ECX,0x297C331F
+0071F524 : add    ECX,EDI
+0071F526 : sub    ECX,0x297C331F
+00776A85 : mov    EDI,dword ptr [ESP]
+00776A88 : push   EBP
+00776A89 : mov    EBP,ESP
+00776A8B : add    EBP,0x4
+00776A91 : add    EBP,0x4
+007924FF : xchg   dword ptr [ESP],EBP
+00792502 : pop    ESP
+00792503 : movzx  ECX,word ptr [ECX]
+00792506 : push   EAX
+0085C7AA : mov    dword ptr [ESP],EDI
+0085C7AD : mov    dword ptr [ESP],EAX
+0085C7B0 : mov    dword ptr [ESP],EBP
+0085C7B3 : push   dword ptr [ESP]
+0085C7B6 : push   dword ptr [ESP]
+0085C7B9 : pop    EDI
+0085C7BA : add    ESP,0x4
+006F6C04 : push   0x279C
+006F6C09 : mov    dword ptr [ESP],ECX
+006F6C0C : push   ESP
+007C1A2C : pop    ECX
+008608B8 : push   EBP
+008853F8 : push   EDX
+0089D445 : mov    EDX,0x4
+0089D44A : mov    EBP,EDX
+0089D44C : pop    EDX
+0089D44D : add    ECX,EBP
+0089D44F : push   dword ptr [ESP]
+0089D452 : pop    EBP
+0089D453 : add    ESP,0x4
+0073377A : add    ECX,0x4
+0073377D : push   EDX
+0073377E : mov    dword ptr [ESP],ECX
+00733781 : push   dword ptr [ESP+0x4]
+00733785 : push   dword ptr [ESP]
+00733788 : pop    ECX
+00733789 : add    ESP,0x4
+006D0315 : pop    dword ptr [ESP]
+006D0318 : mov    ESP,dword ptr [ESP]
+006D031B : push   ESI
+006D031C : mov    ESI,0x5B3D54A7
+006D0321 : sub    ESI,0x25354DDF
+006D0327 : add    ESI,0x1AB405E7
+006D032D : push   EAX
+006D032E : mov    EAX,0x06726C55
+007B8448 : or     EAX,0x3255296D
+0074A407 : add    EAX,0x64D24036
+0074A40C : xor    EAX,0x48793279
+0074A411 : neg    EAX
+0074A413 : push   ESI
+0074A414 : mov    ESI,0x67C77FD6
+0074A419 : add    ESI,0x25735FDC
+0074A41F : and    ESI,0x67B916CE
+0074A425 : add    ESI,0x43E1F963
+0074A42B : xor    EAX,ESI
+0074A42D : pop    ESI
+00776C2F : push   EDX
+00776C30 : mov    EDX,0x10712B96
+0079BB9E : shl    EDX,0x6
+0079BBA1 : xor    EDX,0x0A8F77051
+00659C5A : add    EAX,EDX
+00659C5C : mov    EDX,dword ptr [ESP]
+00659C5F : add    ESP,0x4
+00642219 : and    ESI,EAX
+00658E3D : pop    EAX
+00658E3E : shl    ESI,0x7
+00658E41 : shl    ESI,0x8
+00658E44 : add    ESI,0x0FDAE0000
+00658E4A : push   EAX
+006BAEE7 : mov    EAX,0x2D3872D4
+008111A1 : add    EAX,0x56A2731B
+0081EB5C : push   0x0
+0081EB61 : sub    dword ptr [ESP],EAX
+0081EB64 : pop    EAX
+008129CA : push   EBX
+008129CB : mov    EBX,0x37AE607E
+008129D0 : add    EAX,EBX
+008129D2 : pop    EBX
+008129D3 : shr    EAX,0x3
+008129D6 : shr    EAX,0x6
+0083C7D6 : add    EAX,0x5CD58DD1
+0083C7DB : add    EDI,0x752B4C93
+0083C7E1 : sub    EDI,EAX
+0083C7E3 : sub    EDI,0x752B4C93
+0083C7E9 : pop    EAX
+0083C7EA : add    EDI,ESI
+0083C7EC : push   EDX
+00841589 : push   ESI
+0084158A : mov    ESI,0x6ABA01FE
+0084158F : mov    EDX,0x0F2757590
+00841594 : add    EDX,0x130673F5
+0084159A : sub    EDX,0x707F3866
+007B454C : add    EDX,ESI
+007B454E : add    EDX,0x707F3866
+007B4554 : sub    EDX,0x130673F5
+007B455A : pop    ESI
+007B455B : add    EDI,EDX
+007B455D : mov    EDX,dword ptr [ESP]
+007B4560 : add    ESP,0x4
+007B4566 : push   dword ptr [ESP]
+007B4569 : mov    ESI,dword ptr [ESP]
+007B456C : add    ESP,0x4
+007B4572 : add    ESP,0x4
+007B4575 : xor    ESI,EDI
+007B4577 : sub    ESP,0x4
+007B457D : mov    dword ptr [ESP],EBP
+007B4580 : push   EAX
+008A8266 : mov    EAX,0x464F2198
+008A826B : xor    dword ptr [ESP+0x4],EAX
+008A826F : pop    EAX
+008A8270 : pop    EAX
+007E04B9 : push   ESI
+007E04BA : mov    dword ptr [ESP],EDX
+007E04BD : mov    dword ptr [ESP],ECX
+007E82B0 : push   EDI
+007E82B1 : push   ESP
+0077F066 : pop    EDI
+0077F067 : add    EDI,0x4
+008BBB45 : sub    EDI,0x4
+006FAEF1 : push   EDI
+006FAEF2 : push   dword ptr [ESP+0x4]
+006FAEF6 : pop    EDI
+006FAEF7 : pop    dword ptr [ESP]
+006FAEFA : pop    ESP
+006FAEFB : mov    dword ptr [ESP],EBX
+0068EE9B : push   0x6398
+0068EEA0 : mov    dword ptr [ESP],EDX
+0068EEA3 : mov    EDX,0x57B02840
+0068EEA8 : mov    EBX,EDX
+0078D058 : pop    EDX
+0078D059 : sub    ESP,0x4
+0078D05C : mov    dword ptr [ESP],EBX
+0078D05F : pop    ECX
+0078D060 : pop    EBX
+0078D061 : push   0x0F51
+0078D066 : mov    dword ptr [ESP],EDX
+008BCE15 : mov    EDX,0x0FFFFFFFF
+008C411E : add    ECX,0x4A9752EC
+008C4124 : sub    ECX,EDX
+008C4126 : sub    ECX,0x4A9752EC
+008C412C : pop    EDX
+008C412D : shr    ECX,0x3
+008C4130 : shr    ECX,0x8
+008C4133 : shl    ECX,0x1
+008C4135 : push   EBP
+008C4136 : mov    EBP,0x2EAE2FFB
+008C413B : xor    EBP,0x6BE14FF6
+008DDCC0 : sub    EBP,0x4D602337
+008DDCC6 : shl    EBP,0x6
+008DDCC9 : or     EBP,0x562B0AB9
+008DDCCF : xor    EBP,0x0B9B5F22B
+008DDCD5 : xor    ECX,EBP
+008DDCD7 : pop    EBP
+008DDCD8 : xor    EAX,ECX
+008DDCDA : pop    ECX
+008DDCDB : push   ECX
+008DDCDC : mov    dword ptr [ESP],ESI
+008DDCDF : push   EDX
+008DDCE0 : push   ESI
+008DDCE1 : mov    ESI,0x5E3637A2
+008FA59F : dec    ESI
+00920944 : push   EDX
+00920945 : mov    EDX,0x5B661FD5
+0092094A : xor    EDX,0x5EA14211
+00920950 : xor    ESI,EDX
+00920952 : pop    EDX
+00920953 : neg    ESI
+00920955 : add    ESI,0x18296E8C
+0092095B : inc    ESI
+0092095C : add    ESI,0x812E58C2
+00920962 : mov    EDX,ESI
+00920964 : mov    ESI,dword ptr [ESP]
+00920967 : add    ESP,0x4
+0092096A : mov    ESI,EDX
+006E1589 : pop    EDX
+0078C13E : xor    ESI,0x55F320EB
+0078C144 : push   EBX
+0078C145 : mov    EBX,0x698361F4
+0078C14A : shl    EBX,0x1
+0078C14C : neg    EBX
+0078C14E : push   EDX
+0078C14F : mov    EDX,0x73EA4617
+0078C154 : sub    EDX,0x085D3730
+0078C15A : add    EDX,0x7A495F08
+0078C160 : xor    EDX,0x0F87D8912
+0078C166 : sub    EBX,EDX
+0078C168 : pop    EDX
+0078C169 : add    ESI,EBX
+0078C16B : pop    EBX
+007DE1CC : neg    ESI
+0092345A : shr    ESI,0x7
+0092345D : xor    ESI,0x01103A49
+00923463 : push   0x160B
+00923468 : mov    dword ptr [ESP],ECX
+0092346B : mov    ECX,0x729E2412
+00923470 : add    EAX,ECX
+00923472 : mov    ECX,dword ptr [ESP]
+00923475 : push   ESI
+00923476 : mov    ESI,ESP
+00923478 : add    ESI,0x4
+0092347E : add    ESI,0x4
+00923484 : push   ESI
+00923485 : push   dword ptr [ESP+0x4]
+00923489 : pop    ESI
+0092348A : pop    dword ptr [ESP]
+0092348D : mov    ESP,dword ptr [ESP]
+00923490 : push   EDX
+00923AA2 : push   EDI
+0069F3EC : mov    EDI,0x1BF91783
+0069F3F1 : mov    EDX,EDI
+0069F3F3 : pop    EDI
+0069F3F4 : sub    EAX,EDX
+0069F3F6 : mov    EDX,dword ptr [ESP]
+0069F3F9 : add    ESP,0x4
+0069F3FC : add    EAX,ESI
+0092A604 : add    EAX,0x1BF91783
+0092A609 : sub    EAX,0x729E2412
+0092A60E : pop    ESI
+0092A60F : push   ECX
+0092A610 : mov    ECX,0x12A83604
+0092A615 : shr    ECX,0x7
+0092A61E : shr    ECX,0x7
+009376B2 : inc    ECX
+006CE167 : push   EBP
+006CE168 : mov    EBP,0x00942FE1
+006CE16D : shr    EBP,0x1
+00677894 : sub    ESP,0x4
+0067789A : mov    dword ptr [ESP],EAX
+0067789D : mov    EAX,0x35761BE3
+006778A2 : push   EAX
+00939DCA : push   EDX
+00939DCB : mov    dword ptr [ESP],EBX
+00939DCE : pop    EAX
+00939DCF : pop    EBX
+00939DD0 : neg    EBX
+00939DD2 : xchg   EAX,EBX
+00939DD3 : sub    EAX,0x0FFFFFFFF
+00939DD8 : push   ECX
+00939DD9 : mov    ECX,0x047473A1
+00939DDE : shr    ECX,0x5
+00939DE1 : shl    ECX,0x7
+00939DE4 : not    ECX
+00939DE6 : add    ECX,0x5D0F0350
+00939DEC : and    EAX,ECX
+0093B0D2 : pop    ECX
+006B3B3C : push   EDI
+006B3B3D : mov    EDI,0x0
+006B3B42 : sub    EDI,EAX
+006B3B44 : mov    EAX,EDI
+006B3B46 : mov    EDI,dword ptr [ESP]
+0093B0D8 : add    ESP,0x4
+0093B0DE : add    EAX,0x81571008
+0093B0E3 : add    EBP,EAX
+0093B0E5 : pop    EAX
+0093B0E6 : and    ECX,EBP
+0093B0E8 : pop    EBP
+0093B0E9 : push   EAX
+0093B0EA : mov    EAX,0x17481247
+0070A56D : inc    EAX
+0070A56E : shr    EAX,0x8
+007095D5 : push   EBP
+007095D6 : push   ESI
+007095D7 : mov    ESI,0x4A860F24
+007095DC : mov    EBP,ESI
+007095DE : pop    ESI
+007095DF : sub    EBP,0x4A6EC472
+007095E5 : xor    EAX,EBP
+007095E7 : pop    EBP
+0073756B : xor    ECX,EAX
+0073756D : pop    EAX
+0073756E : add    ECX,0x2AB75902
+00737574 : sub    ECX,0x1F6263FD
+0073757A : add    ECX,EAX
+0073757C : add    ECX,0x1F6263FD
+00737582 : sub    ECX,0x2AB75902
+00737588 : add    dword ptr [ECX],ESI
+0073758A : pop    ECX
+0073758B : push   0x5924
+00737590 : mov    dword ptr [ESP],EDX
+00737593 : push   0x4478
+00737598 : mov    dword ptr [ESP],ESI
+0073759B : mov    ESI,0x637D126F
+007375A0 : push   EBX
+007375A1 : mov    EBX,0x669C9714
+006E625D : push   EBX
+006E625E : pop    EDX
+006E625F : pop    EBX
+006E6260 : xor    EDX,ESI
+006E6262 : mov    ESI,dword ptr [ESP]
+006E6265 : add    ESP,0x4
+006E626B : sub    ECX,EDX
+006E626D : push   dword ptr [ESP]
+006E6270 : mov    EDX,dword ptr [ESP]
+006E6273 : add    ESP,0x4
+006E6279 : push   EDI
+006E627A : mov    dword ptr [ESP],EBP
+006E627D : push   0x1F04
+006CADC8 : mov    dword ptr [ESP],ESP
+006CADCB : add    dword ptr [ESP],0x4
+006CADD2 : pop    EBP
+006E6F6E : add    EBP,0x4
+006E6F74 : push   EAX
+006E6F75 : mov    EAX,0x7CD426C0
+007D96E9 : neg    EAX
+007D96EB : xor    EAX,0x26EA49A3
+007D96F6 : sub    EAX,0x09305359
+007D9701 : shl    EAX,0x5
+0081F844 : sub    EAX,0x2F8D41CF
+0081F849 : sub    ESP,0x4
+007BDAC5 : mov    dword ptr [ESP],EDX
+007BDAC8 : mov    EDX,0x9D659093
+007BDACD : add    EAX,0x4C2B2794
+007BDAD2 : add    EAX,EDX
+00763CD7 : sub    EAX,0x4C2B2794
+00763CDC : mov    EDX,dword ptr [ESP]
+00763CDF : add    ESP,0x4
+00763CE2 : add    EBP,EAX
+00763CE4 : pop    EAX
+00869E96 : xchg   dword ptr [ESP],EBP
+0093B9E4 : pop    ESP
+0093B9E5 : push   EDX
+00712692 : mov    EDX,ESP
+00712694 : add    EDX,0x4
+0093CF1F : sub    EDX,0x4
+0093CF22 : push   EDX
+0093CF23 : push   dword ptr [ESP+0x4]
+0093CF27 : pop    EDX
+0093CF28 : pop    dword ptr [ESP]
+0093CF2B : pop    ESP
+0093CF2C : mov    dword ptr [ESP],ECX
+0093CF2F : mov    ECX,EBP
+0093CF31 : push   ECX
+0093CF32 : sub    ESP,0x4
+0093CF38 : mov    dword ptr [ESP],EDX
+0093CF3B : mov    EDX,0x21BC0D7B
+0093CF40 : add    dword ptr [ESP+0x4],EDX
+0093CF44 : pop    EDX
+0093CF45 : mov    EAX,dword ptr [ESP]
+0093CF48 : add    ESP,0x4
+0093CF4E : push   ECX
+0093CF4F : mov    ECX,0x64996690
+0093CF54 : sub    ESP,0x4
+0093CF5A : mov    dword ptr [ESP],EBP
+0093CF5D : mov    EBP,0x342728A3
+0093CF62 : neg    EBP
+0093DB19 : shr    EBP,0x4
+0093DB1C : and    EBP,0x58E85C17
+0093DCDA : neg    EBP
+0093DCDC : xor    EBP,0x0A045AC31
+0093DCE2 : or     ECX,EBP
+00942689 : mov    EBP,dword ptr [ESP]
+0094268C : add    ESP,0x4
+0094268F : sub    ECX,0x4F755B3D
+00942695 : push   0x0
+009482DF : sub    dword ptr [ESP],ECX
+009482E2 : pop    ECX
+009482E3 : push   ECX
+009482E4 : mov    dword ptr [ESP],EAX
+0094AB18 : mov    EAX,0x30CD1B52
+0094AB1D : not    EAX
+0094AB1F : dec    EAX
+0094AB20 : push   EBP
+0094AB21 : mov    EBP,0x86D0D6B4
+0094BF97 : xor    EAX,EBP
+0094BF99 : pop    EBP
+0094BF9A : push   EDI
+008E35E5 : mov    EDI,0x77FF0F98
+008E35EA : and    EDI,0x7E613EEA
+008E35F0 : dec    EDI
+008E35F1 : neg    EDI
+008E35F3 : add    EDI,0x38074E22
+008E35F9 : and    EDI,0x08087875
+008E35FF : add    EDI,0x76B2F63F
+008E3605 : add    ECX,EDI
+008E3607 : pop    EDI
+008E3608 : add    ECX,EAX
+008E360A : sub    ECX,0x76B32E50
+008E3610 : pop    EAX
+00721753 : sub    EAX,ECX
+00721755 : mov    ECX,dword ptr [ESP]
+00721758 : add    ESP,0x4
+0072175E : pop    ECX
+0072175F : push   ESI
+00721760 : push   ESP
+00721761 : pop    ESI
+00856D13 : sub    ESP,0x4
+00856D19 : mov    dword ptr [ESP],EDX
+00856D1C : mov    EDX,0x4
+00856D21 : add    ESI,EDX
+0063AE03 : pop    EDX
+0063AE04 : sub    ESI,0x4
+0063AE0A : xchg   dword ptr [ESP],ESI
+0063AE0D : pop    ESP
+0063AE0E : mov    dword ptr [ESP],EDI
+0063AE11 : push   0x0C83
+0065200C : mov    dword ptr [ESP],ESI
+0065200F : push   0x3CE32360
+00652014 : pop    ESI
+00652015 : push   0x3CE32360
+00835073 : pop    EDI
+00835074 : sub    EDI,0x242D1742
+0083507A : push   EBP
+008B4295 : mov    EBP,0x10AB3CDD
+008B429A : not    EBP
+008B429C : and    EBP,0x768E29BE
+008B42A2 : xor    EBP,0x009D1E0A
+008B42A8 : add    EDI,EBP
+008B42AA : mov    EBP,dword ptr [ESP]
+008B42AD : add    ESP,0x4
+008B42B3 : add    EDI,0x04E5509A
+008B42B9 : sub    EDI,ESI
+008B42BB : push   ESI
+008B42BC : mov    ESI,0x63D52AC8
+008B42C1 : xor    ESI,0x67307A52
+008B42C7 : sub    EDI,ESI
+008B42C9 : pop    ESI
+008B42CA : sub    EDI,0x66991F28
+008C5816 : add    EDI,0x242D1742
+008C581C : mov    ESI,dword ptr [ESP]
+008C581F : add    ESP,0x4
+008C5822 : add    EAX,0x6C2746A4
+008C5827 : sub    EAX,0x3BD854DA
+008C582C : add    EAX,EDI
+008C582E : add    EAX,0x3BD854DA
+008C5833 : sub    EAX,0x6C2746A4
+008C5838 : mov    EDI,dword ptr [ESP]
+0074ED61 : add    ESP,0x4
+0074ED67 : push   EBX
+0074ED68 : push   ECX
+0074ED69 : push   0x47AB5412
+0074ED6E : push   dword ptr [ESP]
+0074ED71 : pop    ECX
+0074ED72 : push   EBX
+0074ED73 : mov    EBX,ESP
+0074ED75 : add    EBX,0x4
+0074ED7B : add    EBX,0x4
+0074ED7E : xchg   dword ptr [ESP],EBX
+0074ED81 : pop    ESP
+006AB9E2 : add    ECX,0x1C663201
+0078BA5C : shl    ECX,0x2
+0078BA5F : dec    ECX
+0078BA66 : xor    ECX,0x9046184B
+0078BA6C : push   ECX
+0078BA6D : mov    EBX,dword ptr [ESP]
+0078BA70 : add    ESP,0x4
+0078BA76 : mov    ECX,dword ptr [ESP]
+006798D0 : push   EDX
+006798D1 : push   ESP
+006798D2 : pop    EDX
+006C1F48 : add    EDX,0x4
+006C1F64 : add    EDX,0x4
+006C1F67 : xor    EDX,dword ptr [ESP]
+00714C27 : xor    dword ptr [ESP],EDX
+00714C2A : xor    EDX,dword ptr [ESP]
+0071BF55 : pop    ESP
+0071BF56 : add    EBX,EAX
+0071BF58 : push   EDX
+0071BF59 : mov    EDX,0x0
+0071BF5E : sub    ESP,0x4
+0071BF61 : mov    dword ptr [ESP],EBP
+0071BF64 : mov    EBP,0x244035F3
+0071BF69 : add    EDX,EBP
+0072349E : pop    EBP
+0074F94D : add    EDX,EBX
+0074F94F : sub    EDX,0x244035F3
+00772B12 : add    dword ptr [EDX],ECX
+00772B14 : pop    EDX
+00772B15 : push   dword ptr [ESP]
+00772B18 : pop    EBX
+00772B19 : push   EBX
+00851CF2 : mov    EBX,ESP
+00851CF4 : push   EBP
+00851CF5 : mov    EBP,0x41C07D22
+00851CFA : and    EBP,0x2CC9198D
+00851D00 : or     EBP,0x7AF820F6
+00851D06 : shr    EBP,0x5
+00851D09 : sub    EBP,0x03D7C1CB
+00851D0F : add    EBX,EBP
+007B09F8 : mov    EBP,dword ptr [ESP]
+007B09FB : add    ESP,0x4
+007B09FE : add    EBX,0x4
+007B0A01 : xchg   dword ptr [ESP],EBX
+007B0A04 : pop    ESP
+007B0A05 : push   EDX
+007B0A06 : mov    EDX,0x112079CE
+00651B8D : shl    EDX,0x4
+00651B90 : shr    EDX,0x7
+00651B93 : push   0x6E9D
+00651B98 : mov    dword ptr [ESP],EBP
+00651B9B : mov    EBP,0x0452109A
+0088A4C9 : neg    EBP
+0088A4CB : push   ECX
+008AAD4A : push   0x06F14B68
+008AAD4F : pop    ECX
+0070B834 : sub    ECX,0x142314D3
+0070B83A : sub    ESP,0x4
+0070B840 : mov    dword ptr [ESP],EAX
+0070B843 : mov    EAX,0x1A0A1AA0
+0070B848 : sub    ECX,EAX
+008AF5E2 : pop    EAX
+008AF5E3 : add    ECX,0x4B550A35
+007FBF30 : shl    ECX,0x7
+007FBF33 : sub    ECX,0x37CB66CA
+007FBF39 : sub    ECX,0x0AF445EDF
+0060BEEC : and    EBP,ECX
+0060BEEE : pop    ECX
+0060BEEF : shr    EBP,0x4
+0060BEF2 : push   EBX
+0060BEF3 : mov    EBX,0x8802DE17
+0060BEF8 : push   EDI
+006E4B88 : mov    EDI,0x237F0DBA
+006E4B8D : sub    EBP,EDI
+006E4B8F : pop    EDI
+006E4B90 : sub    EBP,EBX
+006E4B92 : add    EBP,0x237F0DBA
+006E4B98 : pop    EBX
+006E4B99 : or     EDX,EBP
+006E4B9B : pop    EBP
+006E4B9C : push   0x1607
+006E4BA1 : mov    dword ptr [ESP],ECX
+006E4BA4 : push   EBP
+006E4BA5 : mov    EBP,0x7A343FFE
+006E4BAA : mov    ECX,EBP
+006E4BAC : pop    EBP
+006E4BAD : add    EDX,0x35D812BF
+006E4BB3 : sub    EDX,ECX
+006F87A9 : sub    EDX,0x35D812BF
+00721164 : mov    ECX,dword ptr [ESP]
+00721167 : sub    ESP,0x4
+0072116D : mov    dword ptr [ESP],EDX
+00721170 : mov    EDX,ESP
+00721172 : push   EAX
+00721173 : mov    EAX,0x575D0046
+00721178 : and    EAX,0x68A032AB
+0072117D : or     EAX,0x78686B91
+00721182 : sub    EAX,0x78686B8F
+00721187 : add    EDX,EAX
+00721189 : pop    EAX
+0072118A : add    EDX,0x4
+0072118D : xchg   dword ptr [ESP],EDX
+00721190 : pop    ESP
+00721191 : and    ECX,EDX
+0075F880 : push   dword ptr [ESP]
+006E115B : pop    EDX
+00772FD4 : add    ESP,0x4
+00772FDA : shl    ECX,0x2
+00772FDD : push   0x7A26
+00772FE2 : mov    dword ptr [ESP],EDI
+00772FE5 : mov    EDI,0x5ED160DF
+00772FEA : add    EDX,0x0DE5708F
+00772FF0 : push   ESI
+00772FF1 : mov    ESI,0x04BF5A32
+00772FF6 : sub    ESI,0x316D51BF
+00772FFC : push   ECX
+00863A43 : mov    ECX,0x6E7507E2
+00863A48 : add    ECX,0x68E91A94
+00863A4E : sub    ECX,0x69CC4576
+00863A54 : and    ECX,0x6BFB0BE3
+00863A5A : dec    ECX
+00863A5B : not    ECX
+00863A5D : sub    ECX,0x5EC4EFED
+00863A63 : and    ESI,ECX
+00863A65 : pop    ECX
+00863A66 : and    ESI,0x26D72510
+0083E9B5 : shl    ESI,0x2
+0083E9B8 : push   EDI
+0083E9B9 : mov    EDI,0x0F7667A5
+0083E9BE : shr    EDI,0x8
+0083E9C1 : not    EDI
+0083E9C3 : or     EDI,0x0CAC6760
+007C3E6E : shl    EDI,0x2
+007C3E71 : sub    EDI,0x0A52CA7E1
+007C3E77 : xor    ESI,EDI
+00923561 : pop    EDI
+00923562 : sub    EDX,ESI
+00923564 : pop    ESI
+00923565 : add    EDX,EDI
+00923567 : add    EDX,0x52CF17BF
+0092356D : sub    EDX,0x0DE5708F
+00923573 : pop    EDI
+00923574 : sub    EDX,0x15D6519C
+0092357A : add    EDX,0x0CD90FDA
+00923580 : add    EDX,ECX
+00923582 : push   EDI
+00923583 : mov    dword ptr [ESP],ECX
+00923586 : mov    ECX,0x2C937FE0
+0092358B : sub    ECX,0x4CE6399C
+00923591 : and    ECX,0x72B33EC7
+00923597 : or     ECX,0x3CAD0FE6
+0092359D : add    ECX,0x8E2BFFF4
+007ADECE : sub    EDX,ECX
+0092984D : mov    ECX,dword ptr [ESP]
+00929850 : add    ESP,0x4
+00929856 : add    EDX,0x15D6519C
+0092985C : push   ECX
+0092985D : push   EDX
+0092985E : mov    EDX,0x5ED160DF
+00929863 : mov    ECX,EDX
+00929865 : mov    EDX,dword ptr [ESP]
+008A0211 : add    ESP,0x4
+008A0214 : sub    EDX,ECX
+008A0216 : push   dword ptr [ESP]
+008A0219 : pop    ECX
+008A021A : push   ESI
+008A021B : mov    ESI,ESP
+0092C1EA : add    ESI,0x4
+0092C1F0 : add    ESI,0x4
+0092DA46 : xchg   dword ptr [ESP],ESI
+0092DA49 : pop    ESP
+0092DA4A : push   dword ptr [EDX]
+0092DA4C : push   EBX
+0092DA4D : mov    dword ptr [ESP],EDX
+0092DA50 : push   EAX
+0092DA51 : push   0x167A232E
+0092DA56 : pop    EAX
+0092DA57 : and    EAX,0x1AF659F2
+0092DA62 : add    EAX,0x58553E2C
+0092DA67 : push   ECX
+0092DA68 : mov    ECX,EAX
+0092DA6A : push   EBX
+0092DA6B : mov    EBX,ECX
+0092DA6D : mov    EDX,EBX
+0092DA6F : pop    EBX
+0092DA70 : pop    ECX
+0093A8E2 : pop    EAX
+00679A56 : xor    dword ptr [ESP+0x4],EDX
+0068B6EB : pop    EDX
+0068B6EC : push   dword ptr [ESP]
+0071FEAD : pop    EBX
+0071FEAE : push   EBP
+0071FEAF : mov    EBP,ESP
+0071FEB1 : add    EBP,0x4
+0071FEB7 : add    EBP,0x4
+0071FEBD : push   EBP
+007825DF : push   dword ptr [ESP+0x4]
+007825E3 : mov    EBP,dword ptr [ESP]
+009123D4 : add    ESP,0x4
+009123D7 : pop    dword ptr [ESP]
+009123DA : pop    ESP
+009123DB : push   EDI
+009171E9 : mov    EDI,ESP
+009171EB : add    EDI,0x4
+009171F1 : sub    EDI,0x4
+009171F4 : xchg   dword ptr [ESP],EDI
+009171F7 : mov    ESP,dword ptr [ESP]
+009171FA : mov    dword ptr [ESP],ECX
+009171FD : mov    ECX,0x0D6D5EC5
+00917202 : push   EDX
+00917203 : push   ESP
+00917204 : pop    EDX
+00917205 : add    EDX,0x4
+0092626A : sub    EDX,0x4
+0092626D : xchg   dword ptr [ESP],EDX
+00926270 : pop    ESP
+00926271 : mov    dword ptr [ESP],EBP
+00926274 : mov    EBP,0x622F6370
+00926279 : and    ECX,EBP
+00894346 : pop    EBP
+00894347 : add    ECX,0x6A99FD0E
+0089434D : xor    EBX,ECX
+0089434F : mov    ECX,dword ptr [ESP]
+00894352 : add    ESP,0x4
+00894358 : sub    ESP,0x4
+0089435E : mov    dword ptr [ESP],EBP
+0067ADA3 : push   EBP
+0067ADA4 : push   EDX
+0067ADA5 : mov    dword ptr [ESP],EAX
+0067ADA8 : mov    EAX,0x170149C6
+0067ADAD : xor    EAX,0x1D001C74
+006A72A4 : neg    EAX
+006A72A6 : xor    EAX,0x20493CB5
+006A72AB : or     EAX,0x29F27D28
+006A72B0 : xor    EAX,0x0B69F8912
+006A72B5 : mov    EBP,EAX
+006A72B7 : mov    EAX,dword ptr [ESP]
+006A72BA : add    ESP,0x4
+007A95FF : sub    dword ptr [ESP+0x4],0x455D045E
+007A9607 : sub    dword ptr [ESP+0x4],0x2D6A0956
+007A960F : sub    dword ptr [ESP+0x4],EBP
+007A9613 : add    dword ptr [ESP+0x4],0x2D6A0956
+007A961B : push   EAX
+007AA076 : mov    EAX,0x455D045E
+007AA07B : add    dword ptr [ESP+0x8],EAX
+007AA07F : pop    EAX
+007AA080 : pop    EBP
+007AA081 : mov    ECX,dword ptr [ESP]
+007AA084 : push   EDX
+007AA085 : mov    EDX,ESP
+007AA087 : push   ESI
+007AA088 : mov    ESI,0x06177C40
+007AA08D : dec    ESI
+007AA08E : add    ESI,0x0F9E883C5
+007AA094 : add    EDX,ESI
+007AA096 : pop    ESI
+007AA097 : push   EBX
+007AA098 : mov    EBX,0x4
+007AA09D : add    EDX,0x64041979
+007AA0A3 : add    EDX,EBX
+007AA0A5 : push   ECX
+007AA0A6 : mov    ECX,0x64041979
+007AA0AB : sub    EDX,ECX
+007AA0AD : pop    ECX
+007AA0AE : pop    EBX
+007AA0AF : push   EDX
+006F19C4 : push   dword ptr [ESP+0x4]
+006F19C8 : pop    EDX
+006F19C9 : pop    dword ptr [ESP]
+007C3623 : pop    ESP
+008E411E : push   0x38AE
+008E4123 : mov    dword ptr [ESP],ESI
+00938536 : mov    ESI,0x4B6876E9
+0071982E : add    ECX,ESI
+00800911 : push   dword ptr [ESP]
+00800914 : pop    ESI
+00800915 : add    ESP,0x4
+00800918 : push   0x7430
+0080091D : mov    dword ptr [ESP],EDX
+00800920 : push   0x319C
+00800925 : mov    dword ptr [ESP],ECX
+00800928 : mov    dword ptr [ESP],EDI
+0080092B : push   0x639D7741
+00800930 : mov    EDI,dword ptr [ESP]
+00800933 : add    ESP,0x4
+00943427 : shr    EDI,0x6
+006B10C1 : not    EDI
+006B10C3 : push   EAX
+006B10C4 : mov    EAX,0x0FE718A87
+006B10C9 : xor    EDI,EAX
+006B10CB : pop    EAX
+006B10CC : push   EAX
+006B10CD : mov    dword ptr [ESP],ECX
+006B10D0 : push   EDI
+006B10D1 : pop    ECX
+006B10D2 : mov    EDX,ECX
+006B10D4 : push   dword ptr [ESP]
+006B10D7 : pop    ECX
+006B10D8 : add    ESP,0x4
+006B10DE : mov    EDI,dword ptr [ESP]
+006B10E1 : push   EBX
+006B10E2 : push   0x1A67
+006B10E7 : mov    dword ptr [ESP],ESP
+006B10EA : add    dword ptr [ESP],0x4
+006B10F1 : pop    EBX
+006B10F2 : push   EAX
+006B10F3 : mov    EAX,0x0C027366
+006B10F8 : add    EAX,0x350E5925
+006B10FD : neg    EAX
+00946887 : dec    EAX
+00916B90 : and    EAX,0x1BBB1A03
+00916B95 : sub    EAX,0x1AAB11FC
+00916B9A : add    EBX,EAX
+0086AC05 : pop    EAX
+0086AC06 : push   EAX
+00947A1B : mov    EAX,0x4
+00630B29 : sub    EBX,0x0AF555CF
+0094D4BB : add    EBX,EAX
+0094D4BD : add    EBX,0x0AF555CF
+0094D4C3 : pop    EAX
+0066A928 : xchg   dword ptr [ESP],EBX
+0067CBCA : pop    ESP
+0072A061 : add    ECX,0x45395C13
+00733601 : add    ECX,EDX
+00733603 : sub    ECX,0x45395C13
+007A62E7 : pop    EDX
+007A62E8 : push   EBP
+006D2B3A : mov    dword ptr [ESP],EAX
+0076A501 : sub    ESP,0x4
+0076A504 : mov    dword ptr [ESP],EDI
+0076A507 : mov    EDI,0x41177362
+0076A50C : push   EDX
+0076A50D : mov    dword ptr [ESP],ECX
+0076A510 : push   0x3DEF5D9E
+0076A515 : pop    ECX
+0076A516 : sub    ECX,0x72C31B03
+0076A51C : shr    ECX,0x6
+0076A525 : add    ECX,0x00C26780
+007B9AC6 : push   EBX
+007B9AC7 : push   ESI
+007A8BF1 : mov    ESI,0x530C620C
+007A8BF6 : mov    EBX,ESI
+007A8BF8 : pop    ESI
+007A8BF9 : sub    EBX,0x1F272DE0
+007E5739 : push   EAX
+007E573A : mov    EAX,0x0F6BCD950
+007E573F : sub    EBX,EAX
+007FD84B : pop    EAX
+007FD84C : add    ECX,EBX
+007FD84E : pop    EBX
+007FD84F : mov    EAX,ECX
+007FD851 : pop    ECX
+009141C4 : xor    EAX,EDI
+009141C6 : pop    EDI
+009141C7 : push   EBX
+0095301C : push   ECX
+0095301D : mov    dword ptr [ESP],EDI
+00959B2F : push   0x0E2840BF
+00959B34 : pop    EDI
+00959B35 : mov    EBX,0x0E2840BF
+00660099 : push   ECX
+0066009A : mov    ECX,0x76745787
+0066009F : and    ECX,0x08BF3031
+006600A5 : sub    ECX,0x26597C0D
+006600AB : dec    ECX
+006600AC : sub    ECX,0x0C52353E8
+00777649 : sub    EBX,ECX
+0077764B : pop    ECX
+0077764C : sub    EBX,0x1F7A6AA1
+00777652 : sub    EBX,EDI
+00777654 : add    EBX,0x1F7A6AA1
+0077765A : add    EBX,0x14B7400B
+00777660 : mov    EDI,dword ptr [ESP]
+00777663 : add    ESP,0x4
+00777669 : add    EBX,0x10D155FE
+0077766F : add    EBX,ECX
+00777671 : sub    EBX,0x10D155FE
+00777677 : add    dword ptr [EBX],EAX
+00777679 : mov    EBX,dword ptr [ESP]
+0077767C : add    ESP,0x4
+0077767F : mov    EAX,dword ptr [ESP]
+00777682 : add    ESP,0x4
+00777685 : jmp    EBX

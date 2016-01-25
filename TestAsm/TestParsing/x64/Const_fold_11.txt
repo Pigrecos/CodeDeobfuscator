@@ -1,0 +1,39 @@
+Bits 64
+80000000:  push r12
+
+80000002:  mov r12,0x7f77117b
+
+80000009:  push r13
+
+8000000B:  mov r13,0x7eef17c9
+
+80000012:  add r12,r13
+
+80000015:  mov r13,qword [rsp]
+
+80000019:  push r13
+
+8000001B:  mov r13,rsp
+
+8000001E:  add r13,8
+
+80000022:  add r13,8
+
+80000026:  xchg qword [rsp],r13
+
+8000002A:  pop rsp
+
+8000002B:  xor r12,0x1f6f02f7
+
+80000032:  push r13
+
+80000034:  mov r13,0xe1092bbb
+
+8000003E:  xor r12,r13
+
+80000041:  pop r13
+
+80000043:  sub rcx,r12
+
+80000046:  pop r12
+

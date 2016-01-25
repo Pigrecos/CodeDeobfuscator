@@ -1,0 +1,15 @@
+; Inc wor[rcx+rax*4+8]
+Bits 64
+
+00400000:  push r8w
+00400019:  push rdx
+00400024:  push rbx
+00400050:  mov rdx,0x9179b38
+00400063:  inc dx
+00400068:  sub dx,0x5b00
+0040006D:  sub dx,0x403a
+00400072:  mov r8w,dx
+0040007B:  pop rdx
+00400086:  sub word [rcx+rax*4+0x8],r8w
+0040008C:  pop r8w
+

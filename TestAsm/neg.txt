@@ -1,0 +1,86 @@
+80000000:  push edi
+
+80000001:  push ecx
+
+80000002:  push 0x1a13
+
+80000006:  mov cx,word ds:[esp]
+
+8000000A:  add esp,2
+
+8000000D:  push edi
+
+8000000E:  push eax
+
+8000000F:  mov ax,0x6398
+
+80000013:  mov di,0x1892
+
+80000017:  add di,ax
+
+8000001A:  pop eax
+
+8000001B:  inc di
+
+8000001D:  xor di,0x316e
+
+80000022:  sub cx,di
+
+80000025:  pop edi
+
+80000026:  shr cx,8
+
+8000002A:  and cx,0x58e8
+
+8000002F:  push esi
+
+80000030:  mov si,0x7ea2
+
+80000034:  add si,0x40b3
+
+80000039:  sub cx,si
+
+8000003C:  pop esi
+
+8000003D:  mov di,cx
+
+80000040:  pop ecx
+
+80000041:  and di,0x41d8
+
+80000046:  add di,0xbeb1
+
+8000004B:  sub ax,di
+
+8000004E:  push dword ds:[esp]
+
+80000051:  pop edi
+
+80000052:  add esp,4
+
+80000055:  push ax
+
+80000057:  push cx
+
+80000059:  pop ax
+
+8000005B:  pop cx
+
+8000005D:  xchg cx,ax
+
+8000005F:  not ax
+
+80000062:  xchg cx,ax
+
+80000064:  push 0x119f
+
+80000068:  mov word ds:[esp],ax
+
+8000006C:  push cx
+
+8000006E:  mov ax,word ds:[esp]
+
+80000072:  add esp,2
+
+80000078:  pop cx
+

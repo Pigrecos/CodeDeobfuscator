@@ -1,0 +1,514 @@
+PUSHAD                          ; 1104A95A
+PUSH ESI
+POP ESI
+PUSH EAX
+PUSH EDX
+PUSH EDI
+POP EDI
+POP EDX	
+POP EAX	
+POPAD
+PUSHFD
+PUSH 0X27A9D782
+MOV DWORD PTR [ESP], ESI
+MOV DWORD PTR [ESP], 0X1F7FA251
+PUSH 0XFE61546
+MOV DWORD PTR [ESP], EAX
+MOV EAX, 0XE0806240	
+ADD DWORD PTR [ESP + 4], EAX
+POP EAX	                                ;EAX=77453358
+PUSH EBX
+MOV EBX, ESP	
+ADD EBX, 4	
+SUB EBX, 4	
+XCHG DWORD PTR [ESP], EBX	
+POP ESP
+MOV DWORD PTR [ESP], ECX
+MOV ECX, ESP	
+ADD ECX, 4	
+SUB ECX, 4	
+XCHG DWORD PTR [ESP], ECX	                                ;ECX=00000000
+POP ESP
+MOV DWORD PTR [ESP], EDX
+MOV DWORD PTR [ESP], 0X1044A9E
+PUSH EDI
+MOV EDI, ESP	                                ;EDI=0018FF7C
+PUSH EDX
+PUSH ECX
+MOV ECX, 0X7FEF8421	                                ;ECX=7FEF8421
+MOV EDX, 0XF34FE5F0	                                ;EDX=F34FE5F0
+ADD EDX, ECX	                                ;EDX=733F6A11
+POP ECX	                                ;ECX=00000000
+SUB EDX, 0X733F6A0D	                                ;EDX=00000004
+ADD EDI, EDX	                                ;EDI=0018FF80
+POP EDX	                                ;EDX=11AC1600
+SUB EDI, 4	                                ;EDI=0018FF7C
+XCHG DWORD PTR [ESP], EDI	                                ;EDI=00000000
+POP ESP
+MOV DWORD PTR [ESP], EBP
+MOV DWORD PTR [ESP], EAX
+PUSH EDX
+MOV DWORD PTR [ESP], 0X773C26CA
+XCHG DWORD PTR [ESP], ECX	                                ;ECX=773C26CA
+NEG ECX	                                ;ECX=88C3D936
+XCHG DWORD PTR [ESP], ECX	                                ;ECX=00000000
+NOT DWORD PTR [ESP]
+SUB DWORD PTR [ESP], 0X76A18B61
+XOR DWORD PTR [ESP], 0X1593A5DD
+MOV DWORD PTR [ESP], EAX
+MOV DWORD PTR [ESP], EBX
+PUSH DWORD PTR [ESP + 0X10]
+PUSH DWORD PTR [ESP]
+POP EAX	                                ;EAX=00000246
+PUSH EAX
+PUSH ESP
+POP EAX	                                ;EAX=0018FF70
+ADD EAX, 4	                                ;EAX=0018FF74
+ADD EAX, 4	                                ;EAX=0018FF78
+XCHG DWORD PTR [ESP], EAX	                                ;EAX=00000246
+POP ESP
+PUSH DWORD PTR [ESP + 8]
+PUSH DWORD PTR [ESP]
+POP EBX	                                ;EBX=01044A9E
+PUSH EBP
+MOV DWORD PTR [ESP], EAX
+MOV EAX, ESP	                                ;EAX=0018FF70
+ADD EAX, 4	                                ;EAX=0018FF74
+ADD EAX, 4	                                ;EAX=0018FF78
+XCHG DWORD PTR [ESP], EAX	                                ;EAX=00000246
+POP ESP
+MOV DWORD PTR [ESP + 8], EAX
+MOV DWORD PTR [ESP + 0X10], EBX
+MOV EBX, DWORD PTR [ESP]	                                ;EBX=7EFDE000
+PUSH 0X49F1AFEB
+MOV DWORD PTR [ESP], EBP
+MOV EBP, ESP	                                ;EBP=0018FF74
+PUSH EAX
+MOV EAX, 0X7D5F1C5B	                                ;EAX=7D5F1C5B
+NOT EAX	                                ;EAX=82A0E3A4
+AND EAX, 0X3FBD536B	                                ;EAX=02A04320
+XOR EAX, 0X2A04324	                                ;EAX=00000004
+ADD EBP, EAX	                                ;EBP=0018FF78
+POP EAX	                                ;EAX=00000246
+ADD EBP, 4	                                ;EBP=0018FF7C
+PUSH EBP
+PUSH DWORD PTR [ESP + 4]
+POP EBP	                                ;EBP=0018FF94
+POP DWORD PTR [ESP]
+POP ESP
+PUSH DWORD PTR [ESP]
+PUSH DWORD PTR [ESP]
+POP EAX	                                ;EAX=77453358
+PUSH EBP
+MOV EBP, ESP	                                ;EBP=0018FF74
+ADD EBP, 4	                                ;EBP=0018FF78
+ADD EBP, 4	                                ;EBP=0018FF7C
+XCHG DWORD PTR [ESP], EBP	                                ;EBP=0018FF94
+POP ESP
+ADD ESP, 4
+PUSH EAX
+PUSH EDX
+PUSH EDX
+PUSHAD
+POPAD
+PUSH EAX
+PUSH EDX
+POP EDX
+POP EAX	                                ;EAX=ABA314C9
+POP EDX
+POP EDX	                                ;EDX=11AC1600
+POP EAX	                                ;EAX=77453358
+PUSH 0X2635
+MOV DWORD PTR [ESP], EBX
+PUSH ESP
+POP EBX	                                ;EBX=0018FF7C
+ADD EBX, 4	                                ;EBX=0018FF80
+SUB EBX, 4	                                ;EBX=0018FF7C
+XOR EBX, DWORD PTR [ESP]	                                ;EBX=7EE51F7C
+XOR DWORD PTR [ESP], EBX
+XOR EBX, DWORD PTR [ESP]	                                ;EBX=7EFDE000
+POP ESP
+MOV DWORD PTR [ESP], EAX
+PUSH ECX
+MOV ECX, ESP	                                ;ECX=0018FF78
+PUSH EAX
+MOV EAX, 4	                                ;EAX=00000004
+ADD ECX, EAX	                                ;ECX=0018FF7C
+POP EAX	                                ;EAX=77453358
+SUB ECX, 4	                                ;ECX=0018FF78
+XCHG DWORD PTR [ESP], ECX	                                ;ECX=00000000
+MOV ESP, DWORD PTR [ESP]
+MOV DWORD PTR [ESP], EBP
+MOV DWORD PTR [ESP], ECX
+PUSH ESI
+PUSH ESP
+MOV ESI, DWORD PTR [ESP]	                                ;ESI=0018FF74
+ADD ESP, 4
+ADD ESI, 4	                                ;ESI=0018FF78
+PUSH ECX
+MOV ECX, 4	                                ;ECX=00000004
+SUB ESI, ECX	                                ;ESI=0018FF74
+POP ECX	                                ;ECX=00000000
+XCHG DWORD PTR [ESP], ESI	                                ;ESI=00000000
+POP ESP
+MOV DWORD PTR [ESP], EDX
+PUSH 0X6290
+MOV DWORD PTR [ESP], EBX
+PUSH 0X3138
+MOV DWORD PTR [ESP], EBX
+PUSH 0XE91
+MOV DWORD PTR [ESP], EBP
+SUB ESP, 4
+MOV DWORD PTR [ESP], ECX
+MOV DWORD PTR [ESP], EDI
+MOV DWORD PTR [ESP], ESI
+SUB ESP, 4
+MOV DWORD PTR [ESP], EBP
+MOV EBP, ESP	                                ;EBP=0018FF60
+ADD EBP, 4	                                ;EBP=0018FF64
+SUB EBP, 4	                                ;EBP=0018FF60
+XOR EBP, DWORD PTR [ESP]	                                ;EBP=000000F4
+XOR DWORD PTR [ESP], EBP
+XOR EBP, DWORD PTR [ESP]	                                ;EBP=0018FF94
+MOV ESP, DWORD PTR [ESP]
+MOV DWORD PTR [ESP], EDI
+CALL 0X10BC787B
+PUSH DWORD PTR [ESP]
+POP ECX	                                ;ECX=10BC787B
+PUSH EAX
+PUSH ESP
+POP EAX	                                ;EAX=0018FF58
+PUSH ECX
+MOV ECX, 0X6503758B	                                ;ECX=6503758B
+AND ECX, 0X6A643663	                                ;ECX=60003403
+INC ECX	                                ;ECX=60003404
+XOR ECX, 0X60003400	                                ;ECX=00000004
+ADD EAX, ECX	                                ;EAX=0018FF5C
+POP ECX	                                ;ECX=10BC787B
+ADD EAX, 4	                                ;EAX=0018FF60
+XCHG DWORD PTR [ESP], EAX	                                ;EAX=77453358
+POP ESP
+PUSH EBX
+MOV EBX, 0X7BF56F3	                                ;EBX=07BF56F3
+PUSH 0X442A
+MOV DWORD PTR [ESP], ECX
+MOV ECX, 0X358E0A6B	                                ;ECX=358E0A6B
+XOR ECX, 0X39364099	                                ;ECX=0CB84AF2
+AND ECX, 0X497C74E3	                                ;ECX=083840E2
+NOT ECX	                                ;ECX=F7C7BF1D
+NEG ECX	                                ;ECX=083840E3
+AND ECX, 0X2CC53C1F	                                ;ECX=08000003
+XOR ECX, 0XFBF560D	                                ;ECX=07BF560E
+SUB EBX, 0X736020F4	                                ;EBX=945F35FF
+SUB EBX, ECX	                                ;EBX=8C9FDFF1
+ADD EBX, 0X736020F4	                                ;EBX=000000E5
+POP ECX	                                ;ECX=10BC787B
+SUB ECX, EBX	                                ;ECX=10BC7796
+MOV EBX, DWORD PTR [ESP]	                                ;EBX=7EFDE000
+ADD ESP, 4
+SUB ESP, 4
+MOV DWORD PTR [ESP], EDX
+MOV EDX, 0XBC7796	                                ;EDX=00BC7796
+SUB ECX, 0X4A80279E	                                ;ECX=C63C4FF8
+SUB ECX, EDX	                                ;ECX=C57FD862
+PUSH EDI
+PUSH EDX
+MOV EDX, 0X4A80279E	                                ;EDX=4A80279E
+MOV EDI, EDX	                                ;EDI=4A80279E
+POP EDX	                                ;EDX=00BC7796
+ADD ECX, EDI	                                ;ECX=10000000
+POP EDI	                                ;EDI=00000000
+POP EDX	                                ;EDX=11AC1600
+PUSH 0X6862
+MOV DWORD PTR [ESP], EAX
+MOV EAX, 0X56B0192B	                                ;EAX=56B0192B
+MOV EBP, 0XA9F89749	                                ;EBP=A9F89749
+ADD EBP, 0X30E653CB	                                ;EBP=DADEEB14
+ADD EBP, EAX	                                ;EBP=318F043F
+SUB EBP, 0X30E653CB	                                ;EBP=00A8B074
+PUSH DWORD PTR [ESP]
+POP EAX	                                ;EAX=77453358
+ADD ESP, 4
+PUSH EAX
+MOV EAX, 0X2AB11148	                                ;EAX=2AB11148
+SUB EBP, EAX	                                ;EBP=D5F79F2C
+POP EAX	                                ;EAX=77453358
+SUB EBP, 0X75E96D40	                                ;EBP=600E31EC
+ADD EBP, ECX	                                ;EBP=700E31EC
+PUSH EBX
+MOV EBX, 0X75E96D40	                                ;EBX=75E96D40
+ADD EBP, EBX	                                ;EBP=E5F79F2C
+MOV EBX, DWORD PTR [ESP]	                                ;EBX=7EFDE000
+ADD ESP, 4
+ADD EBP, 0X2AB11148	                                ;EBP=10A8B074
+PUSH EBP
+MOV EBP, ESP	                                ;EBP=0018FF5C
+PUSH ECX
+MOV ECX, 0X65516657	                                ;ECX=65516657
+PUSH EBX
+MOV EBX, 0X527029A3	                                ;EBX=527029A3
+XOR ECX, EBX	                                ;ECX=37214FF4
+POP EBX	                                ;EBX=7EFDE000
+SUB ECX, 0X37214FF0	                                ;ECX=00000004
+ADD EBP, ECX	                                ;EBP=0018FF60
+POP ECX	                                ;ECX=10000000
+SUB EBP, 4	                                ;EBP=0018FF5C
+XCHG DWORD PTR [ESP], EBP	                                ;EBP=10A8B074
+POP ESP
+MOV DWORD PTR [ESP], EAX
+MOV DWORD PTR [ESP], ECX
+PUSH EDI
+MOV EDI, 0X7CF36CCF	                                ;EDI=7CF36CCF
+PUSH EBX
+MOV EBX, EDI	                                ;EBX=7CF36CCF
+MOV ECX, EBX	                                ;ECX=7CF36CCF
+POP EBX	                                ;EBX=7EFDE000
+POP EDI	                                ;EDI=00000000
+INC ECX	                                ;ECX=7CF36CD0
+SHR ECX, 2	                                ;ECX=1F3CDB34
+NEG ECX	                                ;ECX=E0C324CC
+AND ECX, 0X59532A53	                                ;ECX=40432040
+SUB ECX, 0X4AAB63EC	                                ;ECX=F597BC54
+PUSH EDX
+MOV EDX, 0XA6843AD	                                ;EDX=0A6843AD
+SUB ECX, 0X4D7142E3	                                ;ECX=A8267971
+ADD ECX, EDX	                                ;ECX=B28EBD1E
+ADD ECX, 0X4D7142E3	                                ;ECX=00000001
+POP EDX	                                ;EDX=11AC1600
+PUSH 0X498E
+MOV DWORD PTR [ESP], EAX
+PUSH 0X62
+POP EAX	                                ;EAX=00000062
+PUSH ECX
+MOV ECX, EAX	                                ;ECX=00000062
+PUSH EAX
+MOV EAX, ECX
+MOV EBX, EAX	                                ;EBX=00000062
+POP EAX
+POP ECX	                                ;ECX=00000001
+POP EAX	                                ;EAX=77453358
+XOR EAX, EAX	                                ;EAX=00000000
+LOCK CMPXCHG DWORD PTR [EBP + EBX], ECX
+JE 0X10BC79E2
+PUSH DWORD PTR [ESP]
+PUSH DWORD PTR [ESP]
+POP ECX	                                ;ECX=10000000
+ADD ESP, 4
+PUSH EAX
+MOV EAX, ESP	                                ;EAX=0018FF58
+ADD EAX, 4	                                ;EAX=0018FF5C
+ADD EAX, 4	                                ;EAX=0018FF60
+XCHG DWORD PTR [ESP], EAX	                                ;EAX=00000000
+POP ESP
+PUSH EBP
+MOV EBP, 0X89	                                ;EBP=00000089
+PUSH 0X2160
+MOV DWORD PTR [ESP], ESI
+MOV ESI, EBP	                                ;ESI=00000089
+MOV EBX, ESI	                                ;EBX=00000089
+POP ESI	                                ;ESI=00000000
+PUSH DWORD PTR [ESP]
+POP EBP	                                ;EBP=10A8B074
+ADD ESP, 4
+SUB ESP, 4
+MOV DWORD PTR [ESP], ECX
+PUSH ECX
+MOV ECX, 0XC434E17	                                ;ECX=0C434E17
+SUB DWORD PTR [ESP + 4], 0X7CEB6192
+ADD DWORD PTR [ESP + 4], ECX
+PUSH EDX
+MOV EDX, 0X7CEB6192	                                ;EDX=7CEB6192
+ADD DWORD PTR [ESP + 8], EDX
+POP EDX	                                ;EDX=11AC1600
+POP ECX	                                ;ECX=10000000
+POP DWORD PTR [EBP + EBX]
+SUB DWORD PTR [EBP + EBX], 0XC434E17
+PUSH EAX
+MOV EAX, 0X72030E94	                                ;EAX=72030E94
+PUSH 0X6441
+MOV DWORD PTR [ESP], ESI
+MOV ESI, 0
+SUB ESI, EAX	                                ;ESI=8DFCF16C
+MOV EAX, ESI	                                ;EAX=8DFCF16C
+MOV ESI, DWORD PTR [ESP]	                                ;ESI=00000000
+ADD ESP, 4
+XOR EAX, 0X8DFCF155	                                ;EAX=00000039
+PUSH EAX
+POP EBX	                                ;EBX=00000039
+POP EAX	                                ;EAX=00000000
+PUSH EBP
+MOV DWORD PTR [ESP], EDI
+MOV EDI, 0X10000000	                                ;EDI=10000000
+PUSH EDX
+MOV EDX, EBX	                                ;EDX=00000039
+PUSH EDI
+MOV EDI, 0X78E73422	                                ;EDI=78E73422
+AND EDI, 0X5FD274CB	                                ;EDI=58C23402
+ADD EDI, 0XA73DCBFE	                                ;EDI=00000000
+SUB EDX, 0X601E03D2	                                ;EDX=9FE1FC67
+ADD EDX, EDI
+ADD EDX, 0X601E03D2	                                ;EDX=00000039
+POP EDI	                                ;EDI=10000000
+ADD EDX, EBP	                                ;EDX=10A8B0AD
+MOV DWORD PTR [EDX], EDI
+POP EDX	                                ;EDX=11AC1600
+POP EDI	                                ;EDI=00000000
+PUSH EAX
+MOV EAX, 0X3632108C	                                ;EAX=3632108C
+PUSH EBP
+MOV EBP, 0X3632103B	                                ;EBP=3632103B
+SUB EAX, 0X31CE2AB5	                                ;EAX=0463E5D7
+SUB EAX, EBP	                                ;EAX=CE31D59C
+PUSH ESI
+MOV ESI, 0X1C954400	                                ;ESI=1C954400
+SHL ESI, 5	                                ;ESI=92A88000
+XOR ESI, 0X163C27AA	                                ;ESI=8494A7AA
+SUB ESI, 0X6F353ED2	                                ;ESI=155F68D8
+SUB ESI, 0XE3913E23	                                ;ESI=31CE2AB5
+ADD EAX, ESI	                                ;EAX=00000051
+POP ESI	                                ;ESI=00000000
+POP EBP	                                ;EBP=10A8B074
+MOV EBX, EAX	                                ;EBX=00000051
+MOV EAX, DWORD PTR [ESP]	                                ;EAX=00000000
+ADD ESP, 4
+PUSH DWORD PTR [ESP + 0X28]
+PUSH DWORD PTR [ESP]
+MOV EAX, DWORD PTR [ESP]	                                ;EAX=01044A9E
+PUSH ESI
+MOV ESI, ESP	                                ;ESI=0018FF54
+ADD ESI, 4	                                ;ESI=0018FF58
+ADD ESI, 4	                                ;ESI=0018FF5C
+XCHG DWORD PTR [ESP], ESI	                                ;ESI=00000000
+POP ESP
+ADD ESP, 4
+SUB EAX, 0X2FF87E71	                                ;EAX=D10BCC2D
+ADD EAX, ECX	                                ;EAX=E10BCC2D
+PUSH EBX
+MOV EBX, 0X2D46943	                                ;EBX=02D46943
+XOR EBX, 0X194F74D6	                                ;EBX=1B9B1D95
+SUB EBX, 0X1DB56866	                                ;EBX=FDE5B52F
+PUSH EAX
+PUSH EBP
+MOV EBP, 0X26DB7215	                                ;EBP=26DB7215
+AND EBP, 0X16E145D2	                                ;EBP=06C14010
+ADD EBP, 0X78521A0C	                                ;EBP=7F135A1C
+MOV EAX, EBP	                                ;EAX=7F135A1C
+POP EBP	                                ;EBP=10A8B074
+SHL EAX, 8	                                ;EAX=135A1C00
+PUSH ESI
+MOV ESI, 0X2148D542	                                ;ESI=2148D542
+XOR EAX, ESI	                                ;EAX=3212C942
+POP ESI	                                ;ESI=00000000
+ADD EBX, EAX	                                ;EBX=2FF87E71
+POP EAX	                                ;EAX=E10BCC2D
+ADD EAX, EBX	                                ;EAX=11044A9E
+POP EBX	                                ;EBX=00000051
+PUSH 0X7CFF
+MOV DWORD PTR [ESP], ECX
+PUSH EBP
+MOV EBP, EBX	                                ;EBP=00000051
+PUSH EBP
+SUB DWORD PTR [ESP], 0X16FA6917
+POP ECX	                                ;ECX=E905973A
+ADD ECX, 0X16FA6917	                                ;ECX=00000051
+MOV EBP, DWORD PTR [ESP]	                                ;EBP=10A8B074
+ADD ESP, 4
+ADD ECX, 0
+ADD ECX, EBP	                                ;ECX=10A8B0C5
+MOV DWORD PTR [ECX], EAX
+POP ECX	                                ;ECX=10000000
+PUSH ECX
+MOV ECX, 0X56E749C5	                                ;ECX=56E749C5
+PUSH ESI
+MOV ESI, 0X45F4DB7	                                ;ESI=045F4DB7
+ADD ESI, 0X275B2DF8	                                ;ESI=2BBA7BAF
+AND ECX, ESI	                                ;ECX=02A24985
+POP ESI	                                ;ESI=00000000
+SHR ECX, 4	                                ;ECX=002A2498
+OR ECX, 0XC037E16	                                ;ECX=0C2B7E9E
+XOR ECX, 0XC971D4C	                                ;ECX=00BC63D2
+PUSH EDX
+MOV EDX, ECX	                                ;EDX=00BC63D2
+MOV EAX, EDX	                                ;EAX=00BC63D2
+MOV EDX, DWORD PTR [ESP]	                                ;EDX=11AC1600
+ADD ESP, 4
+MOV ECX, DWORD PTR [ESP]	                                ;ECX=10000000
+ADD ESP, 4
+PUSH ECX
+MOV ECX, 0X36F27970	                                ;ECX=36F27970
+ADD EAX, ECX	                                ;EAX=37AEDD42
+POP ECX	                                ;ECX=10000000
+ADD EAX, 0X784A0713	                                ;EAX=AFF8E455
+ADD EAX, ECX	                                ;EAX=BFF8E455
+PUSH ESI
+PUSH EBP
+MOV EBP, 0X784A0713	                                ;EBP=784A0713
+MOV ESI, EBP	                                ;ESI=784A0713
+POP EBP	                                ;EBP=10A8B074
+SUB EAX, ESI	                                ;EAX=47AEDD42
+POP ESI	                                ;ESI=00000000
+SUB EAX, 0X36F27970	                                ;EAX=10BC63D2
+MOV EBX, 0X1A9B1B07	                                ;EBX=1A9B1B07
+PUSH EBP
+MOV EBP, 0XFFFFFFFF	                                ;EBP=FFFFFFFF
+ADD EBX, EBP	                                ;EBX=1A9B1B06
+POP EBP	                                ;EBP=10A8B074
+PUSH EDX
+MOV EDX, 0X53FD3F9E	                                ;EDX=53FD3F9E
+AND EBX, EDX	                                ;EBX=12991B06
+MOV EDX, DWORD PTR [ESP]	                                ;EDX=11AC1600
+ADD ESP, 4
+SHR EBX, 7	                                ;EBX=00253236
+SUB EBX, 0X253189	                                ;EBX=000000AD
+PUSH DWORD PTR [EBP + EBX]
+MOV EDX, DWORD PTR [ESP]	                                ;EDX=10BC63D2
+SUB ESP, 4
+MOV DWORD PTR [ESP], EAX
+MOV EAX, ESP	                                ;EAX=0018FF58
+ADD EAX, 4	                                ;EAX=0018FF5C
+ADD EAX, 4	                                ;EAX=0018FF60
+XOR EAX, DWORD PTR [ESP]	                                ;EAX=10A49CB2
+XOR DWORD PTR [ESP], EAX
+XOR EAX, DWORD PTR [ESP]	                                ;EAX=10BC63D2
+POP ESP
+CMP EDX, EAX
+JE 0X10BC7D58
+PUSH DWORD PTR [ESP + 0X24]
+MOV EBX, DWORD PTR [ESP]	                                ;EBX=00000491
+PUSH EDX
+MOV DWORD PTR [ESP], EAX
+MOV EAX, ESP	                                ;EAX=0018FF58
+ADD EAX, 4	                                ;EAX=0018FF5C
+PUSH EBP
+MOV EBP, 0X71515F96	                                ;EBP=71515F96
+OR EBP, 0X1861657E	                                ;EBP=79717FFE
+SHL EBP, 6	                                ;EBP=5C5FFF80
+SUB EBP, 0X5C5FFF7C	                                ;EBP=00000004
+ADD EAX, EBP	                                ;EAX=0018FF60
+POP EBP	                                ;EBP=10A8B074
+XCHG DWORD PTR [ESP], EAX	                                ;EAX=10BC63D2
+POP ESP
+SHL EBX, 2	                                ;EBX=00001244
+ADD EAX, 0X2F383120	                                ;EAX=3FF494F2
+PUSH ECX
+MOV ECX, 0X98F7D2B	                                ;ECX=098F7D2B
+ADD ECX, 0X16DDC1E1	                                ;ECX=206D3F0C
+SUB EAX, 0X74834258	                                ;EAX=CB71529A
+SUB EAX, ECX	                                ;EAX=AB04138E
+ADD EAX, 0X74834258	                                ;EAX=1F8755E6
+POP ECX	                                ;ECX=10000000
+ADD EAX, EBX	                                ;EAX=1F87682A
+ADD EAX, 0X206D3F0C	                                ;EAX=3FF4A736
+PUSH EDI
+MOV EDI, 0X28747546	                                ;EDI=28747546
+AND EDI, 0X194C64EA	                                ;EDI=08446442
+SHL EDI, 6	                                ;EDI=11191080
+ADD EDI, 0X52C25A14	                                ;EDI=63DB6A94
+OR EDI, 0X370F589C	                                ;EDI=77DF7A9C
+SHR EDI, 1	                                ;EDI=3BEFBD4E
+ADD EDI, 0XF34873D2	                                ;EDI=2F383120
+SUB EAX, EDI	                                ;EAX=10BC7616
+POP EDI	                                ;EDI=00000000
+JMP DWORD PTR [EAX]
+    
+

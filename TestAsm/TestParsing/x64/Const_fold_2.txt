@@ -1,0 +1,20 @@
+; mov byte[rcx+rax*4+8],0x56
+Bits 64
+80000000:  push 0x48bc6fff
+
+80000005:  push 0x1b4783c2
+
+8000000A:  mov qword [rsp],r12
+
+8000000E:  pop qword [rsp]
+
+80000011:  push 0xaa
+
+80000016:  pop r12
+
+80000018:  add r12b,0xac
+
+8000001C:  mov byte [rcx+rax*4+0x8],r12b
+
+80000021:  pop r12
+

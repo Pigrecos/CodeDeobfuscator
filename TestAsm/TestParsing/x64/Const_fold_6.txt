@@ -1,0 +1,15 @@
+Bits 64
+80000000:  push rbx
+
+80000001:  mov rbx,rbx
+
+80000004:  mov qword [rsp],0x47ac0d61
+
+8000000C:  push rdx
+
+8000000D:  mov rdx,rcx
+
+80000010:  mov qword [rsp+0x8],rdx
+
+80000015:  pop rdx
+

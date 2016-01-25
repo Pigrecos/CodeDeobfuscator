@@ -1,0 +1,15 @@
+Bits 32
+
+00400487:  push   ESI
+00400488:  add    dword ptr  ds:[ESP],0x7FFF2D31
+00400490:  pop    EDI
+00400491:  push   ESI
+00400492:  mov    ESI,0x737FBD55
+004004A0:  shr    ESI,0x3
+004004A3:  or     ESI,0x7BBC27F0
+004004A9:  dec    ESI
+004004AA:  xor    ESI,0x0DAC8
+004004B0:  sub    EDI,ESI
+004004B2:  pop    ESI
+004004B3:  pop    ESI
+004004BD:  pop    EDX

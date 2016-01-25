@@ -1,0 +1,1721 @@
+PUSHFD
+SUB ESP, 4
+MOV DWORD PTR [ESP], EDI
+PUSH EBP
+PUSH ECX
+MOV ECX, 0X477531FA
+SHR ECX, 6
+SHL ECX, 6
+DEC ECX
+AND ECX, 0X5F7EE9F2
+XOR ECX, 0X3099A808
+MOV EBP, ECX
+POP ECX                                                                   ; kernel32.752C336A
+MOV DWORD PTR [ESP + 4], EBP
+POP EBP                                                                   ; kernel32.752C336A
+ADD DWORD PTR [ESP], 0X8812770B
+PUSH EDX                                                                  ; text.<ModuleEntryPoint>
+MOV DWORD PTR [ESP], 0X7DF9C8D7
+OR DWORD PTR [ESP], 0X7BD7F968
+SHR DWORD PTR [ESP], 4
+XOR DWORD PTR [ESP], 0X4FECF8D0
+PUSH EDI
+MOV EDI, 0X3AAF9E3E
+ADD DWORD PTR [ESP + 4], EDI
+MOV EDI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+SHR DWORD PTR [ESP], 5
+SUB DWORD PTR [ESP], 0XC56DE02E
+INC DWORD PTR [ESP]                                                       ; kernel32.752C336A
+ADD DWORD PTR [ESP], 0XC22DAA2E
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+MOV DWORD PTR [ESP], 0X7F7D490D
+NOT DWORD PTR [ESP]                                                       ; kernel32.752C336A
+INC DWORD PTR [ESP]                                                       ; kernel32.752C336A
+AND DWORD PTR [ESP], 0X45F1982B
+SHL DWORD PTR [ESP], 5
+NOT DWORD PTR [ESP]                                                       ; kernel32.752C336A
+OR DWORD PTR [ESP], 0X7F735419
+ADD DWORD PTR [ESP], 0XEF9A497
+MOV DWORD PTR [ESP], ECX
+MOV DWORD PTR [ESP], EAX                                                  ; kernel32.BaseThreadInitThunk
+PUSH EBX
+MOV DWORD PTR [ESP], 0X1BFB64BD
+XOR DWORD PTR [ESP], 0X4460618D
+PUSH EDI
+MOV EDI, 0X2ECFB496
+AND DWORD PTR [ESP + 4], EDI
+POP EDI                                                                   ; kernel32.752C336A
+ADD DWORD PTR [ESP], 0X3D52925B
+MOV DWORD PTR [ESP], EBX
+PUSH DWORD PTR [ESP + 0X10]
+MOV EAX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+PUSH ECX
+MOV ECX, ESP
+ADD ECX, 4
+ADD ECX, 4
+XCHG DWORD PTR [ESP], ECX
+POP ESP                                                                   ; kernel32.752C336A
+PUSH DWORD PTR [ESP + 8]
+MOV EBX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+PUSH EBP
+MOV EBP, ESP
+ADD EBP, 4
+ADD EBP, 4
+XCHG DWORD PTR [ESP], EBP
+MOV ESP, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+MOV DWORD PTR [ESP + 8], EAX                                              ; kernel32.BaseThreadInitThunk
+MOV DWORD PTR [ESP + 0X10], EBX
+PUSH DWORD PTR [ESP]                                                      ; kernel32.752C336A
+MOV EBX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+PUSH ECX
+MOV ECX, ESP
+PUSH EDX                                                                  ; text.<ModuleEntryPoint>
+MOV EDX, 0X3F1725D3
+SUB EDX, 0X3F1725CF
+ADD ECX, EDX                                                              ; text.<ModuleEntryPoint>
+POP EDX                                                                   ; kernel32.752C336A
+ADD ECX, 4
+XCHG DWORD PTR [ESP], ECX
+POP ESP                                                                   ; kernel32.752C336A
+ADD ESP, 4
+MOV EAX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+PUSH EBP
+MOV EBP, ESP
+PUSH 0X8B54E30
+MOV DWORD PTR [ESP], ESI
+MOV ESI, 0X7BAF5940
+XOR ESI, 0X31F82E22
+NEG ESI
+DEC ESI
+DEC ESI
+XOR ESI, 0XB5A88898
+ADD EBP, ESI
+POP ESI                                                                   ; kernel32.752C336A
+ADD EBP, 4
+XCHG DWORD PTR [ESP], EBP
+MOV ESP, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+PUSH 0X5C8
+MOV DWORD PTR [ESP], EAX                                                  ; kernel32.BaseThreadInitThunk
+PUSH 0X37B3
+MOV DWORD PTR [ESP], EBX
+MOV DWORD PTR [ESP], ECX
+PUSH 0X352F
+MOV DWORD PTR [ESP], EDX                                                  ; text.<ModuleEntryPoint>
+MOV EDX, ESP
+ADD EDX, 4
+SUB EDX, 4
+XCHG DWORD PTR [ESP], EDX                                                 ; text.<ModuleEntryPoint>
+MOV ESP, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+MOV DWORD PTR [ESP], ECX
+MOV ECX, ESP
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+MOV EAX, 0X552C2DF4
+XOR EAX, 0X552C2DF0
+ADD ECX, EAX                                                              ; kernel32.BaseThreadInitThunk
+MOV EAX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+PUSH EDI
+PUSH EDX                                                                  ; text.<ModuleEntryPoint>
+PUSH ESI
+PUSH 0XD84
+MOV DWORD PTR [ESP], EDI
+MOV EDI, 0X116A6BE8
+PUSH ECX
+MOV ECX, 0X57ED301D
+SUB ECX, 0X1C86405F
+ADD ECX, 1
+NOT ECX
+ADD ECX, 0X4CD15BAC
+MOV ESI, ECX
+POP ECX                                                                   ; kernel32.752C336A
+SUB ESI, EDI
+POP EDI                                                                   ; kernel32.752C336A
+MOV EDX, ESI
+POP ESI                                                                   ; kernel32.752C336A
+MOV EDI, EDX                                                              ; text.<ModuleEntryPoint>
+POP EDX                                                                   ; kernel32.752C336A
+SUB ECX, EDI
+MOV EDI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+PUSH ESI
+MOV ESI, ESP
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+MOV EAX, 4
+ADD ESI, EAX                                                              ; kernel32.BaseThreadInitThunk
+POP EAX                                                                   ; kernel32.752C336A
+ADD ESI, 4
+XCHG DWORD PTR [ESP], ESI
+POP ESP                                                                   ; kernel32.752C336A
+PUSH ECX
+MOV ECX, DWORD PTR [ESP + 4]
+POP DWORD PTR [ESP]                                                       ; kernel32.752C336A
+MOV ESP, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+MOV DWORD PTR [ESP], EDX                                                  ; text.<ModuleEntryPoint>
+PUSH 0X292B
+MOV DWORD PTR [ESP], EBX
+PUSH 0X4CE4
+MOV DWORD PTR [ESP], EBX
+PUSH ESP
+PUSH DWORD PTR [ESP]                                                      ; kernel32.752C336A
+MOV EBX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+ADD ESP, 4
+PUSH EDI
+PUSH ESI
+MOV ESI, 0X24017CD9
+PUSH 0X77A5
+MOV DWORD PTR [ESP], ECX
+MOV ECX, ESI
+MOV EDI, ECX
+POP ECX                                                                   ; kernel32.752C336A
+POP ESI                                                                   ; kernel32.752C336A
+PUSH EBP
+MOV DWORD PTR [ESP], EDX                                                  ; text.<ModuleEntryPoint>
+PUSH ECX
+PUSH EDI
+MOV EDI, 0XDBFE832B
+MOV ECX, EDI
+POP EDI                                                                   ; kernel32.752C336A
+MOV EDX, ECX
+MOV ECX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+ADD EDI, EDX                                                              ; text.<ModuleEntryPoint>
+POP EDX                                                                   ; kernel32.752C336A
+SUB EBX, 0X36E44EC5
+ADD EBX, EDI
+ADD EBX, 0X36E44EC5
+POP EDI                                                                   ; kernel32.752C336A
+PUSH EBP
+MOV EBP, 4
+SUB EBX, EBP
+POP EBP                                                                   ; kernel32.752C336A
+XOR EBX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+XOR DWORD PTR [ESP], EBX
+XOR EBX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+POP ESP                                                                   ; kernel32.752C336A
+MOV DWORD PTR [ESP], EBX
+PUSH 0X3152
+MOV DWORD PTR [ESP], EDX                                                  ; text.<ModuleEntryPoint>
+MOV DWORD PTR [ESP], EBP
+PUSH 0X183A
+MOV DWORD PTR [ESP], ESI
+PUSH 0X5A23
+MOV DWORD PTR [ESP], EDI
+CALL 0X1161765
+MOV ECX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+SUB ESP, 4
+MOV DWORD PTR [ESP], ESI
+MOV DWORD PTR [ESP], EBP
+MOV EBP, ESP
+SUB ESP, 4
+MOV DWORD PTR [ESP], ESI
+MOV ESI, 0X612B215B
+ADD ESI, 0X9ED4DEA9
+SUB EBP, 0X3D0A3F4B
+ADD EBP, ESI
+ADD EBP, 0X3D0A3F4B
+MOV ESI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+PUSH EBX
+MOV EBX, ESP
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+MOV EAX, 4
+ADD EBX, 0X70BA296A
+ADD EBX, EAX                                                              ; kernel32.BaseThreadInitThunk
+PUSH ESI
+MOV ESI, 0X70BA296A
+SUB EBX, ESI
+POP ESI                                                                   ; kernel32.752C336A
+POP EAX                                                                   ; kernel32.752C336A
+PUSH EBP
+PUSH EDX                                                                  ; text.<ModuleEntryPoint>
+MOV EDX, 0X737A59D6
+XOR EDX, 0X737A59D2
+MOV EBP, EDX                                                              ; text.<ModuleEntryPoint>
+POP EDX                                                                   ; kernel32.752C336A
+ADD EBX, EBP
+POP EBP                                                                   ; kernel32.752C336A
+XCHG DWORD PTR [ESP], EBX
+POP ESP                                                                   ; kernel32.752C336A
+PUSH EBX
+MOV DWORD PTR [ESP], EAX                                                  ; kernel32.BaseThreadInitThunk
+MOV EAX, 4
+ADD EBP, EAX                                                              ; kernel32.BaseThreadInitThunk
+POP EAX                                                                   ; kernel32.752C336A
+SUB ESP, 4
+MOV DWORD PTR [ESP], EBP
+PUSH DWORD PTR [ESP + 4]
+MOV EBP, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+POP DWORD PTR [ESP]                                                       ; kernel32.752C336A
+MOV ESP, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+SUB ESP, 4
+MOV DWORD PTR [ESP], EDX                                                  ; text.<ModuleEntryPoint>
+MOV EDX, 0X52D6275E
+PUSH ESI
+MOV ESI, 0X1E204228
+ADD EDX, 0X705201DD
+ADD EDX, ESI
+PUSH ESI
+MOV ESI, 0X47C3345B
+ADD ESI, 0X288ECD82
+SUB EDX, ESI
+POP ESI                                                                   ; kernel32.752C336A
+POP ESI                                                                   ; kernel32.752C336A
+INC EDX                                                                   ; text.<ModuleEntryPoint>
+ADD EDX, 0X2AFB1391
+PUSH EDI
+PUSH 0X79F2
+MOV DWORD PTR [ESP], EDX                                                  ; text.<ModuleEntryPoint>
+PUSH ECX
+MOV ECX, 0X1E432CBB
+NEG ECX
+SHR ECX, 2
+SHL ECX, 4
+OR ECX, 0X5CB7619B
+ADD ECX, 0X2F41B035
+MOV EDX, ECX
+MOV ECX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+PUSH EBX
+MOV EBX, ESP
+ADD EBX, 4
+ADD EBX, 4
+XCHG DWORD PTR [ESP], EBX
+MOV ESP, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+PUSH EBX
+MOV EBX, EDX                                                              ; text.<ModuleEntryPoint>
+MOV EDI, EBX
+POP EBX                                                                   ; kernel32.752C336A
+MOV EDX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+XOR EDI, 0X1C56136C
+DEC EDI
+NOT EDI
+OR EDI, 0X66E41D6C
+PUSH EBP
+MOV EBP, 0
+SUB EBP, EDI
+XCHG EDI, EBP
+POP EBP                                                                   ; kernel32.752C336A
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+MOV EAX, 0X5B955D5C
+ADD EAX, 0X7D3C2FA4
+AND EAX, 0X32437282
+ADD EAX, 1
+INC EAX                                                                   ; kernel32.BaseThreadInitThunk
+SUB EAX, 0X19B711BD
+SUB EDI, EAX                                                              ; kernel32.BaseThreadInitThunk
+POP EAX                                                                   ; kernel32.752C336A
+XOR EDX, EDI
+POP EDI                                                                   ; kernel32.752C336A
+NOT EDX                                                                   ; text.<ModuleEntryPoint>
+XOR EDX, 0X7D8F97FB
+SUB ECX, EDX                                                              ; text.<ModuleEntryPoint>
+MOV EDX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+PUSH EDI
+MOV EDI, 0XBC07A6                                                         ; ASCII "stem@Rtti@TMethodImplementation@TParamLoc%@Notify$qqrrx43System@Rtti@TMethodImplementation@TParamLoc51System@Generics@Collections@TCollectionNotification"
+PUSH EBP
+MOV EBP, 0X64B11FC1
+ADD ECX, EBP
+POP EBP                                                                   ; kernel32.752C336A
+ADD ECX, 0X4A5649B
+SUB ECX, EDI
+SUB ECX, 0X4A5649B
+SUB ECX, 0X64B11FC1
+MOV EDI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+PUSH 0X15DD
+MOV DWORD PTR [ESP], ESI
+MOV DWORD PTR [ESP], EDI
+MOV EDI, ESP
+ADD EDI, 4
+PUSH 0XDF4
+MOV DWORD PTR [ESP], EBP
+MOV EBP, 0X4CCE5816
+AND EBP, 0X2AE453F8
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+MOV EAX, 0X2A853CC5
+OR EBP, EAX                                                               ; kernel32.BaseThreadInitThunk
+POP EAX                                                                   ; kernel32.752C336A
+XOR EBP, EDX                                                              ; text.<ModuleEntryPoint>
+XOR EDX, EBP
+XOR EBP, EDX                                                              ; text.<ModuleEntryPoint>
+PUSH EDX                                                                  ; text.<ModuleEntryPoint>
+NOT DWORD PTR [ESP]                                                       ; kernel32.752C336A
+POP EDX                                                                   ; kernel32.752C336A
+XCHG EBP, EDX                                                             ; text.<ModuleEntryPoint>
+PUSH EDX                                                                  ; text.<ModuleEntryPoint>
+MOV EDX, 0X6B0266A3
+OR EBP, EDX                                                               ; text.<ModuleEntryPoint>
+POP EDX                                                                   ; kernel32.752C336A
+PUSH EDX                                                                  ; text.<ModuleEntryPoint>
+MOV EDX, 0X5FFA0541
+ADD EDX, 0X48573B66
+XOR EDX, 0X576BA708
+XOR EBP, EDX                                                              ; text.<ModuleEntryPoint>
+POP EDX                                                                   ; kernel32.752C336A
+ADD EDI, 0X8FF0771
+ADD EDI, EBP
+SUB EDI, 0X8FF0771
+PUSH EDX                                                                  ; text.<ModuleEntryPoint>
+MOV EDX, ESP
+ADD EDX, 4
+ADD EDX, 4
+XCHG DWORD PTR [ESP], EDX                                                 ; text.<ModuleEntryPoint>
+POP ESP                                                                   ; kernel32.752C336A
+XCHG DWORD PTR [ESP], EDI
+POP ESP                                                                   ; kernel32.752C336A
+PUSH 0X5893
+MOV DWORD PTR [ESP], EDI
+MOV EDI, 0X4943BAA
+PUSH EDI
+MOV DWORD PTR [ESP], EDX                                                  ; text.<ModuleEntryPoint>
+MOV EDX, 0X53450FA
+PUSH 0X3F12
+MOV DWORD PTR [ESP], EDX                                                  ; text.<ModuleEntryPoint>
+SUB DWORD PTR [ESP], 0X25402215
+MOV EBP, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+PUSH EBX
+MOV EBX, ESP
+ADD EBX, 4
+ADD EBX, 4
+XCHG DWORD PTR [ESP], EBX
+MOV ESP, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD EBP, 0X25402215
+MOV EDX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+MOV EAX, ESP
+ADD EAX, 4
+ADD EAX, 4
+XOR EAX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+XOR DWORD PTR [ESP], EAX                                                  ; kernel32.BaseThreadInitThunk
+XOR EAX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+POP ESP                                                                   ; kernel32.752C336A
+ADD EBP, 0XAA9333A
+SUB EBP, EDI
+SUB EBP, 0XAA9333A
+MOV EDI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+PUSH ESI
+MOV ESI, ESP
+ADD ESI, 4
+SUB ESI, 4
+XCHG DWORD PTR [ESP], ESI
+POP ESP                                                                   ; kernel32.752C336A
+MOV DWORD PTR [ESP], EDI
+MOV EDI, ESP
+ADD EDI, 4
+ADD EDI, 4
+PUSH EDI
+MOV EDI, DWORD PTR [ESP + 4]
+POP DWORD PTR [ESP]                                                       ; kernel32.752C336A
+POP ESP                                                                   ; kernel32.752C336A
+PUSH EBX
+PUSH ESI
+MOV ESI, 0X72726132
+PUSH ESI
+XOR DWORD PTR [ESP], 0X30C6385A
+MOV EBX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+XOR EBX, 0X30C6385A
+MOV ESI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+PUSH EDI
+PUSH EBX
+MOV EBX, 0X7D8B3190
+MOV EDI, EBX
+MOV EBX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+OR EDI, 0X1ED26810
+SUB EDI, 0X65E14407
+SUB EDI, 0XD6D3868
+SHL EDI, 4
+AND EDI, 0X14C90209
+XOR EDI, 0X7C615ED
+SUB EBX, EDI
+MOV EDI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+PUSH EDX                                                                  ; text.<ModuleEntryPoint>
+PUSH ESP
+MOV EDX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+ADD EDX, 4
+ADD EDX, 4
+PUSH EDX                                                                  ; text.<ModuleEntryPoint>
+PUSH DWORD PTR [ESP + 4]
+MOV EDX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+POP DWORD PTR [ESP]                                                       ; kernel32.752C336A
+MOV ESP, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+SUB EBP, EBX
+PUSH DWORD PTR [ESP]                                                      ; kernel32.752C336A
+MOV EBX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+ADD ESP, 4
+ADD EBP, ECX
+ADD EBP, 0X6B634945
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+SUB ESP, 4
+MOV DWORD PTR [ESP], ESP
+ADD DWORD PTR [ESP], 4
+POP EAX                                                                   ; kernel32.752C336A
+PUSH 0X7903
+MOV DWORD PTR [ESP], EDX                                                  ; text.<ModuleEntryPoint>
+MOV EDX, 0X44BF1CF3
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+MOV EAX, 0X10F6255F
+DEC EAX                                                                   ; kernel32.BaseThreadInitThunk
+OR EAX, 0X38D67AD5
+OR EAX, 0XC220F35
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+INC DWORD PTR [ESP]                                                       ; kernel32.752C336A
+POP EAX                                                                   ; kernel32.752C336A
+SUB EAX, 0XEAA41ED5
+XOR EDX, EAX                                                              ; kernel32.BaseThreadInitThunk
+POP EAX                                                                   ; kernel32.752C336A
+PUSH EBX
+PUSH EBP
+MOV EBP, 0X475A36AD
+AND EBP, 0X2ACC0E68
+SUB EBP, 0X2480627
+MOV EBX, EBP
+POP EBP                                                                   ; kernel32.752C336A
+SUB EDX, EBX
+POP EBX                                                                   ; kernel32.752C336A
+SUB EDX, 0X93556BA
+SUB EDX, 0X21A25E98
+PUSH ECX
+PUSH ESI
+MOV ESI, 0X4C80076C
+AND ESI, 0X425F2AAA
+SHL ESI, 3
+OR ESI, 0X37115AE0
+NOT ESI
+SHR ESI, 4
+PUSH EDI
+MOV EDI, 0X5B485558
+DEC EDI
+SUB EDI, 0X62A3A295
+SUB ESI, EDI
+POP EDI                                                                   ; kernel32.752C336A
+PUSH ESI
+XOR DWORD PTR [ESP], 0X60FC4D62
+POP ECX                                                                   ; kernel32.752C336A
+XOR ECX, 0X60FC4D62
+POP ESI                                                                   ; kernel32.752C336A
+SUB EDX, 0X2DAF2ED2
+SUB EDX, 0X3937580F
+ADD EDX, 0X3B8A2F2E
+ADD EDX, ECX
+SUB EDX, 0X3B8A2F2E
+ADD EDX, 0X3937580F
+ADD EDX, 0X2DAF2ED2
+POP ECX                                                                   ; kernel32.752C336A
+ADD EAX, EDX                                                              ; text.<ModuleEntryPoint>
+POP EDX                                                                   ; kernel32.752C336A
+SUB EAX, 4
+XCHG DWORD PTR [ESP], EAX                                                 ; kernel32.BaseThreadInitThunk
+MOV ESP, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+MOV DWORD PTR [ESP], ECX
+PUSH 0X63C9
+MOV DWORD PTR [ESP], EDI
+PUSH ESI
+MOV ESI, 0X619843BA
+MOV EDI, ESI
+POP ESI                                                                   ; kernel32.752C336A
+ADD EDI, 0X9E67BC47
+PUSH EDI
+PUSH 0X7DDB
+MOV DWORD PTR [ESP], EBX
+MOV DWORD PTR [ESP], EDX                                                  ; text.<ModuleEntryPoint>
+MOV EDX, 0X666870DD
+XOR DWORD PTR [ESP + 4], EDX                                              ; text.<ModuleEntryPoint>
+MOV EDX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+MOV ECX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+PUSH EDI
+MOV EDI, ESP
+ADD EDI, 4
+PUSH ECX
+MOV ECX, 4
+ADD EDI, ECX
+POP ECX                                                                   ; kernel32.752C336A
+XOR EDI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+XOR DWORD PTR [ESP], EDI
+POP ESP                                                                   ; kernel32.752C336A
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+PUSH ESI
+PUSH 0X7A20642B
+MOV ESI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+MOV EAX, 0XEC480CB2
+ADD ESI, EAX                                                              ; kernel32.BaseThreadInitThunk
+POP EAX                                                                   ; kernel32.752C336A
+MOV EAX, ESI
+POP ESI                                                                   ; kernel32.752C336A
+XOR ECX, EAX                                                              ; kernel32.BaseThreadInitThunk
+POP EAX                                                                   ; kernel32.752C336A
+MOV EDI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+SUB ESP, 4
+MOV DWORD PTR [ESP], EAX                                                  ; kernel32.BaseThreadInitThunk
+MOV EAX, ESP
+ADD EAX, 4
+ADD EAX, 4
+XCHG DWORD PTR [ESP], EAX                                                 ; kernel32.BaseThreadInitThunk
+POP ESP                                                                   ; kernel32.752C336A
+MOV EBX, 0X57857F81
+PUSH 0X67A3
+MOV DWORD PTR [ESP], ESI
+MOV ESI, 0X1E940B55
+NEG ESI
+ADD ESI, 0X7D6D5C0C
+OR EBX, ESI
+POP ESI                                                                   ; kernel32.752C336A
+PUSH EDX                                                                  ; text.<ModuleEntryPoint>
+MOV DWORD PTR [ESP], EAX                                                  ; kernel32.BaseThreadInitThunk
+PUSH ECX
+MOV ECX, 0X539B0704
+MOV EAX, ECX
+POP ECX                                                                   ; kernel32.752C336A
+XOR EBX, EAX                                                              ; kernel32.BaseThreadInitThunk
+POP EAX                                                                   ; kernel32.752C336A
+SUB ESP, 4
+MOV DWORD PTR [ESP], ESI
+MOV DWORD PTR [ESP], EAX                                                  ; kernel32.BaseThreadInitThunk
+MOV EAX, 0X37142C09
+SHR EAX, 3
+PUSH EBX
+MOV EBX, 0X40E71491
+SUB EBX, 0X582A423D
+SHL EBX, 5
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+MOV EAX, 0X1D50168C
+XOR EAX, 0X8CE464B
+XOR EAX, 0X3F861346
+NOT EAX                                                                   ; kernel32.BaseThreadInitThunk
+PUSH 0X71D4
+MOV DWORD PTR [ESP], EDI
+MOV EDI, 0X40CB2BF9
+XOR EAX, EDI
+MOV EDI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+SHR EAX, 4
+SUB EAX, 0XEE7B8D3A
+AND EBX, EAX                                                              ; kernel32.BaseThreadInitThunk
+POP EAX                                                                   ; kernel32.752C336A
+SHL EBX, 6
+SUB EBX, 0X8712A49A
+SUB EAX, EBX
+MOV EBX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+XOR EAX, 0XDA53944
+ADD EAX, 0X35EF2E2F
+AND EBX, EAX                                                              ; kernel32.BaseThreadInitThunk
+MOV EAX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+SUB EBX, 0X211C78E1
+PUSH EBP
+MOV EBP, 0X8B4BC328
+SUB EBX, EBP
+POP EBP                                                                   ; kernel32.752C336A
+DEC EBX
+XOR EBX, 0X61BE6FF8
+SHR EBX, 5
+SUB EBX, 0X1D3130A
+XOR EAX, EAX                                                              ; kernel32.BaseThreadInitThunk
+LOCK CMPXCHG DWORD PTR [EBP + EBX], ECX                                   ; LOCK prefix
+JE 0X1161C67
+JMP 0X1161C5B
+PUSH DWORD PTR [ESP]                                                      ; kernel32.752C336A
+PUSH DWORD PTR [ESP]                                                      ; kernel32.752C336A
+MOV ECX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+PUSH EDX                                                                  ; text.<ModuleEntryPoint>
+MOV DWORD PTR [ESP], ESI
+SUB ESP, 4
+MOV DWORD PTR [ESP], ESP
+ADD DWORD PTR [ESP], 4
+MOV ESI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+PUSH 0X6E6C
+MOV DWORD PTR [ESP], EAX                                                  ; kernel32.BaseThreadInitThunk
+MOV EAX, ESP
+ADD EAX, 4
+ADD EAX, 4
+XOR EAX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+XOR DWORD PTR [ESP], EAX                                                  ; kernel32.BaseThreadInitThunk
+XOR EAX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+POP ESP                                                                   ; kernel32.752C336A
+ADD ESI, 4
+ADD ESI, 4
+XCHG DWORD PTR [ESP], ESI
+POP ESP                                                                   ; kernel32.752C336A
+SUB ESP, 4
+MOV DWORD PTR [ESP], ESI
+PUSH ECX
+MOV DWORD PTR [ESP], ESP
+ADD DWORD PTR [ESP], 4
+POP ESI                                                                   ; kernel32.752C336A
+ADD ESI, 4
+ADD ESI, 4
+XOR ESI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+XOR DWORD PTR [ESP], ESI
+XOR ESI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+POP ESP                                                                   ; kernel32.752C336A
+MOV EBX, 0X5E544527
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+MOV EAX, 0X14A52401
+SHL EAX, 4
+OR EAX, 0X43423448
+NEG EAX                                                                   ; kernel32.BaseThreadInitThunk
+SHR EAX, 6
+SUB EAX, -1
+PUSH EBP
+PUSH ESI
+MOV ESI, 0X1F50981
+AND ESI, 0X11F227A5
+SUB ESI, 0X8AACA518
+MOV EBP, ESI
+MOV ESI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+ADD EBP, 0X44C810E9
+NOT EBP
+NEG EBP
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+PUSH EDI
+MOV EDI, 0X10706A2F
+MOV EAX, 0X4FE47CCE
+SUB EAX, EDI
+POP EDI                                                                   ; kernel32.752C336A
+ADD EBP, 0X44185C74
+ADD EBP, EAX                                                              ; kernel32.BaseThreadInitThunk
+SUB EBP, 0X44185C74
+MOV EAX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+SUB EAX, EBP
+POP EBP                                                                   ; kernel32.752C336A
+SUB EBX, 0X1BD25D80
+SUB EBX, EAX                                                              ; kernel32.BaseThreadInitThunk
+ADD EBX, 0X1BD25D80
+POP EAX                                                                   ; kernel32.752C336A
+PUSH EBP
+MOV EBP, 0X687D42D2
+AND EBX, EBP
+POP EBP                                                                   ; kernel32.752C336A
+NEG EBX
+PUSH 0X1E27
+MOV DWORD PTR [ESP], EBP
+PUSH 0X5652
+MOV DWORD PTR [ESP], EBX
+MOV EBX, 0X6AA287B
+MOV EBP, 0XB954D4A9
+XOR EBP, EBX
+MOV EBX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+MOV EAX, ESP
+PUSH ECX
+MOV ECX, 0X12CF4D8C
+SHL ECX, 6
+SUB ECX, 0X2468286A
+XOR ECX, 0X8F6B3A92
+ADD EAX, ECX
+POP ECX                                                                   ; kernel32.752C336A
+ADD EAX, 4
+XCHG DWORD PTR [ESP], EAX                                                 ; kernel32.BaseThreadInitThunk
+POP ESP                                                                   ; kernel32.752C336A
+SUB EBX, EBP
+MOV EBP, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+SUB ESP, 4
+MOV DWORD PTR [ESP], EDX                                                  ; text.<ModuleEntryPoint>
+MOV DWORD PTR [ESP], ECX
+PUSH 0X147C
+MOV DWORD PTR [ESP], EAX                                                  ; kernel32.BaseThreadInitThunk
+PUSH EBX
+MOV EBX, 0X3CC66030
+XOR EBX, 0X4789728A
+MOV EAX, EBX
+MOV EBX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+PUSH EDX                                                                  ; text.<ModuleEntryPoint>
+MOV EDX, ESP
+ADD EDX, 4
+ADD EDX, 4
+XCHG DWORD PTR [ESP], EDX                                                 ; text.<ModuleEntryPoint>
+MOV ESP, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+SUB DWORD PTR [ESP + 4], EAX                                              ; kernel32.BaseThreadInitThunk
+MOV EAX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+POP DWORD PTR [EBP + EBX]                                                 ; kernel32.752C336A
+PUSH ECX
+MOV ECX, EBX
+PUSH EDX                                                                  ; text.<ModuleEntryPoint>
+MOV EDX, 0X397F612E
+PUSH EDI
+MOV EDI, 0X2F0D371F
+ADD EDI, 0X5F4E3B4C
+INC EDI
+XOR EDI, 0XCDB6901
+SUB EDI, 0XEC4AD74
+OR EDX, EDI
+POP EDI                                                                   ; kernel32.752C336A
+NOT EDX                                                                   ; text.<ModuleEntryPoint>
+INC EDX                                                                   ; text.<ModuleEntryPoint>
+PUSH ECX
+MOV ECX, 0X84009201
+XOR EDX, ECX
+POP ECX                                                                   ; kernel32.752C336A
+ADD ECX, 0X19E32FAA
+ADD ECX, EDX                                                              ; text.<ModuleEntryPoint>
+PUSH EDI
+MOV EDI, 0X7728624F
+AND EDI, 0X2DF34FF2
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+MOV EAX, 0X26C42588
+ADD EAX, 0X1B07001B
+INC EAX                                                                   ; kernel32.BaseThreadInitThunk
+SHL EAX, 2
+AND EAX, 0X19F40643
+ADD EAX, 0X1CDE2064
+AND EDI, EAX                                                              ; kernel32.BaseThreadInitThunk
+POP EAX                                                                   ; kernel32.752C336A
+XOR EDI, 0X1DE32DEA
+SUB ECX, EDI
+POP EDI                                                                   ; kernel32.752C336A
+MOV EDX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+ADD ECX, 0X3C3053A7
+ADD ECX, EBP
+SUB ECX, 0X3C3053A7
+ADD DWORD PTR [ECX], 0X7B4F12BA
+POP ECX                                                                   ; kernel32.752C336A
+PUSH 0X43
+PUSH DWORD PTR [ESP]                                                      ; kernel32.752C336A
+MOV EBX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+MOV EAX, ESP
+ADD EAX, 4
+ADD EAX, 4
+XCHG DWORD PTR [ESP], EAX                                                 ; kernel32.BaseThreadInitThunk
+POP ESP                                                                   ; kernel32.752C336A
+PUSH 0X4797
+MOV DWORD PTR [ESP], ESI
+MOV DWORD PTR [ESP], EAX                                                  ; kernel32.BaseThreadInitThunk
+MOV EAX, ESP
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+MOV EAX, ESP
+ADD EAX, 4
+SUB EAX, 4
+XCHG DWORD PTR [ESP], EAX                                                 ; kernel32.BaseThreadInitThunk
+POP ESP                                                                   ; kernel32.752C336A
+MOV DWORD PTR [ESP], EBX
+MOV EBX, 4
+ADD EAX, 0X4EE5057D
+ADD EAX, EBX
+SUB EAX, 0X4EE5057D
+MOV EBX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+PUSH ECX
+MOV DWORD PTR [ESP], ESI
+MOV ESI, 4
+ADD EAX, ESI
+MOV ESI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+XOR EAX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+XOR DWORD PTR [ESP], EAX                                                  ; kernel32.BaseThreadInitThunk
+XOR EAX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+MOV ESP, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+PUSH 0X2D7
+MOV DWORD PTR [ESP], ESI
+MOV DWORD PTR [ESP], EDI
+PUSH 0X16410274
+MOV EDI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+PUSH ESI
+MOV DWORD PTR [ESP], EDI
+NOT DWORD PTR [ESP]                                                       ; kernel32.752C336A
+POP EDI                                                                   ; kernel32.752C336A
+SUB ESP, 4
+MOV DWORD PTR [ESP], EBP
+MOV EBP, 0X3446754A
+ADD EBP, -1
+DEC EBP
+XOR EBP, 0XDD3888C3
+SUB EDI, 0X1B163C0C
+SUB EDI, EBP
+ADD EDI, 0X1B163C0C
+POP EBP                                                                   ; kernel32.752C336A
+MOV DWORD PTR [EBP + EBX], EDI
+PUSH DWORD PTR [ESP]                                                      ; kernel32.752C336A
+PUSH DWORD PTR [ESP]                                                      ; kernel32.752C336A
+MOV EDI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+PUSH EDX                                                                  ; text.<ModuleEntryPoint>
+MOV EDX, ESP
+ADD EDX, 4
+ADD EDX, 4
+XCHG DWORD PTR [ESP], EDX                                                 ; text.<ModuleEntryPoint>
+POP ESP                                                                   ; kernel32.752C336A
+PUSH EBP
+MOV EBP, ESP
+ADD EBP, 4
+ADD EBP, 4
+XCHG DWORD PTR [ESP], EBP
+POP ESP                                                                   ; kernel32.752C336A
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+MOV EAX, 0XFAB04EB
+PUSH EBP
+MOV DWORD PTR [ESP], EAX                                                  ; kernel32.BaseThreadInitThunk
+PUSH EBX
+MOV EBX, 0X65C505FA
+OR EBX, 0X412D626B
+OR EBX, 0X261770E5
+OR EBX, 0X68F65B60
+OR EBX, 0X6650099B
+NEG EBX
+SUB EBX, 0X43260A56
+MOV EAX, EBX
+ADD ESP, 4
+ADD EAX, 0X7C5A2C81
+DEC EAX                                                                   ; kernel32.BaseThreadInitThunk
+XOR EAX, 0XD1AAB6C5
+MOV EBX, 0X764623D0
+SHL EBX, 5
+DEC EBX
+AND EBX, 0X665D3CF9
+PUSH EDX                                                                  ; text.<ModuleEntryPoint>
+MOV EDX, 0X97F2DEB0
+XOR EBX, EDX                                                              ; text.<ModuleEntryPoint>
+POP EDX                                                                   ; kernel32.752C336A
+ADD EBX, 0X139E1360
+ADD EBX, 0X4D9190A
+ADD EBX, EAX                                                              ; kernel32.BaseThreadInitThunk
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+MOV EAX, 0X4D9190A
+SUB EBX, EAX                                                              ; kernel32.BaseThreadInitThunk
+POP EAX                                                                   ; kernel32.752C336A
+PUSH ECX
+MOV ECX, 0XC261958
+DEC ECX
+OR ECX, 0XE3C388D
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+MOV EAX, 0X55FD981
+ADD ECX, EAX                                                              ; kernel32.BaseThreadInitThunk
+POP EAX                                                                   ; kernel32.752C336A
+SUB EBX, ECX
+MOV ECX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+POP EAX                                                                   ; kernel32.752C336A
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+PUSH EBX
+MOV EBX, 0X2F275D8
+MOV EAX, 0X5D0FE801
+SUB EAX, EBX
+POP EBX                                                                   ; kernel32.752C336A
+SUB EBX, EAX                                                              ; kernel32.BaseThreadInitThunk
+POP EAX                                                                   ; kernel32.752C336A
+ADD EBX, EAX                                                              ; kernel32.BaseThreadInitThunk
+PUSH EDI
+MOV EDI, 0X5A1D7229
+ADD EBX, EDI
+POP EDI                                                                   ; kernel32.752C336A
+ADD ESP, 4
+PUSH DWORD PTR [ESP + 0X28]
+PUSH DWORD PTR [ESP]                                                      ; kernel32.752C336A
+MOV EAX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+PUSH 0X326D
+MOV DWORD PTR [ESP], ESI
+MOV ESI, ESP
+SUB ESP, 4
+MOV DWORD PTR [ESP], EDX                                                  ; text.<ModuleEntryPoint>
+PUSH EBX
+MOV EBX, 0X615D40D1
+MOV EDX, EBX
+POP EBX                                                                   ; kernel32.752C336A
+SUB EDX, 0X615D40CD
+ADD ESI, EDX                                                              ; text.<ModuleEntryPoint>
+MOV EDX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+PUSH EDI
+MOV EDI, 4
+ADD ESI, EDI
+MOV EDI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+PUSH ECX
+MOV DWORD PTR [ESP], ESI
+PUSH DWORD PTR [ESP + 4]
+MOV ESI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+PUSH 0X7330
+MOV DWORD PTR [ESP], EBX
+MOV EBX, ESP
+ADD EBX, 4
+ADD EBX, 4
+XCHG DWORD PTR [ESP], EBX
+POP ESP                                                                   ; kernel32.752C336A
+POP DWORD PTR [ESP]                                                       ; kernel32.752C336A
+MOV ESP, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+PUSH ECX
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+PUSH EBX
+MOV EBX, 0X3B236AFF
+MOV EAX, EBX
+MOV EBX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+SHR EAX, 7
+XOR EAX, 0X10A750B6
+MOV ECX, EAX                                                              ; kernel32.BaseThreadInitThunk
+MOV EAX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+PUSH EDI
+MOV EDI, ESP
+ADD EDI, 4
+ADD EDI, 4
+XCHG DWORD PTR [ESP], EDI
+POP ESP                                                                   ; kernel32.752C336A
+OR ECX, 0X78572C50
+XCHG ECX, EDX                                                             ; text.<ModuleEntryPoint>
+XCHG EDX, EDI
+PUSH EDI
+NOT DWORD PTR [ESP]                                                       ; kernel32.752C336A
+POP EDI                                                                   ; kernel32.752C336A
+XCHG EDX, EDI
+XCHG ECX, EDX                                                             ; text.<ModuleEntryPoint>
+SUB ECX, 0X7B94636B
+SUB ECX, 1
+PUSH EBP
+PUSH ESI
+MOV ESI, 0X13DA7E67
+DEC ESI
+XOR ESI, 0X27CE1E3A
+SUB ESI, 0X40AF531
+PUSH ESI
+SUB DWORD PTR [ESP], 0X35A803DA
+POP EBP                                                                   ; kernel32.752C336A
+ADD EBP, 0X35A803DA
+POP ESI                                                                   ; kernel32.752C336A
+XOR ECX, EBP
+POP EBP                                                                   ; kernel32.752C336A
+ADD EAX, ECX
+MOV ECX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+SUB EAX, 0XCAF3FA0
+ADD EAX, ECX
+PUSH ECX
+MOV ECX, 0XCAF3FA0
+ADD EAX, ECX
+MOV ECX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+PUSH ECX
+MOV ECX, 0X3B9D350B
+SUB EAX, ECX
+POP ECX                                                                   ; kernel32.752C336A
+PUSH EBX
+MOV EBX, ESP
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+MOV EAX, 0X36DE4D28
+ADD EAX, 0X45F07268
+NOT EAX                                                                   ; kernel32.BaseThreadInitThunk
+PUSH EDI
+MOV EDI, 0X750476DC
+ADD EDI, 1
+NEG EDI
+DEC EDI
+SUB EDI, 0X3F61546E
+XOR EAX, EDI
+POP EDI                                                                   ; kernel32.752C336A
+ADD EAX, 0X37548B29
+SUB EBX, 0X42F42DF0
+ADD EBX, EAX                                                              ; kernel32.BaseThreadInitThunk
+ADD EBX, 0X42F42DF0
+POP EAX                                                                   ; kernel32.752C336A
+SUB EBX, 4
+XCHG DWORD PTR [ESP], EBX
+POP ESP                                                                   ; kernel32.752C336A
+MOV DWORD PTR [ESP], EBX
+MOV EBX, ESP
+PUSH ESI
+MOV ESI, 0X49CB393A
+NEG ESI
+NOT ESI
+DEC ESI
+NEG ESI
+XOR ESI, 0X387408DE
+ADD ESI, 0X71BF31EE
+ADD EBX, ESI
+POP ESI                                                                   ; kernel32.752C336A
+SUB ESP, 4
+MOV DWORD PTR [ESP], EDX                                                  ; text.<ModuleEntryPoint>
+MOV EDX, 4
+SUB EBX, EDX                                                              ; text.<ModuleEntryPoint>
+MOV EDX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+XCHG DWORD PTR [ESP], EBX
+POP ESP                                                                   ; kernel32.752C336A
+MOV DWORD PTR [ESP], EDX                                                  ; text.<ModuleEntryPoint>
+MOV EDX, EAX                                                              ; kernel32.BaseThreadInitThunk
+MOV DWORD PTR [EBP + EBX], EDX                                            ; text.<ModuleEntryPoint>
+MOV EDX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+SUB ESP, 4
+MOV DWORD PTR [ESP], EDI
+MOV DWORD PTR [ESP], EAX                                                  ; kernel32.BaseThreadInitThunk
+MOV EAX, ESP
+PUSH ECX
+MOV ECX, 4
+ADD EAX, ECX
+POP ECX                                                                   ; kernel32.752C336A
+ADD EAX, 4
+XCHG DWORD PTR [ESP], EAX                                                 ; kernel32.BaseThreadInitThunk
+POP ESP                                                                   ; kernel32.752C336A
+PUSH EDI
+MOV EDI, 0X5A754331
+SHR EDI, 2
+PUSH EDI
+PUSH ESI
+MOV EDI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+MOV ESI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+ADD ESI, -1
+XCHG EDI, ESI
+INC EDI
+PUSH 0X76C2
+MOV DWORD PTR [ESP], EAX                                                  ; kernel32.BaseThreadInitThunk
+MOV EAX, 0X476C4522
+SUB EAX, 0X3145A4A0
+XOR EDI, EAX                                                              ; kernel32.BaseThreadInitThunk
+POP EAX                                                                   ; kernel32.752C336A
+PUSH EBP
+MOV DWORD PTR [ESP], ESI
+MOV ESI, EDI
+SUB ESP, 4
+MOV DWORD PTR [ESP], ESI
+ADD DWORD PTR [ESP], 0X39AA6AD5
+MOV EAX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+PUSH ESI
+MOV ESI, ESP
+ADD ESI, 4
+ADD ESI, 4
+XCHG DWORD PTR [ESP], ESI
+MOV ESP, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+SUB EAX, 0X39AA6AD5
+PUSH DWORD PTR [ESP]                                                      ; kernel32.752C336A
+MOV ESI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+PUSH EDI
+MOV EDI, ESP
+ADD EDI, 4
+ADD EDI, 4
+XCHG DWORD PTR [ESP], EDI
+POP ESP                                                                   ; kernel32.752C336A
+PUSH EBP
+MOV EBP, ESP
+ADD EBP, 4
+ADD EBP, 4
+XCHG DWORD PTR [ESP], EBP
+POP ESP                                                                   ; kernel32.752C336A
+POP EDI                                                                   ; kernel32.752C336A
+PUSH 0X4876
+MOV DWORD PTR [ESP], EBX
+SUB ESP, 4
+MOV DWORD PTR [ESP], EAX                                                  ; kernel32.BaseThreadInitThunk
+MOV EAX, 0X95E478D
+MOV EBX, EAX                                                              ; kernel32.BaseThreadInitThunk
+POP EAX                                                                   ; kernel32.752C336A
+PUSH ESI
+PUSH 0X789407CC
+MOV ESI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+PUSH EBX
+MOV EBX, 0X66A35755
+XOR ESI, EBX
+POP EBX                                                                   ; kernel32.752C336A
+NEG ESI
+PUSH EBX
+SUB ESP, 4
+MOV DWORD PTR [ESP], ESI
+MOV ESI, 0X5D5D64F1
+MOV EBX, 0XB201DFA7
+ADD EBX, ESI
+POP ESI                                                                   ; kernel32.752C336A
+NOT EBX
+INC EBX
+SHL EBX, 5
+PUSH ECX
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+MOV EAX, 0X26E02250
+MOV ECX, EAX                                                              ; kernel32.BaseThreadInitThunk
+POP EAX                                                                   ; kernel32.752C336A
+PUSH EDX                                                                  ; text.<ModuleEntryPoint>
+MOV EDX, 0X1A8A5E02
+AND ECX, EDX                                                              ; text.<ModuleEntryPoint>
+POP EDX                                                                   ; kernel32.752C336A
+SUB ECX, 0X82E38E17
+OR EBX, ECX
+POP ECX                                                                   ; kernel32.752C336A
+SUB EBX, 0XFE0D95F6
+SUB ESI, 0X70A76F35
+SUB ESI, EBX
+ADD ESI, 0X70A76F35
+POP EBX                                                                   ; kernel32.752C336A
+ADD EBX, ESI
+POP ESI                                                                   ; kernel32.752C336A
+ADD EAX, EBX
+ADD ESP, 4
+ADD EAX, ECX
+SUB EAX, 0X69950D01
+PUSH 0X4E
+MOV EBX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+PUSH EDX                                                                  ; text.<ModuleEntryPoint>
+MOV EDX, ESP
+ADD EDX, 4
+SUB EDX, 4
+XCHG DWORD PTR [ESP], EDX                                                 ; text.<ModuleEntryPoint>
+MOV ESP, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+MOV DWORD PTR [ESP], EDX                                                  ; text.<ModuleEntryPoint>
+MOV EDX, ESP
+ADD EDX, 4
+SUB EDX, 4
+XCHG DWORD PTR [ESP], EDX                                                 ; text.<ModuleEntryPoint>
+MOV ESP, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+MOV DWORD PTR [ESP], ECX
+MOV ECX, ESP
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+PUSH EBP
+MOV EBP, 0X63F21F6C
+ADD EBP, 0X3022189
+XOR EBP, 0X66F440F1
+MOV EAX, EBP
+MOV EBP, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+PUSH EBX
+MOV EBX, ESP
+ADD EBX, 4
+ADD EBX, 4
+XCHG DWORD PTR [ESP], EBX
+POP ESP                                                                   ; kernel32.752C336A
+ADD ECX, EAX                                                              ; kernel32.BaseThreadInitThunk
+POP EAX                                                                   ; kernel32.752C336A
+PUSH EDI
+MOV EDI, 4
+ADD ECX, 0X7DE46C20
+ADD ECX, EDI
+PUSH 0X19EE
+MOV DWORD PTR [ESP], EBP
+MOV EBP, 0X2DA95EF0
+SUB EBP, 0X2805D9A
+NOT EBP
+XOR EBP, 0XA9329289
+SUB ECX, EBP
+POP EBP                                                                   ; kernel32.752C336A
+MOV EDI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+XCHG DWORD PTR [ESP], ECX
+POP ESP                                                                   ; kernel32.752C336A
+PUSH DWORD PTR [EBP + EBX]
+PUSH ESI
+MOV ESI, ESP
+ADD ESI, 4
+SUB ESI, 4
+PUSH ESI
+PUSH DWORD PTR [ESP + 4]
+MOV ESI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+POP DWORD PTR [ESP]                                                       ; kernel32.752C336A
+POP ESP                                                                   ; kernel32.752C336A
+MOV DWORD PTR [ESP], ESI
+MOV ESI, 0X388E1BB2
+ADD DWORD PTR [ESP + 4], ESI
+POP ESI                                                                   ; kernel32.752C336A
+POP EDX                                                                   ; kernel32.752C336A
+PUSH 0X3646
+MOV DWORD PTR [ESP], EBX
+MOV EBX, 0X1596718F
+PUSH ESI
+MOV ESI, 0X282B1DBA
+SHL ESI, 4
+XOR ESI, 0X16CB2332
+XOR ESI, 0X9508CBFD
+ADD EBX, ESI
+MOV ESI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+PUSH ESI
+PUSH EDI
+MOV EDI, 0X15355B1F
+PUSH EBX
+MOV EBX, EDI
+MOV ESI, EBX
+POP EBX                                                                   ; kernel32.752C336A
+POP EDI                                                                   ; kernel32.752C336A
+ADD ESI, 0X1A51642D
+XOR EBX, ESI
+POP ESI                                                                   ; kernel32.752C336A
+PUSH ECX
+MOV ECX, 0X9206C1C
+ADD EDX, ECX
+POP ECX                                                                   ; kernel32.752C336A
+SUB EDX, 0X4706065A
+SUB EDX, EBX
+ADD EDX, 0X4706065A
+SUB EDX, 0X9206C1C
+MOV EBX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+PUSH ESI
+MOV ESI, ESP
+ADD ESI, 4
+ADD ESI, 4
+XCHG DWORD PTR [ESP], ESI
+MOV ESP, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+CMP EDX, EAX                                                              ; kernel32.BaseThreadInitThunk
+JE 0X11627BA
+PUSH 0X4395
+MOV DWORD PTR [ESP], EDI
+MOV DWORD PTR [ESP], ECX
+MOV DWORD PTR [ESP], EBX
+PUSH 0X6975
+MOV DWORD PTR [ESP], EDI
+PUSH 0X1758
+MOV EDI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+PUSH EDX                                                                  ; text.<ModuleEntryPoint>
+MOV EDX, ESP
+ADD EDX, 4
+ADD EDX, 4
+XOR EDX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+XOR DWORD PTR [ESP], EDX                                                  ; text.<ModuleEntryPoint>
+XOR EDX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+MOV ESP, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+PUSH 0X4631
+MOV DWORD PTR [ESP], EDI
+SUB DWORD PTR [ESP], 0X241C1B21
+POP EBX                                                                   ; kernel32.752C336A
+SUB ESP, 4
+MOV DWORD PTR [ESP], ESI
+MOV ESI, ESP
+PUSH EDX                                                                  ; text.<ModuleEntryPoint>
+MOV EDX, 4
+ADD ESI, EDX                                                              ; text.<ModuleEntryPoint>
+POP EDX                                                                   ; kernel32.752C336A
+SUB ESI, 4
+XOR ESI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+XOR DWORD PTR [ESP], ESI
+XOR ESI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+POP ESP                                                                   ; kernel32.752C336A
+MOV DWORD PTR [ESP], EDX                                                  ; text.<ModuleEntryPoint>
+MOV DWORD PTR [ESP], ESI
+MOV ESI, 0X241C1B21
+ADD EBX, ESI
+MOV ESI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+MOV EDI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+SHR EBX, 2
+PUSH 0X5C26
+MOV DWORD PTR [ESP], EAX                                                  ; kernel32.BaseThreadInitThunk
+MOV EAX, ESP
+ADD EAX, 4
+PUSH EDI
+MOV EDI, ESP
+PUSH ECX
+MOV ECX, 0X2E15A2D
+OR ECX, 0X22191591
+SUB ECX, 0X22F95FB9
+ADD EDI, ECX
+POP ECX                                                                   ; kernel32.752C336A
+SUB EDI, 4
+PUSH EDI
+MOV EDI, DWORD PTR [ESP + 4]
+POP DWORD PTR [ESP]                                                       ; kernel32.752C336A
+POP ESP                                                                   ; kernel32.752C336A
+MOV DWORD PTR [ESP], ESI
+MOV DWORD PTR [ESP], ECX
+PUSH EBP
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+MOV EAX, 0X97C6665
+OR EAX, 0X970546D
+PUSH EDI
+MOV EDI, 0X58604AED
+XCHG EDI, ESI
+NOT ESI
+XCHG EDI, ESI
+SHL EDI, 7
+XOR EDI, 0X64D11EEF
+ADD EDI, 0X5AEA8350
+ADD EAX, EDI
+POP EDI                                                                   ; kernel32.752C336A
+NEG EAX                                                                   ; kernel32.BaseThreadInitThunk
+XOR EAX, 0XF08D6E50
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+XOR DWORD PTR [ESP], 0X3A0141C5
+POP EBP                                                                   ; kernel32.752C336A
+XOR EBP, 0X3A0141C5
+MOV EAX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+MOV ECX, EBP
+MOV EBP, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+SUB EAX, ECX
+MOV ECX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+XOR EAX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+XOR DWORD PTR [ESP], EAX                                                  ; kernel32.BaseThreadInitThunk
+XOR EAX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+MOV ESP, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+MOV DWORD PTR [ESP], EAX                                                  ; kernel32.BaseThreadInitThunk
+TEST EBX, EBX
+JE 0X116266C
+PUSH 0X1384
+MOV DWORD PTR [ESP], EBP
+MOV DWORD PTR [ESP], EDI
+MOV DWORD PTR [ESP], EDX                                                  ; text.<ModuleEntryPoint>
+PUSH 0X50FB
+MOV DWORD PTR [ESP], ESI
+MOV DWORD PTR [ESP], EBP
+MOV EBP, 0X451F255D
+XCHG EBP, ESI
+ADD ESI, 1
+XCHG EBP, ESI
+PUSH EBX
+PUSH EBP
+MOV EBP, 0X395A3861
+MOV EBX, 0X2D48DBF4
+ADD EBX, EBP
+POP EBP                                                                   ; kernel32.752C336A
+XOR EBP, EBX
+MOV EBX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+PUSH ESI
+MOV ESI, ESP
+ADD ESI, 4
+ADD ESI, 4
+XCHG DWORD PTR [ESP], ESI
+POP ESP                                                                   ; kernel32.752C336A
+DEC EBP
+PUSH ECX
+MOV ECX, 0X23BC310A
+SUB EBP, ECX
+POP ECX                                                                   ; kernel32.752C336A
+PUSH EBX
+MOV EBX, ESP
+ADD EBX, 4
+PUSH EDI
+MOV EDI, 4
+SUB EBX, EDI
+POP EDI                                                                   ; kernel32.752C336A
+XCHG DWORD PTR [ESP], EBX
+POP ESP                                                                   ; kernel32.752C336A
+MOV DWORD PTR [ESP], EBP
+PUSH EBX
+MOV EBX, 0X3C984014
+ADD DWORD PTR [ESP + 4], EBX
+POP EBX                                                                   ; kernel32.752C336A
+POP EDX                                                                   ; kernel32.752C336A
+SUB EDX, 0X3C984014
+POP EBP                                                                   ; kernel32.752C336A
+ADD EDX, EAX                                                              ; kernel32.BaseThreadInitThunk
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+MOV EAX, 0
+ADD EAX, EDX                                                              ; text.<ModuleEntryPoint>
+ADD DWORD PTR [EAX], ECX
+POP EAX                                                                   ; kernel32.752C336A
+POP EDX                                                                   ; kernel32.752C336A
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+MOV DWORD PTR [ESP], ESI
+PUSH 0X6EB9
+MOV DWORD PTR [ESP], EDX                                                  ; text.<ModuleEntryPoint>
+PUSH 0X7B66087E
+PUSH DWORD PTR [ESP]                                                      ; kernel32.752C336A
+MOV EDX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+ADD ESP, 4
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+MOV EAX, ESP
+PUSH EDI
+MOV EDI, 0X2E3C30DB
+INC EDI
+ADD EDI, 0XD0F7E00
+INC EDI
+XOR EDI, 0X3B4BAED9
+ADD EAX, EDI
+POP EDI                                                                   ; kernel32.752C336A
+SUB EAX, 4
+XCHG DWORD PTR [ESP], EAX                                                 ; kernel32.BaseThreadInitThunk
+POP ESP                                                                   ; kernel32.752C336A
+MOV DWORD PTR [ESP], EBX
+PUSH 0X76A67C2
+MOV EBX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+PUSH EDX                                                                  ; text.<ModuleEntryPoint>
+MOV EDX, 0X67C327E3
+SHR EDX, 7
+OR EDX, 0X290E20A8
+PUSH ESI
+MOV ESI, 0X27526868
+ADD EDX, ESI
+POP ESI                                                                   ; kernel32.752C336A
+SHR EDX, 4
+ADD EDX, 0X23D49E78
+ADD EBX, EDX                                                              ; text.<ModuleEntryPoint>
+MOV EDX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+OR EDX, EBX
+MOV EBX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+SHR EDX, 8
+ADD EDX, 0XFF8488D5
+MOV ESI, EDX                                                              ; text.<ModuleEntryPoint>
+POP EDX                                                                   ; kernel32.752C336A
+ADD EAX, ESI
+MOV ESI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+MOV DWORD PTR [ESP], EDX                                                  ; text.<ModuleEntryPoint>
+PUSH ECX
+PUSH EDI
+PUSH EBX
+MOV EBX, 0X788F29D3
+ADD EBX, 0XF7D0E42
+PUSH EBP
+MOV EBP, 0X19F9F313
+SUB EBX, EBP
+POP EBP                                                                   ; kernel32.752C336A
+MOV EDI, EBX
+POP EBX                                                                   ; kernel32.752C336A
+MOV ECX, 0XD4E5BAD3
+SUB ECX, EDI
+POP EDI                                                                   ; kernel32.752C336A
+PUSH EDX                                                                  ; text.<ModuleEntryPoint>
+PUSH 0X284473F
+MOV EDX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+AND ECX, EDX                                                              ; text.<ModuleEntryPoint>
+ADD ESP, 4
+AND ECX, 0X6A0C4A1E
+SUB ECX, 0X2004011
+MOV EDX, ECX
+POP ECX                                                                   ; kernel32.752C336A
+SUB ESP, 4
+MOV DWORD PTR [ESP], EAX                                                  ; kernel32.BaseThreadInitThunk
+MOV EAX, 0X10B842B3
+SHL EAX, 6
+PUSH ECX
+MOV ECX, 0X32F3430D
+OR EAX, ECX
+POP ECX                                                                   ; kernel32.752C336A
+DEC EAX                                                                   ; kernel32.BaseThreadInitThunk
+XOR EAX, 0X4868C467
+ADD EBX, EAX                                                              ; kernel32.BaseThreadInitThunk
+MOV EAX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+PUSH EBX
+MOV EBX, ESP
+ADD EBX, 4
+ADD EBX, 4
+XCHG DWORD PTR [ESP], EBX
+POP ESP                                                                   ; kernel32.752C336A
+PUSH ESI
+MOV ESI, 0X2B281DC9
+ADD EBX, ESI
+POP ESI                                                                   ; kernel32.752C336A
+ADD EBX, EDX                                                              ; text.<ModuleEntryPoint>
+SUB EBX, 0X2B281DC9
+SUB EBX, 0X769B2BAB
+MOV EDX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+JMP 0X11624B4
+PUSH DWORD PTR [ESP]                                                      ; kernel32.752C336A
+PUSH DWORD PTR [ESP]                                                      ; kernel32.752C336A
+MOV EAX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+MOV EAX, ESP
+PUSH EDI
+MOV EDI, 0X6D2264F1
+INC EDI
+SHL EDI, 5
+XOR EDI, 0XA44C9E44
+ADD EAX, EDI
+POP EDI                                                                   ; kernel32.752C336A
+PUSH EBX
+MOV EBX, 4
+ADD EAX, EBX
+POP EBX                                                                   ; kernel32.752C336A
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+MOV EAX, DWORD PTR [ESP + 4]
+POP DWORD PTR [ESP]                                                       ; kernel32.752C336A
+POP ESP                                                                   ; kernel32.752C336A
+PUSH EDX                                                                  ; text.<ModuleEntryPoint>
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+PUSH 0XF16
+MOV DWORD PTR [ESP], ESP
+PUSH ECX
+MOV ECX, 4
+ADD DWORD PTR [ESP + 4], ECX
+POP ECX                                                                   ; kernel32.752C336A
+POP EAX                                                                   ; kernel32.752C336A
+ADD EAX, 4
+SUB EAX, 4
+XCHG DWORD PTR [ESP], EAX                                                 ; kernel32.BaseThreadInitThunk
+POP ESP                                                                   ; kernel32.752C336A
+MOV DWORD PTR [ESP], ESP
+ADD DWORD PTR [ESP], 4
+POP EDX                                                                   ; kernel32.752C336A
+ADD EDX, 4
+ADD EDX, 4
+XCHG DWORD PTR [ESP], EDX                                                 ; text.<ModuleEntryPoint>
+MOV ESP, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+PUSH ESI
+MOV ESI, ESP
+ADD ESI, 4
+ADD ESI, 4
+XCHG DWORD PTR [ESP], ESI
+POP ESP                                                                   ; kernel32.752C336A
+PUSH DWORD PTR [ESP]                                                      ; kernel32.752C336A
+PUSH DWORD PTR [ESP]                                                      ; kernel32.752C336A
+MOV EBX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+ADD ESP, 4
+PUSH ECX
+MOV DWORD PTR [ESP], ESI
+MOV ESI, ESP
+PUSH 0X56F6
+MOV DWORD PTR [ESP], EDX                                                  ; text.<ModuleEntryPoint>
+PUSH 0X121D
+MOV DWORD PTR [ESP], EAX                                                  ; kernel32.BaseThreadInitThunk
+MOV EAX, 0X733A27D4
+INC EAX                                                                   ; kernel32.BaseThreadInitThunk
+AND EAX, 0X118A2DA7
+INC EAX                                                                   ; kernel32.BaseThreadInitThunk
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+NOT DWORD PTR [ESP]                                                       ; kernel32.752C336A
+INC DWORD PTR [ESP]                                                       ; kernel32.752C336A
+MOV EAX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+XOR EAX, 0XB8029441
+MOV EDX, EAX                                                              ; kernel32.BaseThreadInitThunk
+MOV EAX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+ADD EDX, 0XA908B1C9
+SUB ESI, 0X2707263D
+ADD ESI, 0X4E187360
+ADD ESI, EDX                                                              ; text.<ModuleEntryPoint>
+SUB ESI, 0X4E187360
+ADD ESI, 0X2707263D
+MOV EDX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+ADD ESI, 4
+XOR ESI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+XOR DWORD PTR [ESP], ESI
+XOR ESI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+POP ESP                                                                   ; kernel32.752C336A
+PUSH EDX                                                                  ; text.<ModuleEntryPoint>
+MOV DWORD PTR [ESP], EAX                                                  ; kernel32.BaseThreadInitThunk
+SUB ESP, 4
+MOV DWORD PTR [ESP], ESP
+ADD DWORD PTR [ESP], 4
+MOV EAX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+PUSH ESI
+MOV ESI, ESP
+ADD ESI, 4
+SUB ESI, 4
+XCHG DWORD PTR [ESP], ESI
+MOV ESP, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+MOV DWORD PTR [ESP], EBX
+MOV EBX, 0X1016D38
+NOT EBX
+SHR EBX, 6
+PUSH EBX
+MOV EBX, EBP
+POP EBP                                                                   ; kernel32.752C336A
+NOT EBP
+XCHG EBX, EBP
+PUSH EDX                                                                  ; text.<ModuleEntryPoint>
+MOV EDX, 0XFC0405B0
+XOR EBX, EDX                                                              ; text.<ModuleEntryPoint>
+POP EDX                                                                   ; kernel32.752C336A
+ADD EAX, EBX
+MOV EBX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+SUB EAX, 4
+PUSH EAX                                                                  ; kernel32.BaseThreadInitThunk
+MOV EAX, DWORD PTR [ESP + 4]
+POP DWORD PTR [ESP]                                                       ; kernel32.752C336A
+MOV ESP, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+MOV DWORD PTR [ESP], EAX                                                  ; kernel32.BaseThreadInitThunk
+POP DWORD PTR [EBP + EBX]                                                 ; kernel32.752C336A
+PUSH DWORD PTR [ESP + 0X24]
+PUSH DWORD PTR [ESP]                                                      ; kernel32.752C336A
+PUSH DWORD PTR [ESP]                                                      ; kernel32.752C336A
+PUSH DWORD PTR [ESP]                                                      ; kernel32.752C336A
+MOV EBX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+SUB ESP, 4
+MOV DWORD PTR [ESP], ESI
+MOV ESI, ESP
+ADD ESI, 4
+ADD ESI, 4
+XCHG DWORD PTR [ESP], ESI
+POP ESP                                                                   ; kernel32.752C336A
+PUSH EBX
+PUSH ESP
+MOV EBX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+ADD EBX, 4
+PUSH EDX                                                                  ; text.<ModuleEntryPoint>
+MOV DWORD PTR [ESP], ESI
+MOV ESI, 4
+ADD EBX, 0X1A7E1082
+ADD EBX, ESI
+SUB EBX, 0X1A7E1082
+MOV ESI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+PUSH EBP
+MOV EBP, ESP
+ADD EBP, 4
+ADD EBP, 4
+XCHG DWORD PTR [ESP], EBP
+POP ESP                                                                   ; kernel32.752C336A
+XOR EBX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+XOR DWORD PTR [ESP], EBX
+XOR EBX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+POP ESP                                                                   ; kernel32.752C336A
+ADD ESP, 4
+SHL EBX, 2
+PUSH EBP
+MOV DWORD PTR [ESP], EDX                                                  ; text.<ModuleEntryPoint>
+MOV EDX, 0X364329E6
+SUB ESP, 4
+MOV DWORD PTR [ESP], EDX                                                  ; text.<ModuleEntryPoint>
+NOT DWORD PTR [ESP]                                                       ; kernel32.752C336A
+POP EDX                                                                   ; kernel32.752C336A
+AND EDX, 0X53362B9D
+AND EDX, 0X56307567
+SUB ESP, 4
+MOV DWORD PTR [ESP], EDX                                                  ; text.<ModuleEntryPoint>
+NOT DWORD PTR [ESP]                                                       ; kernel32.752C336A
+MOV EDX, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+SHR EDX, 2
+SUB ESP, 4
+MOV DWORD PTR [ESP], ECX
+MOV ECX, 0X4888263D
+ADD EDX, ECX
+POP ECX                                                                   ; kernel32.752C336A
+SUB EAX, EDX                                                              ; text.<ModuleEntryPoint>
+POP EDX                                                                   ; kernel32.752C336A
+ADD EAX, EBX
+PUSH EDI
+SUB ESP, 4
+MOV DWORD PTR [ESP], EDX                                                  ; text.<ModuleEntryPoint>
+MOV EDX, 0X51DC6257
+SHL EDX, 7
+SHR EDX, 4
+SHR EDX, 8
+PUSH EBP
+MOV EBP, 0X9D74107
+ADD EBP, 0X6E960223
+ADD EDX, EBP
+POP EBP                                                                   ; kernel32.752C336A
+PUSH EDX                                                                  ; text.<ModuleEntryPoint>
+PUSH EBX
+MOV DWORD PTR [ESP], EDX                                                  ; text.<ModuleEntryPoint>
+MOV DWORD PTR [ESP], EBX
+MOV EBX, 0X54B30F95
+ADD DWORD PTR [ESP + 4], EBX
+POP EBX                                                                   ; kernel32.752C336A
+POP EDI                                                                   ; kernel32.752C336A
+SUB EDI, 0X54B30F95
+POP EDX                                                                   ; kernel32.752C336A
+ADD EAX, EDI
+MOV EDI, DWORD PTR [ESP]                                                  ; kernel32.752C336A
+ADD ESP, 4
+JMP DWORD PTR [EAX]
+

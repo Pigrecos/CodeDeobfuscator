@@ -1,0 +1,28 @@
+Bits 64
+
+00400000:  push 0x4345068b
+00400005:  mov qword [rsp],r12
+0040000A:  push rbx
+0040000B:  push r12
+0040000D:  mov r12,0x32f28392
+0040001D:  sub r12w,0x9dbf
+00400023:  mov bx,r12w
+00400027:  pop r12
+00400032:  add bx,0xf748
+00400037:  not bx
+0040003A:  add bx,0xc20e
+00400049:  mov r12w,bx
+0040004D:  mov rbx,qword [rsp]
+00400051:  add rsp,8
+00400058:  dec r12w
+0040005C:  sub r12w,0x7272
+00400062:  inc r12w
+00400066:  shr r12w,3
+0040006B:  sub rsp,2
+00400082:  mov word [rsp],dx
+00400091:  mov dx,0xe51
+00400095:  sub r12w,dx
+004000A5:  pop dx
+004000A7:  sub word [rcx+rax*4+0x8],r12w
+004000AD:  mov r12,qword [rsp]
+004000BB:  add rsp,8

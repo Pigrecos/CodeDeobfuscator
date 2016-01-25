@@ -1,0 +1,17 @@
+Bits 64
+80000000:  mov rbp,0x7eff69b1
+
+80000007:  push rbp
+
+80000008:  dec qword [rsp]
+
+8000000C:  pop rbp
+
+8000000D:  push rdi
+
+8000000E:  mov rdi,0xffffffff80f3eeb0
+
+80000018:  sub rbp,rdi
+
+8000001B:  pop rdi
+

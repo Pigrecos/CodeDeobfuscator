@@ -1,0 +1,10 @@
+; inc byte ptr[eax]
+
+Bits 32
+
+00400000:  push   EAX
+0040000A:  mov    EAX,0x0
+00400032:  add    EAX,EBX
+00400065:  inc    byte ptr  ds:[EAX]
+00400081:  pop    EAX
+

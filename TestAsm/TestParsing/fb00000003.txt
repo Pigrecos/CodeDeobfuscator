@@ -1,0 +1,28 @@
+;mov al,0x56
+
+Bits 32
+
+00400000:  mov al,0xa3
+0040000C:  sub al,0x33
+0040002D:  push ecx
+0040002E:  push edx
+0040002F:  mov dl,0x98
+00400035:  sub dl,0xa9
+00400038:  push edx
+00400041:  not byte ds:[esp]
+0040004B:  pop edx
+0040004C:  or dl,0x62
+0040004F:  shr dl,7
+00400052:  add dl,0xfd
+0040005D:  mov cl,dl
+0040005F:  pop edx
+00400060:  push ax
+00400062:  mov al,0x48
+00400079:  sub cl,al
+0040007B:  pop ax
+0040007D:  sub al,cl
+0040007F:  pop ecx
+00400080:  dec al
+00400082:  dec al
+00400084:  sub al,0x63
+

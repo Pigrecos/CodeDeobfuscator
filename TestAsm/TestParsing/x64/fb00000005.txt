@@ -1,0 +1,18 @@
+Bits 64
+
+00400000:  xchg r15,r10
+00400009:  xchg r11,r15
+00400012:  not r11
+00400043:  push r15
+0040004E:  push 0x4704dfaa
+00400053:  push rcx
+0040005E:  mov rcx,r11
+00400061:  push r15
+00400063:  mov r15,r15
+00400066:  mov qword [rsp],0x33a20334
+0040006E:  mov qword [rsp+0x0],rcx
+00400082:  pop qword [rsp+0x8]
+00400086:  pop rcx
+004000A2:  pop r15
+004000B8:  pop r11
+004000C4:  xchg r10,r15

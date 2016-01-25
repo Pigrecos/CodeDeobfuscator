@@ -1,0 +1,129 @@
+Bits 64
+80000000:  push 0x295c8bf3
+
+80000005:  mov qword [rsp],rdi
+
+80000009:  mov rdi,0x3d3ec200
+
+80000010:  sub rdi,1
+
+80000014:  neg rdi
+
+80000017:  sub rdi,0xffffffff
+
+8000001E:  add rdi,0x57ea165a
+
+80000025:  not rdi
+
+80000028:  push r12
+
+8000002A:  mov r12,0xffffffffa576afcf
+
+80000034:  sub rdi,r12
+
+80000037:  mov r12,qword [rsp]
+
+8000003B:  add rsp,8
+
+8000003F:  push rbx
+
+80000040:  push r11
+
+80000042:  mov r11,0x5ff1b203
+
+80000049:  push r11
+
+8000004B:  pop rbx
+
+8000004C:  pop r11
+
+8000004E:  neg rbx
+
+80000051:  or rbx,0x5fdf07b1
+
+80000058:  add rbx,0x2f934ea9
+
+8000005F:  add rbx,0x5bc09a82
+
+80000066:  push rdi
+
+80000067:  mov rdi,0x356562a9
+
+8000006E:  sub rbx,rdi
+
+80000071:  pop rdi
+
+80000072:  xor rdi,rbx
+
+80000075:  pop rbx
+
+80000076:  shr rdi,2
+
+8000007A:  push rax
+
+8000007B:  push rsi
+
+8000007C:  mov rsi,0x7f6bca46
+
+80000083:  mov rax,rsi
+
+80000086:  mov rsi,qword [rsp]
+
+8000008A:  add rsp,8
+
+8000008E:  add rdi,rax
+
+80000091:  pop rax
+
+80000092:  add rdi,1
+
+80000096:  push 0xbd95039
+
+8000009B:  mov qword [rsp],rsi
+
+8000009F:  mov rsi,0x99efd5b9
+
+800000A9:  xor rdi,rsi
+
+800000AC:  pop rsi
+
+800000AD:  add rcx,0x7b7836a
+
+800000B4:  sub rcx,rdi
+
+800000B7:  sub rsp,8
+
+800000BB:  mov qword [rsp],r12
+
+800000BF:  mov r12,0x3e7f9ec1
+
+800000C6:  shl r12,4
+
+800000CA:  or r12,0x3e5d75a3
+
+800000D1:  shl r12,8
+
+800000D5:  shr r12,1
+
+800000D8:  sub r12,0x6cb718e6
+
+800000DF:  push r9
+
+800000E1:  mov r9,0xfffffe00756fc2d0
+
+800000EB:  add r12,r9
+
+800000EE:  pop r9
+
+800000F0:  sub rcx,0xf368c34
+
+800000F7:  sub rcx,r12
+
+800000FA:  add rcx,0xf368c34
+
+80000101:  pop r12
+
+80000103:  mov rdi,qword [rsp]
+
+80000107:  add rsp,8
+
