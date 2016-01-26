@@ -3992,7 +3992,7 @@ begin
 end;
 
 
-{$DEFINE Test}
+{ $DEFINE Test}
 procedure ParsingV2(var aListAsm: TList___DisAsm);
 var
   OldLen,
