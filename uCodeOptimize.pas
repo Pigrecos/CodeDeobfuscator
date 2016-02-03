@@ -210,8 +210,9 @@ const
 
           CalcRealSize(n.Value);
 
-          if ((ImmSize and  SDWORD ) = SDWORD) and (n.Size = SIZE_QWORD) then
-                 Result := Int32(n.Value)
+          // fix signed /unsigned constant in x64 context
+          if int32(n.Value) <> int64(n.Value) then
+             Result := Uint64(n.Value) ;
      end;
 
  begin
@@ -356,10 +357,17 @@ const
            end;
 
            CalcRealSize(val1);
+		   // Fix cont emu in x64 ctx
            if ((ImmSize and  UBYTEDWORD ) = UBYTEDWORD ) then
-             if ((ImmSize and  UDWORD ) <> UDWORD ) then
-                 val1 := val1 and $FF
-
+           begin
+               if ((ImmSize and  UDWORD ) <> UDWORD ) then
+                  val1 := val1 and $FF;
+           end
+           else if ((ImmSize and  UBYTEWORD ) = UBYTEWORD ) then
+           begin
+               if ((ImmSize and  UDWORD ) <> UDWORD ) then
+                   val1 := val1 and $FF
+           end;
       end;
 
       if Result = False then
